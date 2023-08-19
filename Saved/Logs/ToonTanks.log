@@ -1264,3 +1264,202 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.19-12.08.11:933][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
 [2023.08.19-12.08.12:205][940]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
 [2023.08.19-12.08.12:205][940]LogLiveCoding: Display: Live coding succeeded
+[2023.08.19-12.24.55:022][ 92]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.24.57:963][101]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.exp
+[2023.08.19-12.24.58:183][102]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-12.24.58:183][102]LogClass: UClass BasePawn Reload.
+[2023.08.19-12.24.58:183][102]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-12.24.58:194][102]Re-instancing BasePawn after reload.
+[2023.08.19-12.24.58:383][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.08.19-12.24.58:669][103]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-12.24.58:669][103]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-12.25.26:769][  7]LogEditorTransaction: Undo Delete current selection
+[2023.08.19-12.25.53:070][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-12.25.53:090][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.19-12.25.53:093][ 77]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.19-12.25.53:094][ 77]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTankCAD9C2084AA0DA1C69897E93DA1D0409.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.19-12.25.53:097][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 26 ms (total: 407 ms)
+[2023.08.19-12.25.53:111][ 77]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.19-12.25.53:111][ 77]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-12.25.53:744][153]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.19-12.25.53:843][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.08.19-12.25.56:129][424]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.19-12.25.56:136][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.19-12.25.56:137][424]PIE: New page: PIE session: Main (19 Aug 2023, 18:25:56)
+[2023.08.19-12.25.56:140][424]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.08.19-12.25.56:140][424]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.08.19-12.25.56:141][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.19-12.25.56:145][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003566s)
+[2023.08.19-12.25.56:145][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003898s)
+[2023.08.19-12.25.56:146][424]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.19-12.25.56:146][424]LogAIModule: Creating AISystem for world Main
+[2023.08.19-12.25.56:146][424]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2023.08.19-12.25.56:204][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.08.19-12.25.56:217][424]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.19-12.25.56:217][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.19-12.25.56:217][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.19-12.25.56:217][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.19-12.25.56:217][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.19-12.25.56:217][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.19-12.25.56:218][424]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.19-12.25.56:251][424]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.19-12.25.56:251][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.19-12.25.56:251][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.19-12.25.56:251][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.19-12.25.56:252][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.08.19-12.25.56:252][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.08.19-12.25.56:253][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.08.19-12.25.56:253][424]LogInit: FAudioDevice initialized.
+[2023.08.19-12.25.56:253][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.08.19-12.25.56:253][424]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2023.08.19-12.25.56:257][424]LogLoad: Game class is 'GameModeBase'
+[2023.08.19-12.25.56:258][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.19-15.25.56
+[2023.08.19-12.25.56:261][424]LogWorld: Bringing up level for play took: 0.004292
+[2023.08.19-12.25.56:263][424]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.08.19-12.25.56:280][424]LogBlueprintUserMessages: [BP_PawnTank_C_1] 12
+[2023.08.19-12.25.56:281][424]PIE: Server logged in
+[2023.08.19-12.25.56:281][424]PIE: Play in editor total start time 0.149 seconds.
+[2023.08.19-12.25.57:677][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.19-12.25.57:677][553]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.19-12.25.57:678][553]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.19-12.25.57:678][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.19-12.25.57:680][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.19-12.25.57:686][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.19-12.25.57:719][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.19-12.25.57:719][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.19-12.25.57:720][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.19-12.25.57:723][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.19-12.25.57:763][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.08.19-12.25.57:802][554]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.08.19-12.26.32:692][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.08.19-12.26.32:701][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.19-12.26.32:708][696]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto2
+[2023.08.19-12.26.32:708][696]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main_Auto28AF846584651B4EA18B526BDFF18CECE.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2023.08.19-12.26.32:715][696]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.083
+[2023.08.19-12.26.32:715][696]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2023.08.19-12.26.57:743][698]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-12.26.57:759][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.19-12.26.57:793][698]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.08.19-12.26.57:806][698]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.19-12.26.57:806][698]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/MainA924708946EF2135DD6BBD944A1E550F.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.19-12.26.57:815][698]LogFileHelpers: No new changes to save!
+[2023.08.19-12.26.57:815][698]LogFileHelpers: Saving map 'Main' took 0.057
+[2023.08.19-12.26.57:819][698]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 483 ms)
+[2023.08.19-12.26.57:825][698]AssetCheck: New page: Asset Save: Main
+[2023.08.19-12.26.57:825][698]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.19-13.08.08:223][101]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.028 and deleted 0 files with total size 0 MiB. Scanned 4844 files in 4819 folders with total size 705 MiB.
+[2023.08.19-13.29.13:044][791]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-13.29.14:183][796]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_11.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_11.exp
+[2023.08.19-13.29.14:611][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.08.19-13.29.14:928][798]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.08.19-13.29.14:928][798]LogLiveCoding: Display: Live coding succeeded
+[2023.08.19-13.29.46:630][363]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.19-13.29.46:722][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.08.19-13.29.49:792][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-13.29.49:817][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.19-13.29.49:879][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.08.19-13.29.49:901][721]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.19-13.29.49:901][721]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main676AF38643D578A8EAACEE8196B0A32D.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.19-13.29.49:911][721]LogFileHelpers: No new changes to save!
+[2023.08.19-13.29.49:911][721]LogFileHelpers: Saving map 'Main' took 0.095
+[2023.08.19-13.29.49:915][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 605 ms)
+[2023.08.19-13.29.49:921][721]AssetCheck: New page: Asset Save: Main
+[2023.08.19-13.29.49:921][721]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.19-13.29.53:854][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-13.29.53:877][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.19-13.29.53:880][191]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.19-13.29.53:881][191]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTank75F9B9DA44F8E907AB9A26990F92E437.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.19-13.29.53:884][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 635 ms)
+[2023.08.19-13.29.53:894][191]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.19-13.29.53:894][191]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-13.30.32:060][118]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-13.30.34:883][126]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_12.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_12.exp
+[2023.08.19-13.30.35:006][127]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-13.30.35:006][127]LogClass: UClass BasePawn Reload.
+[2023.08.19-13.30.35:006][127]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-13.30.35:015][127]Re-instancing BasePawn after reload.
+[2023.08.19-13.30.35:125][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.19-13.30.35:492][128]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-13.30.35:492][128]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-13.30.51:536][ 37]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-13.30.52:644][ 41]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_13.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_13.exp
+[2023.08.19-13.30.53:211][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.08.19-13.30.53:477][ 43]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.08.19-13.30.53:477][ 43]LogLiveCoding: Display: Live coding succeeded
+[2023.08.19-13.31.21:168][345]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-13.31.23:879][353]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_14.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_14.exp
+[2023.08.19-13.31.24:001][354]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-13.31.24:001][354]LogClass: UClass BasePawn Reload.
+[2023.08.19-13.31.24:001][354]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-13.31.24:012][354]Re-instancing BasePawn after reload.
+[2023.08.19-13.31.24:192][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.08.19-13.31.24:487][355]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-13.31.24:487][355]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-13.31.26:782][491]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.19-13.31.26:878][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.08.19-13.31.57:582][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-13.31.57:603][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.19-13.31.57:606][ 91]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.19-13.31.57:606][ 91]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTankBE0920C44EEE1BB29FBA8FBFDCB76CB9.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.19-13.31.57:610][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 663 ms)
+[2023.08.19-13.31.57:622][ 91]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.19-13.31.57:622][ 91]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-13.31.58:657][215]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.19-13.31.58:722][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.08.19-13.32.00:429][417]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.19-13.32.00:432][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.19-13.32.00:432][417]PIE: New page: PIE session: Main (19 Aug 2023, 19:32:00)
+[2023.08.19-13.32.00:432][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.19-13.32.00:434][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001994s)
+[2023.08.19-13.32.00:434][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002011s)
+[2023.08.19-13.32.00:435][417]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.19-13.32.00:435][417]LogAIModule: Creating AISystem for world Main
+[2023.08.19-13.32.00:435][417]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2023.08.19-13.32.00:468][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.08.19-13.32.00:471][417]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.19-13.32.00:471][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.19-13.32.00:471][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.19-13.32.00:471][417]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.19-13.32.00:471][417]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.19-13.32.00:471][417]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.19-13.32.00:473][417]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.19-13.32.00:506][417]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.19-13.32.00:506][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.19-13.32.00:506][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.19-13.32.00:506][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.19-13.32.00:506][417]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.08.19-13.32.00:506][417]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.08.19-13.32.00:508][417]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.08.19-13.32.00:508][417]LogInit: FAudioDevice initialized.
+[2023.08.19-13.32.00:508][417]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.08.19-13.32.00:508][417]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2023.08.19-13.32.00:510][417]LogLoad: Game class is 'GameModeBase'
+[2023.08.19-13.32.00:510][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.19-16.32.00
+[2023.08.19-13.32.00:510][417]LogWorld: Bringing up level for play took: 0.000567
+[2023.08.19-13.32.00:511][417]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.08.19-13.32.00:512][417]LogBlueprintUserMessages: [BP_PawnTank_C_1] X=25.000 Y=32.000 Z=12.000
+[2023.08.19-13.32.00:512][417]PIE: Server logged in
+[2023.08.19-13.32.00:512][417]PIE: Play in editor total start time 0.081 seconds.
+[2023.08.19-13.32.22:803][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.19-13.32.22:803][681]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.19-13.32.22:803][681]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.19-13.32.22:803][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.19-13.32.22:805][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.19-13.32.22:811][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.19-13.32.22:843][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.19-13.32.22:843][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.08.19-13.32.22:845][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.08.19-13.32.22:851][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.08.19-13.32.22:879][683]LogPlayLevel: Display: Destroying online subsystem :Context_8
