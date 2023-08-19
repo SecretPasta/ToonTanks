@@ -1110,3 +1110,37 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.19-10.35.31:599][460]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main_Auto1DF13DC2E4AD94B51F7E8EF95B8A18458.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
 [2023.08.19-10.35.31:606][460]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.090
 [2023.08.19-10.35.31:606][460]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.090
+[2023.08.19-11.08.08:267][331]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.072 and deleted 0 files with total size 0 MiB. Scanned 4844 files in 4819 folders with total size 705 MiB.
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: ================================================
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: Total job queries 78, among them cache hits 23 (29.49%)
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: Tracking 55 distinct input hashes that result in 34 distinct outputs (61.82%)
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: RAM used: 0.11 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.08.19-11.35.22:712][235]LogShaderCompilers: Display: ================================================
+[2023.08.19-11.35.23:349][301]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-11.35.26:531][677]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.exp
+[2023.08.19-11.35.26:617][681]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-11.35.26:617][681]LogClass: UClass BasePawn Reload.
+[2023.08.19-11.35.26:617][681]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-11.35.26:625][681]Re-instancing BasePawn after reload.
+[2023.08.19-11.35.26:684][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.19-11.35.26:903][682]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-11.35.26:903][682]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-11.36.30:450][689]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-11.36.32:066][694]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.exp
+[2023.08.19-11.36.32:408][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.08.19-11.36.32:705][696]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.08.19-11.36.32:705][696]LogLiveCoding: Display: Live coding succeeded
+[2023.08.19-11.39.28:498][674]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-11.39.31:534][684]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_4.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_4.exp
+[2023.08.19-11.39.31:898][685]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-11.39.31:898][685]LogClass: UClass BasePawn Reload.
+[2023.08.19-11.39.31:898][685]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-11.39.31:907][685]Re-instancing BasePawn after reload.
+[2023.08.19-11.39.32:019][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.08.19-11.39.32:374][686]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-11.39.32:374][686]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
