@@ -1144,3 +1144,50 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.19-11.39.32:019][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
 [2023.08.19-11.39.32:374][686]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
 [2023.08.19-11.39.32:374][686]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-11.41.21:731][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-11.41.21:755][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.19-11.41.21:819][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.08.19-11.41.21:830][380]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.19-11.41.21:831][380]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/MainD82E25FA40B23F1699B217BF4E49ADC6.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.19-11.41.21:840][380]LogFileHelpers: No new changes to save!
+[2023.08.19-11.41.21:840][380]LogFileHelpers: Saving map 'Main' took 0.086
+[2023.08.19-11.41.21:845][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 154 ms)
+[2023.08.19-11.41.21:849][380]AssetCheck: New page: Asset Save: Main
+[2023.08.19-11.41.21:849][380]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.19-11.41.31:933][555]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.08.19-11.41.31:943][555]LogContentBrowser: Creating deferred item: NewFolder
+[2023.08.19-11.41.31:947][556]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.08.19-11.41.38:902][391]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.08.19-11.41.38:902][391]LogContentBrowser: End creating deferred item NewFolder
+[2023.08.19-11.41.44:938][ 79]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.08.19-11.41.44:942][ 79]LogContentBrowser: Creating deferred item: NewFolder
+[2023.08.19-11.41.44:956][ 81]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.08.19-11.41.48:762][538]LogContentBrowser: Attempting asset rename: NewFolder -> Pawns
+[2023.08.19-11.41.48:762][538]LogContentBrowser: End creating deferred item NewFolder
+[2023.08.19-11.42.10:943][193]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.19-11.42.49:081][731]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-11.42.49:082][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.19-11.42.49:383][731]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2023.08.19-11.42.49:404][731]LogViewport: Scene viewport resized to 772x976, mode Windowed.
+[2023.08.19-11.42.55:200][405]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.19-11.42.55:202][405]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.19-11.43.05:642][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-11.43.05:667][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.19-11.43.05:669][641]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.19-11.43.05:669][641]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTank54DF6DF94BC8682E183581896E2C67E2.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.19-11.43.05:673][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 184 ms)
+[2023.08.19-11.43.05:679][641]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.19-11.43.05:679][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-11.45.36:015][217]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.19-11.45.36:016][217]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.19-11.45.36:275][217]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2023.08.19-11.45.36:296][217]LogViewport: Scene viewport resized to 772x976, mode Windowed.
+[2023.08.19-11.45.39:409][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-11.45.39:431][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2023.08.19-11.45.39:433][565]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2023.08.19-11.45.39:433][565]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTurret04C01355468420A27A421488CBB60AEB.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2023.08.19-11.45.39:436][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 26 ms (total: 211 ms)
+[2023.08.19-11.45.39:442][565]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2023.08.19-11.45.39:442][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.19-11.45.40:538][697]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.19-11.45.40:541][697]LogSlate: Window 'Content Browser' being destroyed
