@@ -1191,3 +1191,76 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.19-11.45.39:442][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
 [2023.08.19-11.45.40:538][697]LogSlate: Window 'Content Browser' being destroyed
 [2023.08.19-11.45.40:541][697]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.19-12.00.54:588][916]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.00.56:119][921]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.19-12.00.56:119][921]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.08.19-12.00.57:772][925]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.01.00:495][934]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_5.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_5.exp
+[2023.08.19-12.01.00:851][935]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-12.01.00:851][935]LogClass: UClass BasePawn Reload.
+[2023.08.19-12.01.00:851][935]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-12.01.00:860][935]Re-instancing BasePawn after reload.
+[2023.08.19-12.01.00:970][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.08.19-12.01.01:330][936]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-12.01.01:330][936]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-12.02.01:708][943]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.02.04:555][951]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.exp
+[2023.08.19-12.02.04:667][952]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-12.02.04:667][952]LogClass: UClass BasePawn Reload.
+[2023.08.19-12.02.04:667][952]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-12.02.04:677][952]Re-instancing BasePawn after reload.
+[2023.08.19-12.02.04:803][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.08.19-12.02.05:148][953]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-12.02.05:148][953]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-12.03.07:623][993]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.03.09:210][998]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.19-12.03.09:210][998]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.08.19-12.03.14:779][ 14]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.03.17:584][ 23]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.exp
+[2023.08.19-12.03.17:940][ 24]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-12.03.17:940][ 24]LogClass: UClass BasePawn Reload.
+[2023.08.19-12.03.17:940][ 24]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-12.03.17:952][ 24]Re-instancing BasePawn after reload.
+[2023.08.19-12.03.18:119][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.08.19-12.03.18:425][ 25]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-12.03.18:425][ 25]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-12.03.42:469][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-12.03.42:489][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.19-12.03.42:491][838]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.19-12.03.42:491][838]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTank77C30D514C46D052CCCF248BA4358390.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.19-12.03.42:494][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 236 ms)
+[2023.08.19-12.03.42:506][838]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.19-12.03.42:506][838]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.19-12.04.22:640][638]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C
+[2023.08.19-12.04.22:640][638]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C
+[2023.08.19-12.04.22:641][638]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank as actor: BP_PawnTank_C /Game/Maps/Main.Main:PersistentLevel.BP_PawnTank_C_0
+[2023.08.19-12.04.22:641][638]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank as actor: BP_PawnTank_C /Game/Maps/Main.Main:PersistentLevel.BP_PawnTank_C_0
+[2023.08.19-12.04.23:110][694]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C
+[2023.08.19-12.04.23:110][694]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C
+[2023.08.19-12.04.23:111][694]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank as actor: BP_PawnTank_C /Game/Maps/Main.Main:PersistentLevel.BP_PawnTank_C_1
+[2023.08.19-12.04.23:112][694]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank as actor: BP_PawnTank_C /Game/Maps/Main.Main:PersistentLevel.BP_PawnTank_C_1
+[2023.08.19-12.05.04:397][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.19-12.05.04:418][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.19-12.05.04:519][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.08.19-12.05.04:527][132]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.19-12.05.04:527][132]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/MainDA348E124B8720AB485E3497B79950B2.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.19-12.05.04:536][132]LogFileHelpers: No new changes to save!
+[2023.08.19-12.05.04:536][132]LogFileHelpers: Saving map 'Main' took 0.118
+[2023.08.19-12.05.04:541][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 380 ms)
+[2023.08.19-12.05.04:548][132]AssetCheck: New page: Asset Save: Main
+[2023.08.19-12.05.04:548][132]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.19-12.07.06:178][914]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.07.08:984][922]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.exp
+[2023.08.19-12.07.09:178][923]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.19-12.07.09:178][923]LogClass: UClass BasePawn Reload.
+[2023.08.19-12.07.09:178][923]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.19-12.07.09:187][923]Re-instancing BasePawn after reload.
+[2023.08.19-12.07.09:315][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.08.19-12.07.09:654][924]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.19-12.07.09:654][924]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.19-12.08.07:295][925]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.100 and deleted 0 files with total size 0 MiB. Scanned 4844 files in 4819 folders with total size 705 MiB.
+[2023.08.19-12.08.08:549][929]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.19-12.08.11:384][938]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.exp
+[2023.08.19-12.08.11:933][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.08.19-12.08.12:205][940]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.08.19-12.08.12:205][940]LogLiveCoding: Display: Live coding succeeded
