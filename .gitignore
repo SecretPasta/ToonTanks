@@ -1,0 +1,41 @@
+# Ignore Intermediate and Binary files
+Intermediate/
+Binaries/
+*.sln.cache
+*.pdb
+*.dll
+*.exe
+*.ilk
+*.lib
+*.ncb
+*.suo
+*.exp
+*.idb
+*.manifest
+*.log
+*.ilk
+*.res
+*.pch
+*.tlb
+*.tli
+*.obj
+*.bsc
+*.rds
+
+# Ignore Visual Studio related folders
+.vs/
+.vscode/
+.vsconfig
+
+# Ignore user-specific files
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+*.user
+*.psess
+*.vsp
+*.suo
+
+# Ignore macOS folder attributes
+.DS_Store
