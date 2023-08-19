@@ -1104,3 +1104,9 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.19-10.34.15:387][477]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
 [2023.08.19-10.34.15:388][477]LogEditor: Attempting to add actor of class 'BasePawn' to level at 390.00,-60.00,20.00
 [2023.08.19-10.34.16:092][561]LogEditor: Attempting to add actor of class 'BasePawn' to level at 460.00,70.00,20.00
+[2023.08.19-10.35.31:590][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.08.19-10.35.31:592][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.19-10.35.31:599][460]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto1
+[2023.08.19-10.35.31:599][460]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main_Auto1DF13DC2E4AD94B51F7E8EF95B8A18458.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2023.08.19-10.35.31:606][460]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.090
+[2023.08.19-10.35.31:606][460]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.090
