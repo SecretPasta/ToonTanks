@@ -16,7 +16,7 @@ public:
 	ABasePawn();
 
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Super Duper Category")
 	int32 VisibleAnywhereInt = 12;
 
 	UPROPERTY(EditAnywhere)
@@ -40,16 +40,16 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, Category = "Components")
 	class UCapsuleComponent* CapsuleComp;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UStaticMeshComponent* BaseMesh;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UStaticMeshComponent* TurretMesh;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, Category = "Components")
 	USceneComponent* ProjectileSpawnPoint;
 
 };
