@@ -8,6 +8,7 @@
 
 
 
+
 ATank::ATank() {
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -28,5 +29,9 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 }
 
 void ATank::Move(float Value) {
-	UE_LOG(LogTemp, Warning, TEXT("Move is: %f"), Value);
+	//UE_LOG(LogTemp, Warning, TEXT("Move is: %f"), Value);
+	FVector DeltaLocation = FVector::ZeroVector;
+	DeltaLocation.X = Value;
+	AddActorLocalOffset(DeltaLocation);
+
 }
