@@ -1696,3 +1696,1840 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.25-11.43.11:351][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
 [2023.08.25-11.43.11:413][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_17
 [2023.08.25-11.43.11:415][ 50]LogViewport: Scene viewport resized to 390x284, mode Windowed.
+[2023.08.25-11.45.32:625][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-11.45.32:649][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.25-11.45.32:680][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.25-11.45.32:689][689]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.25-11.45.32:690][689]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main5D6B3A2B4ED49AB18735BAB3234E1405.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.25-11.45.32:698][689]LogFileHelpers: No new changes to save!
+[2023.08.25-11.45.32:698][689]LogFileHelpers: Saving map 'Main' took 0.050
+[2023.08.25-11.45.32:705][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 203 ms)
+[2023.08.25-11.45.32:723][689]AssetCheck: New page: Asset Save: Main
+[2023.08.25-11.45.32:723][689]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: ================================================
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Total job queries 99, among them cache hits 39 (39.39%)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 42 distinct outputs (70.00%)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Average time worker was idle: 303.38 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.10 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Job execution time: average 0.54 s, max 0.61 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.71
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.26 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Average processing rate: 3.18 jobs/sec
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Total thread time: 1.30 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Total thread preprocess time: 0.12 s
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Percentage time preprocessing: 8.94%
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Effective parallelization: 1.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 53.68% of total time (compiled    2 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 25.41% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 20.91% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.08.25-11.45.52:284][951]LogShaderCompilers: Display: ================================================
+[2023.08.25-11.50.10:102][650]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.25-11.50.10:105][650]LogSlate: Window 'Project Settings' being destroyed
+[2023.08.25-11.55.33:091][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.08.25-11.55.33:092][913]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.071
+[2023.08.25-11.55.33:092][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTank] ([2] browsable assets)...
+[2023.08.25-11.55.33:138][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank]
+[2023.08.25-11.55.33:138][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTank]
+[2023.08.25-11.55.33:138][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.25-11.55.33:141][913]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto3
+[2023.08.25-11.55.33:141][913]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTank_Auto370D86FB94D46BC7CAFDFA5AC8299085A.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto3.uasset'
+[2023.08.25-11.55.33:141][913]LogFileHelpers: Auto-saving content packages took 0.049
+[2023.08.25-11.56.48:358][140]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-11.56.51:654][149]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.exp
+[2023.08.25-11.56.52:232][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.08.25-11.56.52:557][152]Display: Reload/Re-instancing Complete: 2 classes unchanged
+[2023.08.25-11.56.52:557][152]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-11.57.01:181][150]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-11.57.01:185][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-11.57.01:185][150]PIE: New page: PIE session: Main (25 Aug 2023, 17:57:01)
+[2023.08.25-11.57.01:185][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-11.57.01:187][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2023.08.25-11.57.01:187][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002188s)
+[2023.08.25-11.57.01:187][150]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-11.57.01:187][150]LogAIModule: Creating AISystem for world Main
+[2023.08.25-11.57.01:187][150]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2023.08.25-11.57.01:250][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.08.25-11.57.01:254][150]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-11.57.01:254][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-11.57.01:254][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-11.57.01:254][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-11.57.01:254][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-11.57.01:254][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-11.57.01:256][150]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-11.57.01:289][150]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-11.57.01:289][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-11.57.01:289][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-11.57.01:289][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-11.57.01:289][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.08.25-11.57.01:289][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.08.25-11.57.01:290][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.08.25-11.57.01:290][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.08.25-11.57.01:290][150]LogInit: FAudioDevice initialized.
+[2023.08.25-11.57.01:290][150]LogAudio: Display: Audio Device (ID: 10) registered with world 'Main'.
+[2023.08.25-11.57.01:292][150]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-11.57.01:293][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-14.57.01
+[2023.08.25-11.57.01:293][150]LogWorld: Bringing up level for play took: 0.000878
+[2023.08.25-11.57.01:294][150]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.08.25-11.57.01:295][150]LogBlueprintUserMessages: [BP_PawnTank_C_1] X=25.000 Y=32.000 Z=12.000
+[2023.08.25-11.57.01:295][150]PIE: Server logged in
+[2023.08.25-11.57.01:295][150]PIE: Play in editor total start time 0.111 seconds.
+[2023.08.25-11.57.04:688][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-11.57.04:688][550]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-11.57.04:688][550]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-11.57.04:688][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-11.57.04:691][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-11.57.04:695][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-11.57.04:722][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.25-11.57.04:723][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.25-11.57.04:724][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.25-11.57.04:727][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-11.57.04:752][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.08.25-11.57.04:786][551]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.08.25-11.58.34:453][473]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-11.58.36:245][478]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.exp
+[2023.08.25-11.58.36:563][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.25-11.58.36:926][480]Display: Reload/Re-instancing Complete: 2 classes unchanged
+[2023.08.25-11.58.36:926][480]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-11.58.38:889][569]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-11.58.38:893][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-11.58.38:893][569]PIE: New page: PIE session: Main (25 Aug 2023, 17:58:38)
+[2023.08.25-11.58.38:893][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-11.58.38:895][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002165s)
+[2023.08.25-11.58.38:895][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002179s)
+[2023.08.25-11.58.38:895][569]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-11.58.38:895][569]LogAIModule: Creating AISystem for world Main
+[2023.08.25-11.58.38:895][569]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2023.08.25-11.58.38:961][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.08.25-11.58.38:965][569]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-11.58.38:966][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-11.58.38:966][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-11.58.38:966][569]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-11.58.38:966][569]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-11.58.38:966][569]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-11.58.38:967][569]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-11.58.38:999][569]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-11.58.38:999][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-11.58.39:000][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-11.58.39:000][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-11.58.39:000][569]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.08.25-11.58.39:000][569]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.08.25-11.58.39:001][569]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.08.25-11.58.39:001][569]LogInit: FAudioDevice initialized.
+[2023.08.25-11.58.39:001][569]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.08.25-11.58.39:001][569]LogAudio: Display: Audio Device (ID: 11) registered with world 'Main'.
+[2023.08.25-11.58.39:003][569]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-11.58.39:004][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-14.58.39
+[2023.08.25-11.58.39:004][569]LogWorld: Bringing up level for play took: 0.000838
+[2023.08.25-11.58.39:005][569]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.08.25-11.58.39:005][569]LogBlueprintUserMessages: [BP_PawnTank_C_1] X=25.000 Y=32.000 Z=12.000
+[2023.08.25-11.58.39:005][569]PIE: Server logged in
+[2023.08.25-11.58.39:006][569]PIE: Play in editor total start time 0.113 seconds.
+[2023.08.25-11.58.39:006][569]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:038][570]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:046][571]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:054][572]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:064][573]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:072][574]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:080][575]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:088][576]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:097][577]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:104][578]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:113][579]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:121][580]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:129][581]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:138][582]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:146][583]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:154][584]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:163][585]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:171][586]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:180][587]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:188][588]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:196][589]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:205][590]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:213][591]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:221][592]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:230][593]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:238][594]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:246][595]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:255][596]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:263][597]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:271][598]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:280][599]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:288][600]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:296][601]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:305][602]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:313][603]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:321][604]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:330][605]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:338][606]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:346][607]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:354][608]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:363][609]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:371][610]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:379][611]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:388][612]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:396][613]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:404][614]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:413][615]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:421][616]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:429][617]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:438][618]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:446][619]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:454][620]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:463][621]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:471][622]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:480][623]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:488][624]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:496][625]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:504][626]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:513][627]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:521][628]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:529][629]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:538][630]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:546][631]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:555][632]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:563][633]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:571][634]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:579][635]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:588][636]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:596][637]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:604][638]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:613][639]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:621][640]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:629][641]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:638][642]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:646][643]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:655][644]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:663][645]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:671][646]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:679][647]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:688][648]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:696][649]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:704][650]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:713][651]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:721][652]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:729][653]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:738][654]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:746][655]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:754][656]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:763][657]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:771][658]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:779][659]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:787][660]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:796][661]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:804][662]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:812][663]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:821][664]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:830][665]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:838][666]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:846][667]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:854][668]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:863][669]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:871][670]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:879][671]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:888][672]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:896][673]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:904][674]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:913][675]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:921][676]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:929][677]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:938][678]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:946][679]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:954][680]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:963][681]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:971][682]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:979][683]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:988][684]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.39:996][685]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:004][686]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:013][687]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:021][688]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:029][689]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:038][690]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:046][691]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:055][692]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:063][693]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:071][694]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:080][695]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:088][696]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:096][697]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:105][698]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:113][699]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:121][700]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:129][701]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:138][702]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:146][703]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:154][704]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:163][705]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:171][706]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:179][707]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:188][708]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:196][709]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:204][710]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:212][711]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:221][712]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:230][713]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:238][714]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:246][715]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:254][716]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:263][717]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:271][718]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:280][719]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:288][720]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:296][721]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:304][722]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:313][723]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:321][724]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:330][725]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:338][726]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:346][727]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:354][728]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:363][729]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:371][730]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:380][731]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:388][732]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:396][733]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:405][734]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:413][735]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:421][736]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:429][737]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:438][738]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:446][739]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:455][740]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:463][741]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:472][742]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:479][743]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:488][744]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:496][745]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:505][746]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:513][747]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:521][748]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:529][749]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:538][750]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:546][751]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:555][752]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:563][753]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:571][754]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:579][755]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:588][756]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:596][757]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:604][758]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:613][759]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:621][760]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:630][761]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:638][762]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:646][763]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:654][764]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:663][765]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:671][766]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:680][767]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:688][768]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:696][769]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:705][770]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:713][771]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:721][772]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:730][773]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:738][774]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:746][775]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:755][776]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:763][777]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:771][778]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:779][779]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:788][780]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:796][781]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:805][782]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:813][783]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:822][784]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:829][785]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:838][786]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:846][787]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:855][788]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:863][789]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:871][790]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:880][791]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:888][792]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:896][793]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:905][794]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:913][795]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:921][796]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:929][797]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:938][798]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:946][799]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:954][800]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:963][801]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:971][802]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:979][803]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:988][804]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.40:996][805]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:005][806]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:013][807]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:021][808]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:030][809]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:038][810]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:046][811]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:054][812]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:063][813]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:071][814]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:079][815]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:088][816]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:096][817]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:104][818]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:113][819]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:121][820]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:129][821]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:138][822]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:146][823]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:154][824]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:163][825]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:171][826]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:179][827]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:188][828]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:196][829]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:205][830]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:213][831]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:221][832]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:229][833]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:238][834]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:246][835]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:255][836]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:263][837]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:271][838]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:280][839]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:288][840]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:296][841]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:305][842]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:313][843]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:321][844]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:329][845]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:338][846]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:346][847]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:355][848]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:363][849]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:371][850]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:380][851]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:388][852]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:397][853]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:405][854]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:413][855]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:421][856]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:430][857]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:438][858]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:446][859]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:454][860]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:463][861]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:471][862]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:480][863]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:488][864]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:496][865]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:505][866]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:513][867]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:522][868]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:530][869]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:539][870]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:547][871]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:555][872]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:563][873]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:571][874]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:579][875]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:588][876]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:596][877]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:605][878]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:613][879]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:621][880]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:629][881]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:638][882]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:646][883]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:655][884]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:663][885]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:671][886]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:680][887]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:688][888]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:696][889]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:704][890]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:713][891]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:721][892]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:730][893]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:738][894]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:746][895]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:754][896]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:763][897]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:771][898]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:779][899]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:788][900]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:796][901]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:805][902]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:813][903]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:821][904]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:829][905]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:838][906]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:846][907]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:854][908]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:863][909]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:871][910]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:879][911]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:888][912]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:896][913]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:905][914]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:913][915]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:922][916]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:929][917]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:938][918]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:946][919]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:955][920]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:963][921]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:971][922]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:979][923]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:988][924]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.41:996][925]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:004][926]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:013][927]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:022][928]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:030][929]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:038][930]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:046][931]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:055][932]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:063][933]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:071][934]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:079][935]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:088][936]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:096][937]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:105][938]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:113][939]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:121][940]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:130][941]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:138][942]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:146][943]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:154][944]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:163][945]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:171][946]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:180][947]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:188][948]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:196][949]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:205][950]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:213][951]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:221][952]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:230][953]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:238][954]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:246][955]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:254][956]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:263][957]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:271][958]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:279][959]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:288][960]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:296][961]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:305][962]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:313][963]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:321][964]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:329][965]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:338][966]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:346][967]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:355][968]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:363][969]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:371][970]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:379][971]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:388][972]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:396][973]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:404][974]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:413][975]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:421][976]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:430][977]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:438][978]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.42:771][979]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:105][980]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:439][981]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:773][982]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:780][983]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:788][984]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:796][985]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:804][986]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:813][987]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:821][988]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:830][989]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:838][990]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:846][991]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:854][992]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:863][993]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:871][994]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:880][995]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:888][996]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:896][997]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:905][998]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:913][999]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:921][  0]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:929][  1]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:938][  2]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:947][  3]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:955][  4]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:963][  5]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:971][  6]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:979][  7]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:988][  8]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.43:996][  9]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:005][ 10]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:013][ 11]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:021][ 12]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:029][ 13]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:038][ 14]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:046][ 15]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:054][ 16]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:063][ 17]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:071][ 18]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:080][ 19]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:088][ 20]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:096][ 21]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:104][ 22]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:113][ 23]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:121][ 24]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:129][ 25]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:138][ 26]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:146][ 27]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:154][ 28]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:163][ 29]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:171][ 30]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:179][ 31]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:188][ 32]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:196][ 33]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:204][ 34]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:213][ 35]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:221][ 36]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:230][ 37]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:238][ 38]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:246][ 39]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:254][ 40]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:263][ 41]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:271][ 42]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:279][ 43]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:288][ 44]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:296][ 45]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:305][ 46]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:313][ 47]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:322][ 48]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:330][ 49]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:338][ 50]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:346][ 51]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:355][ 52]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:363][ 53]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:371][ 54]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:380][ 55]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:388][ 56]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:396][ 57]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:405][ 58]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:413][ 59]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:421][ 60]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:429][ 61]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:438][ 62]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:446][ 63]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:454][ 64]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:463][ 65]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:471][ 66]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:479][ 67]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:488][ 68]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:496][ 69]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:504][ 70]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:513][ 71]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:521][ 72]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:529][ 73]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:538][ 74]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:546][ 75]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:555][ 76]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:563][ 77]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:571][ 78]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:580][ 79]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:588][ 80]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:596][ 81]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:605][ 82]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:613][ 83]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:621][ 84]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:630][ 85]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:638][ 86]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:646][ 87]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:654][ 88]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:663][ 89]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:671][ 90]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:679][ 91]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:688][ 92]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:696][ 93]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:704][ 94]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:713][ 95]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:721][ 96]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:729][ 97]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:738][ 98]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:746][ 99]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:754][100]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:763][101]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:771][102]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:779][103]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:788][104]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:796][105]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:804][106]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:813][107]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:821][108]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:829][109]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:838][110]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:846][111]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:855][112]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:863][113]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:871][114]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:880][115]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:888][116]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:896][117]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:904][118]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:913][119]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:921][120]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:930][121]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:938][122]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:946][123]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:954][124]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:963][125]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:971][126]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:979][127]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:988][128]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.44:997][129]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:005][130]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:013][131]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:021][132]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:030][133]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:038][134]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:047][135]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:055][136]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:063][137]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:071][138]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:080][139]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:088][140]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:097][141]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:105][142]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:113][143]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:121][144]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:130][145]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:138][146]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:146][147]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:154][148]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:163][149]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:171][150]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:180][151]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:188][152]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:196][153]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:204][154]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:213][155]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:221][156]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:230][157]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:238][158]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:246][159]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:254][160]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:263][161]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:271][162]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:280][163]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:288][164]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:296][165]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:305][166]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:313][167]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:321][168]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:329][169]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:338][170]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:346][171]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:355][172]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:363][173]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:371][174]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:380][175]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:388][176]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:396][177]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:405][178]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:413][179]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:421][180]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:429][181]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:438][182]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:446][183]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:454][184]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:463][185]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:472][186]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:479][187]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:488][188]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:496][189]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:505][190]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:513][191]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:521][192]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:530][193]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:538][194]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:546][195]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:555][196]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:563][197]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:571][198]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:579][199]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:588][200]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:596][201]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:604][202]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:613][203]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:621][204]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:630][205]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:638][206]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:646][207]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:655][208]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:663][209]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:671][210]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:679][211]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:688][212]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:696][213]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:705][214]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:713][215]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:722][216]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:730][217]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:739][218]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:747][219]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:755][220]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:764][221]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:772][222]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:780][223]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:788][224]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:797][225]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:805][226]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:813][227]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:821][228]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:830][229]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:838][230]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:847][231]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:855][232]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:863][233]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:872][234]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:880][235]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:888][236]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:897][237]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:905][238]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:914][239]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:922][240]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:930][241]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:938][242]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:947][243]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:955][244]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:963][245]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:971][246]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:980][247]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:988][248]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.45:996][249]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:005][250]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:013][251]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:022][252]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:030][253]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:038][254]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:046][255]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:055][256]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:063][257]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:071][258]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:079][259]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:088][260]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:096][261]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:105][262]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:113][263]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:121][264]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:129][265]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:138][266]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:147][267]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:155][268]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:163][269]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:172][270]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:180][271]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:188][272]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:196][273]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:205][274]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:213][275]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:221][276]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:229][277]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:238][278]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:246][279]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:255][280]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:263][281]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:272][282]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:280][283]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:288][284]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:296][285]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:304][286]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:313][287]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:322][288]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:330][289]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:338][290]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:346][291]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:355][292]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:363][293]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:371][294]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:379][295]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:388][296]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:396][297]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:405][298]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:413][299]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:422][300]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:430][301]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:438][302]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:447][303]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:455][304]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:463][305]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:472][306]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:480][307]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:488][308]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:496][309]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:505][310]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:513][311]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:521][312]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:530][313]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:538][314]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:546][315]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:555][316]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:563][317]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:571][318]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:580][319]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:588][320]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:596][321]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:605][322]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:613][323]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:622][324]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:630][325]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:638][326]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:646][327]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:655][328]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:663][329]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:671][330]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:680][331]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:688][332]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:696][333]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:705][334]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:713][335]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:721][336]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:730][337]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:738][338]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:746][339]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:755][340]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:763][341]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:771][342]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:780][343]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:788][344]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:796][345]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:805][346]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:813][347]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:821][348]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:830][349]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:838][350]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:846][351]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:855][352]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:863][353]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:871][354]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:880][355]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:888][356]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:896][357]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:904][358]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:913][359]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:921][360]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:929][361]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:938][362]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:946][363]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:955][364]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:963][365]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:971][366]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:980][367]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:988][368]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.46:996][369]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:005][370]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:013][371]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:021][372]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:030][373]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:038][374]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:046][375]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:055][376]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:063][377]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:071][378]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:080][379]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:088][380]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:096][381]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:104][382]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:113][383]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:121][384]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:129][385]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:138][386]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:146][387]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:155][388]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:163][389]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:171][390]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:179][391]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:188][392]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:196][393]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:205][394]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:213][395]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:221][396]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:229][397]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:238][398]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:246][399]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:254][400]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:263][401]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:272][402]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:280][403]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:288][404]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:297][405]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:305][406]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:313][407]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:322][408]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:330][409]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:339][410]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:347][411]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:355][412]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:363][413]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:372][414]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:380][415]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:388][416]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:397][417]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:405][418]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:413][419]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:421][420]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:430][421]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:438][422]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:446][423]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:455][424]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:463][425]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:471][426]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:480][427]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:488][428]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:496][429]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:505][430]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:513][431]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:521][432]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:530][433]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:538][434]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:547][435]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:555][436]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:563][437]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:572][438]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:580][439]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:588][440]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:596][441]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:605][442]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:613][443]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:621][444]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:630][445]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:639][446]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:647][447]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:655][448]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:663][449]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:672][450]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:680][451]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:689][452]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:697][453]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:705][454]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:713][455]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:722][456]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:731][457]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:739][458]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:748][459]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:755][460]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:764][461]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:772][462]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:780][463]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:788][464]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:797][465]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:805][466]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:814][467]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:822][468]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:831][469]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:838][470]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:847][471]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:855][472]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:863][473]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:872][474]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:880][475]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:888][476]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:896][477]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:905][478]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:913][479]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:922][480]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:930][481]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:939][482]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:947][483]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:956][484]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:964][485]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:972][486]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:981][487]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:989][488]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.47:997][489]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:006][490]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:015][491]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:022][492]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:031][493]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:043][494]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:047][495]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:056][496]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:064][497]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:072][498]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:081][499]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:088][500]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:097][501]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:107][502]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:113][503]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:122][504]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:131][505]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:139][506]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:148][507]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:156][508]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:164][509]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:172][510]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:181][511]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:189][512]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:198][513]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:207][514]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:214][515]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:222][516]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:231][517]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:239][518]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:247][519]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:256][520]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:264][521]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:272][522]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:281][523]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:288][524]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:296][525]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:305][526]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:313][527]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:322][528]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:331][529]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:339][530]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.58.48:367][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-11.58.48:367][530]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-11.58.48:367][530]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-11.58.48:368][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-11.58.48:371][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-11.58.48:375][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-11.58.48:401][530]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.25-11.58.48:401][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.25-11.58.48:402][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.25-11.58.48:406][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-11.58.48:433][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.25-11.58.48:469][531]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.08.25-11.59.29:868][379]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-11.59.29:872][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-11.59.29:872][379]PIE: New page: PIE session: Main (25 Aug 2023, 17:59:29)
+[2023.08.25-11.59.29:872][379]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-11.59.29:874][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002458s)
+[2023.08.25-11.59.29:874][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002475s)
+[2023.08.25-11.59.29:874][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-11.59.29:875][379]LogAIModule: Creating AISystem for world Main
+[2023.08.25-11.59.29:875][379]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2023.08.25-11.59.29:903][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.08.25-11.59.29:909][379]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-11.59.29:909][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-11.59.29:909][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-11.59.29:909][379]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-11.59.29:909][379]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-11.59.29:909][379]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-11.59.29:911][379]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-11.59.29:944][379]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-11.59.29:944][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-11.59.29:944][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-11.59.29:944][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-11.59.29:944][379]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.08.25-11.59.29:944][379]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.08.25-11.59.29:945][379]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.08.25-11.59.29:945][379]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.08.25-11.59.29:945][379]LogInit: FAudioDevice initialized.
+[2023.08.25-11.59.29:945][379]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2023.08.25-11.59.29:947][379]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-11.59.29:948][379]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-14.59.29
+[2023.08.25-11.59.29:948][379]LogWorld: Bringing up level for play took: 0.000853
+[2023.08.25-11.59.29:949][379]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.08.25-11.59.29:949][379]LogBlueprintUserMessages: [BP_PawnTank_C_1] X=25.000 Y=32.000 Z=12.000
+[2023.08.25-11.59.29:950][379]PIE: Server logged in
+[2023.08.25-11.59.29:950][379]PIE: Play in editor total start time 0.079 seconds.
+[2023.08.25-11.59.29:950][379]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.29:965][380]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.29:982][381]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.29:990][382]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.29:998][383]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:006][384]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:015][385]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:023][386]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:031][387]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:040][388]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:047][389]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:056][390]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:065][391]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:073][392]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:081][393]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:090][394]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:098][395]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:106][396]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:114][397]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:123][398]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:131][399]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:139][400]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:148][401]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:156][402]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:164][403]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:173][404]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:181][405]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:189][406]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:198][407]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:206][408]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:214][409]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:223][410]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:231][411]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:240][412]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:248][413]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:256][414]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:265][415]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:273][416]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:281][417]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:289][418]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:298][419]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:306][420]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:314][421]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:323][422]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:331][423]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:339][424]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:348][425]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:356][426]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:364][427]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:373][428]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:381][429]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:389][430]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:398][431]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:406][432]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:414][433]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:423][434]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:431][435]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:439][436]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:448][437]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:456][438]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:465][439]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:473][440]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:481][441]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:490][442]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:498][443]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:506][444]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:514][445]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:523][446]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:531][447]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:539][448]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:548][449]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:556][450]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:564][451]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:573][452]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:581][453]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:589][454]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:598][455]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:606][456]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:614][457]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:623][458]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:631][459]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:640][460]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:648][461]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:656][462]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:665][463]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:673][464]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:681][465]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:690][466]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:698][467]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:706][468]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:715][469]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:723][470]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:731][471]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:740][472]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:748][473]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:756][474]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:765][475]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:773][476]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:781][477]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:789][478]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:798][479]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:806][480]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:814][481]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:823][482]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:831][483]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:839][484]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:848][485]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:857][486]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:864][487]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:873][488]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:881][489]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:890][490]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:898][491]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:906][492]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:914][493]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:923][494]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:931][495]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:939][496]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:948][497]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:956][498]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:964][499]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:973][500]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:981][501]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:989][502]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.30:998][503]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:006][504]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:014][505]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:023][506]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:031][507]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:040][508]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:048][509]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:056][510]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:064][511]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:073][512]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:081][513]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:089][514]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:098][515]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:106][516]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:115][517]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:123][518]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:131][519]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:139][520]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:148][521]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:156][522]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:165][523]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:173][524]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:181][525]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:189][526]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:198][527]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:206][528]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:214][529]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:223][530]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:231][531]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:239][532]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:248][533]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:256][534]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:264][535]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:273][536]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:281][537]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:290][538]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:298][539]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:306][540]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:314][541]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:323][542]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:331][543]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:339][544]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:348][545]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:356][546]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:364][547]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:373][548]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:381][549]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:389][550]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:398][551]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:406][552]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:415][553]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:423][554]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:431][555]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:439][556]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:448][557]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:456][558]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:464][559]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:473][560]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:481][561]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:489][562]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:498][563]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:506][564]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:514][565]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:523][566]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:531][567]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:540][568]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:548][569]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:556][570]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:565][571]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:573][572]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:581][573]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:590][574]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:598][575]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:606][576]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:614][577]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:623][578]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:631][579]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:639][580]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:648][581]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:656][582]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:664][583]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:673][584]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:681][585]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:690][586]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:698][587]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:706][588]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:714][589]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:723][590]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:731][591]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:739][592]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:748][593]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:756][594]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:764][595]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:773][596]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:781][597]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:790][598]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:798][599]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:806][600]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:815][601]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:823][602]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:831][603]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:839][604]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:848][605]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:856][606]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:865][607]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:873][608]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:881][609]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.31:889][610]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:898][611]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:906][612]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:914][613]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:923][614]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:931][615]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:939][616]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:948][617]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:956][618]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:965][619]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:973][620]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:981][621]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:989][622]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.31:998][623]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:006][624]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:014][625]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:023][626]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:031][627]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:039][628]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:048][629]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:056][630]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:064][631]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:073][632]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:081][633]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:090][634]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:098][635]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:106][636]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:115][637]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:123][638]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:131][639]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:139][640]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:148][641]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:156][642]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:164][643]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:173][644]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:181][645]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:189][646]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:198][647]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:206][648]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:214][649]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:223][650]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:231][651]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:239][652]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:248][653]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:256][654]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:264][655]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:273][656]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:281][657]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:289][658]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:298][659]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:306][660]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:314][661]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:323][662]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:331][663]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:339][664]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:348][665]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:356][666]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:364][667]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:373][668]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:381][669]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:389][670]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:398][671]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:406][672]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:414][673]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:423][674]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:431][675]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:439][676]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:448][677]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:456][678]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:465][679]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:473][680]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:481][681]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:489][682]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:498][683]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:506][684]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:514][685]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:523][686]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:531][687]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:539][688]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:548][689]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:556][690]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:564][691]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:573][692]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:581][693]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:589][694]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:598][695]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:606][696]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:614][697]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:623][698]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:631][699]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:639][700]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:648][701]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:656][702]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:665][703]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:673][704]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:681][705]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:690][706]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:698][707]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:706][708]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:714][709]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:723][710]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:731][711]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:739][712]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:748][713]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:756][714]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:765][715]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:773][716]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:781][717]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:789][718]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:798][719]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:806][720]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:814][721]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:823][722]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:831][723]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:839][724]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:848][725]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:856][726]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:865][727]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:873][728]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:881][729]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.32:889][730]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:898][731]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:906][732]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:914][733]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:923][734]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:931][735]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:940][736]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:948][737]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:956][738]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.32:964][739]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:973][740]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:981][741]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:989][742]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.32:998][743]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:006][744]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:014][745]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:023][746]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:031][747]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:040][748]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:048][749]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:056][750]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:064][751]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:073][752]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:081][753]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:090][754]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:098][755]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:106][756]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:114][757]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:123][758]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:131][759]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:139][760]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:148][761]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:156][762]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:164][763]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:173][764]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:181][765]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:189][766]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:198][767]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:206][768]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:214][769]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:223][770]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:231][771]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:239][772]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:248][773]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:256][774]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:264][775]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:273][776]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:281][777]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:289][778]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:298][779]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:306][780]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:314][781]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:323][782]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:331][783]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:340][784]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:348][785]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:356][786]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:364][787]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:373][788]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:381][789]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:390][790]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:398][791]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:406][792]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:415][793]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:423][794]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:431][795]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:439][796]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:448][797]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:456][798]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:464][799]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:473][800]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:481][801]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:489][802]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:498][803]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:506][804]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:514][805]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:523][806]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:531][807]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:540][808]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:548][809]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:556][810]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:565][811]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:573][812]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:581][813]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:589][814]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:598][815]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:606][816]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:614][817]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:623][818]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:631][819]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:640][820]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:648][821]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:656][822]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:665][823]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:673][824]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:681][825]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:690][826]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:698][827]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:706][828]LogTemp: Warning: Move is: 1.000000
+[2023.08.25-11.59.33:715][829]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:723][830]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:731][831]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:740][832]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:748][833]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:756][834]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:764][835]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:773][836]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:781][837]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:789][838]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:798][839]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:806][840]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:814][841]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:823][842]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:831][843]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:839][844]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:848][845]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:856][846]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:864][847]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:873][848]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:881][849]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:889][850]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:898][851]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:906][852]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:914][853]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:923][854]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:931][855]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:940][856]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:948][857]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:956][858]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:965][859]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:973][860]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.33:981][861]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:990][862]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.33:998][863]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:006][864]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:014][865]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:023][866]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:031][867]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:040][868]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:048][869]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:056][870]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:064][871]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:073][872]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:081][873]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:089][874]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:098][875]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:106][876]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:114][877]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:123][878]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:131][879]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:139][880]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:148][881]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:156][882]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:164][883]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:173][884]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:181][885]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:190][886]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:198][887]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:206][888]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:215][889]LogTemp: Warning: Move is: -1.000000
+[2023.08.25-11.59.34:223][890]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:231][891]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:240][892]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:248][893]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:256][894]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:265][895]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:273][896]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:281][897]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:289][898]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:298][899]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:306][900]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:314][901]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:323][902]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:331][903]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:339][904]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:348][905]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:356][906]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:364][907]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:373][908]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:381][909]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:390][910]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:398][911]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:406][912]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:414][913]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:423][914]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:431][915]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:440][916]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:448][917]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:456][918]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:465][919]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:473][920]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:481][921]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:490][922]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:498][923]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:506][924]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:514][925]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:523][926]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:531][927]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:540][928]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:548][929]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:556][930]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:564][931]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:573][932]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:581][933]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:589][934]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:598][935]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:606][936]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:615][937]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:623][938]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:631][939]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:640][940]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:648][941]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:656][942]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:664][943]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:673][944]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:682][945]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:690][946]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:698][947]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:706][948]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:714][949]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:723][950]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:731][951]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:739][952]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:748][953]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:756][954]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:764][955]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:773][956]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:781][957]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:789][958]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:798][959]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:806][960]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:814][961]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:823][962]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:831][963]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:839][964]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:848][965]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.34:856][966]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.35:190][967]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.35:523][968]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.35:856][969]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.36:190][970]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.36:523][971]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.36:856][972]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.37:190][973]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.37:523][974]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.37:857][975]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.38:190][976]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.38:523][977]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.38:856][978]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.39:190][979]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.39:523][980]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.39:856][981]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.40:190][982]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.40:523][983]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.40:856][984]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.41:190][985]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.41:523][986]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.41:856][987]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.42:190][988]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.42:523][989]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.42:856][990]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.43:190][991]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.43:523][992]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.43:857][993]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.44:190][994]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.44:523][995]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.44:857][996]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.45:190][997]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.45:523][998]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.45:857][999]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.46:190][  0]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.46:523][  1]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.46:857][  2]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.47:190][  3]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.47:523][  4]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.47:856][  5]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.48:190][  6]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.48:523][  7]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.48:856][  8]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.49:190][  9]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.49:523][ 10]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.49:856][ 11]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.50:190][ 12]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.50:523][ 13]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.50:856][ 14]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.51:216][ 15]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.51:523][ 16]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.51:856][ 17]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.52:192][ 18]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.52:523][ 19]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.52:856][ 20]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.53:190][ 21]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.53:523][ 22]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.53:857][ 23]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.54:190][ 24]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.54:523][ 25]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.54:857][ 26]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.55:190][ 27]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.55:523][ 28]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.55:856][ 29]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.56:190][ 30]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.56:523][ 31]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.56:856][ 32]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.57:190][ 33]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.57:523][ 34]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.57:856][ 35]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.58:190][ 36]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.58:523][ 37]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.58:856][ 38]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.59:190][ 39]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.59:523][ 40]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-11.59.59:856][ 41]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.00:190][ 42]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.00:523][ 43]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.00:857][ 44]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.01:190][ 45]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.01:523][ 46]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.01:856][ 47]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.02:190][ 48]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.02:523][ 49]LogTemp: Warning: Move is: 0.000000
+[2023.08.25-12.00.02:856][ 50]LogTemp: Warning: Move is: 0.000000
