@@ -34,7 +34,6 @@ void ATower::BeginPlay()
 void ATower::CheckFireCondition() {
 	////Check to see if the tank is in range
 	if (InFireRange()) {
-		UE_LOG(LogTemp, Warning, TEXT("In Range!!!"));
 		Fire();
 	}
 }
