@@ -38,15 +38,15 @@ void ABasePawn::RotateTurret(FVector LootAtTarget) {
 }
 
 void ABasePawn::Fire() {
-	DrawDebugSphere(GetWorld(), 
-		ProjectileSpawnPoint->GetComponentLocation(), 
-		20.f, 
-		12, 
-		FColor::Red,
-		false,
-		3.f);
-	//GetWorld()->SpawnActor<AProjectile>(ProjectileClass,
-	//	ProjectileSpawnPoint->GetComponentLocation(),
-	//	ProjectileSpawnPoint->GetComponentRotation());
+	//DrawDebugSphere(GetWorld(), 
+	//	ProjectileSpawnPoint->GetComponentLocation(), 
+	//	20.f, 
+	//	12, 
+	//	FColor::Red,
+	//	false,
+	//	3.f);
+	GetWorld()->SpawnActor<AProjectile>(ProjectileClass,
+		ProjectileSpawnPoint->GetComponentLocation(),
+		ProjectileSpawnPoint->GetComponentRotation());
 
 }
