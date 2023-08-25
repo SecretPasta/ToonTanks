@@ -5,6 +5,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -35,24 +36,12 @@ void ABasePawn::RotateTurret(FVector LootAtTarget) {
 			25.f));
 }
 
-
-//// Called when the game starts or when spawned
-//void ABasePawn::BeginPlay()
-//{
-//	Super::BeginPlay();
-//	
-//}
-
-//// Called every frame
-//void ABasePawn::Tick(float DeltaTime)
-//{
-//	Super::Tick(DeltaTime);
-//}
-
-// Called to bind functionality to input
-//void ABasePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-//{
-//	Super::SetupPlayerInputComponent(PlayerInputComponent);
-//
-//}
-
+void ABasePawn::Fire() {
+	DrawDebugSphere(GetWorld(), 
+		ProjectileSpawnPoint->GetComponentLocation(), 
+		20.f, 
+		12, 
+		FColor::Red,
+		false,
+		3.f);
+}
