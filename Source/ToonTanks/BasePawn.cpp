@@ -22,6 +22,13 @@ ABasePawn::ABasePawn()
 	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
 }
 
+void ABasePawn::RotateTurret(FVector LootAtTarget) {
+	FVector ToTarget = LootAtTarget - TurretMesh->GetComponentLocation();
+	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
+	TurretMesh->SetWorldRotation(LookAtRotation);
+}
+
+
 //// Called when the game starts or when spawned
 //void ABasePawn::BeginPlay()
 //{
