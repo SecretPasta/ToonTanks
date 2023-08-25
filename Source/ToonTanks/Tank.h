@@ -31,7 +31,11 @@ private:
 	UPROPERTY(EditAnywhere,Category = "Movement")
 	float Speed = 600.f;
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float TurnRate = 200.f;
+
 	void Move(float Value);
 
+	void Turn(float Value);
 ;
 };
