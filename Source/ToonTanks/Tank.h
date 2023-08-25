@@ -28,5 +28,10 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	class USpringArmComponent* SpringArmComponent;
 
+	UPROPERTY(EditAnywhere,Category = "Movement")
+	float Speed = 600.f;
+
 	void Move(float Value);
+
+;
 };

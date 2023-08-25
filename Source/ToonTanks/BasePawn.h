@@ -16,17 +16,17 @@ public:
 	ABasePawn();
 
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Super Duper Category")
-	int32 VisibleAnywhereInt = 12;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Super Duper Category")
+	//int32 VisibleAnywhereInt = 12;
 
-	UPROPERTY(EditAnywhere)
-	int32 EditAnywhereInt = 32;
+	//UPROPERTY(EditAnywhere)
+	//int32 EditAnywhereInt = 32;
 
-	UPROPERTY(VisibleInstanceOnly)
-	int32 VisibleInstanceOnlyInt = 11;
+	//UPROPERTY(VisibleInstanceOnly)
+	//int32 VisibleInstanceOnlyInt = 11;
 
-	UPROPERTY(EditInstanceOnly,BlueprintReadWrite)
-	FVector MyVector = FVector(2, 5, -5);
+	//UPROPERTY(EditInstanceOnly,BlueprintReadWrite)
+	//FVector MyVector = FVector(2, 5, -5);
 
 protected:
 	// Called when the game starts or when spawned
