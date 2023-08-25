@@ -21,6 +21,15 @@ ATank::ATank() {
 	CameraComponent->SetupAttachment(SpringArmComponent);
 }
 
+// Called when the game starts or when spawned
+void ATank::BeginPlay()
+{
+	Super::BeginPlay();
+	PlayerControllerRef = Cast<APlayerController>(GetController());
+
+}
+
+
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -44,5 +53,5 @@ void ATank::Move(float Value) {
 void ATank::Turn(float Value) {
 	FRotator DeltaRotation = FRotator::ZeroRotator;
 	DeltaRotation.Yaw = Value * UGameplayStatics::GetWorldDeltaSeconds(this) * TurnRate;
-	AddActorLocalRotation(DeltaRotation);
+	AddActorLocalRotation(DeltaRotation, true);
 }
