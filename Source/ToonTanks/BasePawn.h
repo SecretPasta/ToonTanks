@@ -34,4 +34,7 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	USceneComponent* ProjectileSpawnPoint;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	TSubclassOf<class AProjectile> ProjectileClass;
+
 };

@@ -6,6 +6,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+#include "Projectile.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -44,4 +45,8 @@ void ABasePawn::Fire() {
 		FColor::Red,
 		false,
 		3.f);
+	//GetWorld()->SpawnActor<AProjectile>(ProjectileClass,
+	//	ProjectileSpawnPoint->GetComponentLocation(),
+	//	ProjectileSpawnPoint->GetComponentRotation());
+
 }
