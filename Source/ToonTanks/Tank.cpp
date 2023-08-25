@@ -7,7 +7,6 @@
 #include "Camera/CameraComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/EngineTypes.h"
-#include "DrawDebugHelpers.h"
 
 
 
@@ -43,6 +42,7 @@ void ATank::Tick(float DeltaTime) {
 			false, 
 			HitResult);
 		RotateTurret(HitResult.ImpactPoint);
+		
 	}
 
 }

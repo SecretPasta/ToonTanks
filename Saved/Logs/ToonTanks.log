@@ -4829,3 +4829,480 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.25-14.29.59:429][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
 [2023.08.25-14.29.59:794][244]Display: Reload/Re-instancing Complete: 2 classes unchanged
 [2023.08.25-14.29.59:794][244]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.32.09:576][968]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.32.11:695][974]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_19.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_19.exp
+[2023.08.25-14.32.12:038][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.08.25-14.32.12:436][976]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.32.12:436][976]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.32.14:587][200]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.32.14:590][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.32.14:590][200]PIE: New page: PIE session: Main (25 Aug 2023, 20:32:14)
+[2023.08.25-14.32.14:623][200]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.32.14:625][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002336s)
+[2023.08.25-14.32.14:625][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002356s)
+[2023.08.25-14.32.14:625][200]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.32.14:625][200]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.32.14:626][200]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2023.08.25-14.32.14:712][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.08.25-14.32.14:717][200]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.32.14:717][200]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.32.14:717][200]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.32.14:718][200]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.32.14:718][200]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.32.14:718][200]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.32.14:719][200]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.32.14:752][200]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.32.14:752][200]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.32.14:752][200]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.32.14:752][200]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.32.14:752][200]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.08.25-14.32.14:752][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.08.25-14.32.14:753][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.08.25-14.32.14:753][200]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.08.25-14.32.14:753][200]LogInit: FAudioDevice initialized.
+[2023.08.25-14.32.14:753][200]LogAudio: Display: Audio Device (ID: 42) registered with world 'Main'.
+[2023.08.25-14.32.14:755][200]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.32.14:756][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.32.14
+[2023.08.25-14.32.14:756][200]LogWorld: Bringing up level for play took: 0.000894
+[2023.08.25-14.32.14:757][200]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.08.25-14.32.14:758][200]PIE: Server logged in
+[2023.08.25-14.32.14:758][200]PIE: Play in editor total start time 0.169 seconds.
+[2023.08.25-14.32.25:833][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.32.25:833][523]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.32.25:833][523]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.32.25:833][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.32.25:836][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.32.25:841][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.32.25:862][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.32.25:862][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.08.25-14.32.25:863][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.08.25-14.32.25:892][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.25-14.32.25:929][524]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.08.25-14.32.52:928][900]LogViewport: Scene viewport resized to 1039x902, mode Windowed.
+[2023.08.25-14.33.06:633][750]LogViewport: Scene viewport resized to 1037x902, mode Windowed.
+[2023.08.25-14.33.06:642][751]LogViewport: Scene viewport resized to 1034x902, mode Windowed.
+[2023.08.25-14.33.06:650][752]LogViewport: Scene viewport resized to 1031x902, mode Windowed.
+[2023.08.25-14.33.06:659][753]LogViewport: Scene viewport resized to 1028x902, mode Windowed.
+[2023.08.25-14.33.06:667][754]LogViewport: Scene viewport resized to 1026x902, mode Windowed.
+[2023.08.25-14.33.06:676][755]LogViewport: Scene viewport resized to 1022x902, mode Windowed.
+[2023.08.25-14.33.06:684][756]LogViewport: Scene viewport resized to 1020x902, mode Windowed.
+[2023.08.25-14.33.06:693][757]LogViewport: Scene viewport resized to 1016x902, mode Windowed.
+[2023.08.25-14.33.06:702][758]LogViewport: Scene viewport resized to 1014x902, mode Windowed.
+[2023.08.25-14.33.06:710][759]LogViewport: Scene viewport resized to 1011x902, mode Windowed.
+[2023.08.25-14.33.06:718][760]LogViewport: Scene viewport resized to 1007x902, mode Windowed.
+[2023.08.25-14.33.06:727][761]LogViewport: Scene viewport resized to 1004x902, mode Windowed.
+[2023.08.25-14.33.06:735][762]LogViewport: Scene viewport resized to 1001x902, mode Windowed.
+[2023.08.25-14.33.06:743][763]LogViewport: Scene viewport resized to 998x902, mode Windowed.
+[2023.08.25-14.33.06:752][764]LogViewport: Scene viewport resized to 996x902, mode Windowed.
+[2023.08.25-14.33.06:760][765]LogViewport: Scene viewport resized to 993x902, mode Windowed.
+[2023.08.25-14.33.06:769][766]LogViewport: Scene viewport resized to 991x902, mode Windowed.
+[2023.08.25-14.33.06:777][767]LogViewport: Scene viewport resized to 989x902, mode Windowed.
+[2023.08.25-14.33.06:785][768]LogViewport: Scene viewport resized to 988x902, mode Windowed.
+[2023.08.25-14.33.06:793][769]LogViewport: Scene viewport resized to 986x902, mode Windowed.
+[2023.08.25-14.33.06:802][770]LogViewport: Scene viewport resized to 985x902, mode Windowed.
+[2023.08.25-14.33.06:810][771]LogViewport: Scene viewport resized to 984x902, mode Windowed.
+[2023.08.25-14.33.06:818][772]LogViewport: Scene viewport resized to 983x902, mode Windowed.
+[2023.08.25-14.33.06:827][773]LogViewport: Scene viewport resized to 981x902, mode Windowed.
+[2023.08.25-14.33.06:835][774]LogViewport: Scene viewport resized to 980x902, mode Windowed.
+[2023.08.25-14.33.06:843][775]LogViewport: Scene viewport resized to 979x902, mode Windowed.
+[2023.08.25-14.33.06:851][776]LogViewport: Scene viewport resized to 977x902, mode Windowed.
+[2023.08.25-14.33.06:860][777]LogViewport: Scene viewport resized to 976x902, mode Windowed.
+[2023.08.25-14.33.06:868][778]LogViewport: Scene viewport resized to 974x902, mode Windowed.
+[2023.08.25-14.33.06:877][779]LogViewport: Scene viewport resized to 973x902, mode Windowed.
+[2023.08.25-14.33.06:885][780]LogViewport: Scene viewport resized to 970x902, mode Windowed.
+[2023.08.25-14.33.06:893][781]LogViewport: Scene viewport resized to 967x902, mode Windowed.
+[2023.08.25-14.33.06:902][782]LogViewport: Scene viewport resized to 964x902, mode Windowed.
+[2023.08.25-14.33.06:910][783]LogViewport: Scene viewport resized to 960x902, mode Windowed.
+[2023.08.25-14.33.06:919][784]LogViewport: Scene viewport resized to 957x902, mode Windowed.
+[2023.08.25-14.33.06:927][785]LogViewport: Scene viewport resized to 954x902, mode Windowed.
+[2023.08.25-14.33.06:935][786]LogViewport: Scene viewport resized to 951x902, mode Windowed.
+[2023.08.25-14.33.06:944][787]LogViewport: Scene viewport resized to 948x902, mode Windowed.
+[2023.08.25-14.33.06:952][788]LogViewport: Scene viewport resized to 946x902, mode Windowed.
+[2023.08.25-14.33.06:960][789]LogViewport: Scene viewport resized to 943x902, mode Windowed.
+[2023.08.25-14.33.06:968][790]LogViewport: Scene viewport resized to 940x902, mode Windowed.
+[2023.08.25-14.33.06:977][791]LogViewport: Scene viewport resized to 938x902, mode Windowed.
+[2023.08.25-14.33.06:985][792]LogViewport: Scene viewport resized to 935x902, mode Windowed.
+[2023.08.25-14.33.06:993][793]LogViewport: Scene viewport resized to 933x902, mode Windowed.
+[2023.08.25-14.33.07:002][794]LogViewport: Scene viewport resized to 932x902, mode Windowed.
+[2023.08.25-14.33.07:010][795]LogViewport: Scene viewport resized to 931x902, mode Windowed.
+[2023.08.25-14.33.07:018][796]LogViewport: Scene viewport resized to 930x902, mode Windowed.
+[2023.08.25-14.33.07:127][809]LogViewport: Scene viewport resized to 929x902, mode Windowed.
+[2023.08.25-14.33.07:135][810]LogViewport: Scene viewport resized to 928x902, mode Windowed.
+[2023.08.25-14.33.07:143][811]LogViewport: Scene viewport resized to 927x902, mode Windowed.
+[2023.08.25-14.33.07:151][812]LogViewport: Scene viewport resized to 925x902, mode Windowed.
+[2023.08.25-14.33.07:160][813]LogViewport: Scene viewport resized to 923x902, mode Windowed.
+[2023.08.25-14.33.07:168][814]LogViewport: Scene viewport resized to 922x902, mode Windowed.
+[2023.08.25-14.33.07:177][815]LogViewport: Scene viewport resized to 920x902, mode Windowed.
+[2023.08.25-14.33.07:185][816]LogViewport: Scene viewport resized to 918x902, mode Windowed.
+[2023.08.25-14.33.07:193][817]LogViewport: Scene viewport resized to 916x902, mode Windowed.
+[2023.08.25-14.33.07:202][818]LogViewport: Scene viewport resized to 915x902, mode Windowed.
+[2023.08.25-14.33.07:210][819]LogViewport: Scene viewport resized to 914x902, mode Windowed.
+[2023.08.25-14.33.07:218][820]LogViewport: Scene viewport resized to 912x902, mode Windowed.
+[2023.08.25-14.33.07:227][821]LogViewport: Scene viewport resized to 911x902, mode Windowed.
+[2023.08.25-14.33.07:235][822]LogViewport: Scene viewport resized to 910x902, mode Windowed.
+[2023.08.25-14.33.07:243][823]LogViewport: Scene viewport resized to 909x902, mode Windowed.
+[2023.08.25-14.33.07:260][825]LogViewport: Scene viewport resized to 908x902, mode Windowed.
+[2023.08.25-14.33.07:410][843]LogViewport: Scene viewport resized to 909x902, mode Windowed.
+[2023.08.25-14.33.07:419][844]LogViewport: Scene viewport resized to 910x902, mode Windowed.
+[2023.08.25-14.33.07:427][845]LogViewport: Scene viewport resized to 911x902, mode Windowed.
+[2023.08.25-14.33.07:435][846]LogViewport: Scene viewport resized to 913x902, mode Windowed.
+[2023.08.25-14.33.07:452][848]LogViewport: Scene viewport resized to 915x902, mode Windowed.
+[2023.08.25-14.33.07:469][850]LogViewport: Scene viewport resized to 916x902, mode Windowed.
+[2023.08.25-14.33.07:485][852]LogViewport: Scene viewport resized to 917x902, mode Windowed.
+[2023.08.25-14.33.07:568][862]LogViewport: Scene viewport resized to 918x902, mode Windowed.
+[2023.08.25-14.33.14:388][392]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.08.25-14.33.14:389][392]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.08.25-14.33.14:389][392]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Maps/Main.Main:PersistentLevel.BlockingVolume_0
+[2023.08.25-14.33.14:390][392]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Maps/Main.Main:PersistentLevel.BlockingVolume_0
+[2023.08.25-14.33.15:225][492]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.08.25-14.33.15:225][492]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.BlockingVolume
+[2023.08.25-14.33.15:226][492]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Maps/Main.Main:PersistentLevel.BlockingVolume_1
+[2023.08.25-14.33.15:226][492]LogActorFactory: Actor Factory spawned Class /Script/Engine.BlockingVolume as actor: BlockingVolume /Game/Maps/Main.Main:PersistentLevel.BlockingVolume_1
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: ================================================
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Total job queries 96, among them cache hits 25 (26.04%)
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Tracking 71 distinct input hashes that result in 47 distinct outputs (66.20%)
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: RAM used: 0.15 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100.00%)
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.11 s
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 0.51 s
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Job life time (pending + execution): average 0.62 s, max 0.62
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.62 s
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Average processing rate: 1.62 jobs/sec
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Total thread time: 0.31 s
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Total thread preprocess time: 0.03 s
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Percentage time preprocessing: 8.94%
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Effective parallelization: 0.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 100.00% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2023.08.25-14.34.43:769][398]LogShaderCompilers: Display: ================================================
+[2023.08.25-14.34.54:856][725]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.34.54:859][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.34.54:859][725]PIE: New page: PIE session: Main (25 Aug 2023, 20:34:54)
+[2023.08.25-14.34.54:892][725]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.34.54:894][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2023.08.25-14.34.54:894][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002391s)
+[2023.08.25-14.34.54:895][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.34.54:895][725]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.34.54:895][725]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2023.08.25-14.34.54:920][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.25-14.34.54:928][725]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.34.54:928][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.34.54:928][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.34.54:929][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.34.54:929][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.34.54:929][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.34.54:930][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.34.54:964][725]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.34.54:964][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.34.54:964][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.34.54:964][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.34.54:965][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2023.08.25-14.34.54:965][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2023.08.25-14.34.54:966][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2023.08.25-14.34.54:966][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2023.08.25-14.34.54:966][725]LogInit: FAudioDevice initialized.
+[2023.08.25-14.34.54:966][725]LogAudio: Display: Audio Device (ID: 43) registered with world 'Main'.
+[2023.08.25-14.34.54:968][725]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.34.54:968][725]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.34.54
+[2023.08.25-14.34.54:969][725]LogWorld: Bringing up level for play took: 0.000858
+[2023.08.25-14.34.54:970][725]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.08.25-14.34.54:970][725]PIE: Server logged in
+[2023.08.25-14.34.54:971][725]PIE: Play in editor total start time 0.112 seconds.
+[2023.08.25-14.35.16:832][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.35.16:832][343]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.35.16:832][343]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.35.16:832][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.35.16:835][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.35.16:840][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.35.16:859][343]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.25-14.35.16:859][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.08.25-14.35.16:860][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.08.25-14.35.16:864][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.35.16:866][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.25-14.35.16:923][345]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.08.25-14.36.59:842][283]LogViewport: Scene viewport resized to 456x449, mode Windowed.
+[2023.08.25-14.36.59:851][283]LogViewport: Scene viewport resized to 456x449, mode Windowed.
+[2023.08.25-14.36.59:856][283]LogViewport: Scene viewport resized to 456x449, mode Windowed.
+[2023.08.25-14.36.59:862][283]LogViewport: Scene viewport resized to 861x846, mode Windowed.
+[2023.08.25-14.36.59:876][284]LogViewport: Scene viewport resized to 683x671, mode Windowed.
+[2023.08.25-14.36.59:884][285]LogViewport: Scene viewport resized to 648x637, mode Windowed.
+[2023.08.25-14.36.59:893][286]LogViewport: Scene viewport resized to 618x607, mode Windowed.
+[2023.08.25-14.36.59:901][287]LogViewport: Scene viewport resized to 591x581, mode Windowed.
+[2023.08.25-14.36.59:909][288]LogViewport: Scene viewport resized to 567x557, mode Windowed.
+[2023.08.25-14.36.59:917][289]LogViewport: Scene viewport resized to 546x537, mode Windowed.
+[2023.08.25-14.36.59:926][290]LogViewport: Scene viewport resized to 528x519, mode Windowed.
+[2023.08.25-14.36.59:935][291]LogViewport: Scene viewport resized to 513x504, mode Windowed.
+[2023.08.25-14.36.59:943][292]LogViewport: Scene viewport resized to 500x491, mode Windowed.
+[2023.08.25-14.36.59:951][293]LogViewport: Scene viewport resized to 489x480, mode Windowed.
+[2023.08.25-14.36.59:959][294]LogViewport: Scene viewport resized to 480x472, mode Windowed.
+[2023.08.25-14.36.59:968][295]LogViewport: Scene viewport resized to 473x465, mode Windowed.
+[2023.08.25-14.36.59:976][296]LogViewport: Scene viewport resized to 467x459, mode Windowed.
+[2023.08.25-14.36.59:984][297]LogViewport: Scene viewport resized to 463x455, mode Windowed.
+[2023.08.25-14.36.59:993][298]LogViewport: Scene viewport resized to 460x452, mode Windowed.
+[2023.08.25-14.37.00:001][299]LogViewport: Scene viewport resized to 458x450, mode Windowed.
+[2023.08.25-14.37.00:009][300]LogViewport: Scene viewport resized to 457x449, mode Windowed.
+[2023.08.25-14.37.00:026][302]LogViewport: Scene viewport resized to 456x449, mode Windowed.
+[2023.08.25-14.37.17:022][339]LogViewport: Scene viewport resized to 533x524, mode Windowed.
+[2023.08.25-14.37.17:040][340]LogViewport: Scene viewport resized to 655x644, mode Windowed.
+[2023.08.25-14.37.17:053][341]LogViewport: Scene viewport resized to 733x720, mode Windowed.
+[2023.08.25-14.37.17:063][342]LogViewport: Scene viewport resized to 779x765, mode Windowed.
+[2023.08.25-14.37.17:071][343]LogViewport: Scene viewport resized to 810x796, mode Windowed.
+[2023.08.25-14.37.17:079][344]LogViewport: Scene viewport resized to 837x822, mode Windowed.
+[2023.08.25-14.37.17:089][345]LogViewport: Scene viewport resized to 859x844, mode Windowed.
+[2023.08.25-14.37.17:097][346]LogViewport: Scene viewport resized to 877x861, mode Windowed.
+[2023.08.25-14.37.17:113][347]LogViewport: Scene viewport resized to 899x884, mode Windowed.
+[2023.08.25-14.37.17:128][348]LogViewport: Scene viewport resized to 912x896, mode Windowed.
+[2023.08.25-14.37.17:144][349]LogViewport: Scene viewport resized to 917x901, mode Windowed.
+[2023.08.25-14.37.17:159][350]LogViewport: Scene viewport resized to 918x902, mode Windowed.
+[2023.08.25-14.37.18:234][479]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.37.18:238][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.37.18:238][479]PIE: New page: PIE session: Main (25 Aug 2023, 20:37:18)
+[2023.08.25-14.37.18:271][479]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.37.18:274][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003034s)
+[2023.08.25-14.37.18:275][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003055s)
+[2023.08.25-14.37.18:275][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.37.18:275][479]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.37.18:275][479]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2023.08.25-14.37.18:296][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.08.25-14.37.18:302][479]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.37.18:302][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.37.18:302][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.37.18:302][479]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.37.18:302][479]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.37.18:302][479]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.37.18:304][479]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.37.18:336][479]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.37.18:337][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.37.18:337][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.37.18:337][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.37.18:337][479]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2023.08.25-14.37.18:337][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2023.08.25-14.37.18:338][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2023.08.25-14.37.18:338][479]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2023.08.25-14.37.18:338][479]LogInit: FAudioDevice initialized.
+[2023.08.25-14.37.18:338][479]LogAudio: Display: Audio Device (ID: 44) registered with world 'Main'.
+[2023.08.25-14.37.18:340][479]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.37.18:341][479]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.37.18
+[2023.08.25-14.37.18:341][479]LogWorld: Bringing up level for play took: 0.000880
+[2023.08.25-14.37.18:342][479]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.08.25-14.37.18:342][479]PIE: Server logged in
+[2023.08.25-14.37.18:343][479]PIE: Play in editor total start time 0.106 seconds.
+[2023.08.25-14.37.28:871][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.37.28:871][734]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.37.28:871][734]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.37.28:872][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.37.28:875][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.37.28:878][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.37.28:898][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.25-14.37.28:899][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.08.25-14.37.28:900][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.08.25-14.37.28:903][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.37.28:905][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.08.25-14.37.28:962][736]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.08.25-14.37.30:120][874]LogViewport: Scene viewport resized to 1232x902, mode Windowed.
+[2023.08.25-14.38.07:365][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.25-14.38.07:371][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.25-14.38.07:380][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto1
+[2023.08.25-14.38.07:381][249]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main_Auto1C6524E604E9F83A5AF3D02AE480D270F.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2023.08.25-14.38.07:387][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.042
+[2023.08.25-14.38.07:387][249]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2023.08.25-14.42.01:312][951]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.42.03:318][957]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_20.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_20.exp
+[2023.08.25-14.42.03:768][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.08.25-14.42.04:209][960]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.42.04:209][960]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.42.06:267][ 54]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.42.06:270][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.42.06:270][ 54]PIE: New page: PIE session: Main (25 Aug 2023, 20:42:06)
+[2023.08.25-14.42.06:320][ 54]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.42.06:322][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002796s)
+[2023.08.25-14.42.06:322][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002814s)
+[2023.08.25-14.42.06:323][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.42.06:323][ 54]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.42.06:323][ 54]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2023.08.25-14.42.06:379][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.08.25-14.42.06:385][ 54]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.42.06:385][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.42.06:385][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.42.06:385][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.42.06:385][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.42.06:385][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.42.06:387][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.42.06:419][ 54]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.42.06:419][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.42.06:420][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.42.06:420][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.42.06:420][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2023.08.25-14.42.06:420][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2023.08.25-14.42.06:421][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2023.08.25-14.42.06:421][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2023.08.25-14.42.06:421][ 54]LogInit: FAudioDevice initialized.
+[2023.08.25-14.42.06:421][ 54]LogAudio: Display: Audio Device (ID: 45) registered with world 'Main'.
+[2023.08.25-14.42.06:423][ 54]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.42.06:424][ 54]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.42.06
+[2023.08.25-14.42.06:424][ 54]LogWorld: Bringing up level for play took: 0.000976
+[2023.08.25-14.42.06:425][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.08.25-14.42.06:426][ 54]PIE: Server logged in
+[2023.08.25-14.42.06:426][ 54]PIE: Play in editor total start time 0.156 seconds.
+[2023.08.25-14.42.14:470][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.42.14:470][ 11]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.42.14:470][ 11]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.42.14:470][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.42.14:473][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.42.14:478][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.42.14:497][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.42.14:497][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.08.25-14.42.14:498][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.08.25-14.42.14:529][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.25-14.42.14:566][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.08.25-14.42.24:550][186]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.42.26:548][192]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_21.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_21.exp
+[2023.08.25-14.42.26:929][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.08.25-14.42.27:361][194]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.42.27:361][194]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.42.27:870][218]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.42.27:873][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.42.27:873][218]PIE: New page: PIE session: Main (25 Aug 2023, 20:42:27)
+[2023.08.25-14.42.27:873][218]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.42.27:876][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002826s)
+[2023.08.25-14.42.27:876][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002843s)
+[2023.08.25-14.42.27:876][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.42.27:876][218]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.42.27:877][218]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2023.08.25-14.42.27:933][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.08.25-14.42.27:941][218]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.42.27:941][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.42.27:941][218]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.42.27:941][218]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.42.27:941][218]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.42.27:941][218]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.42.27:942][218]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.42.27:975][218]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.42.27:975][218]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.42.27:975][218]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.42.27:975][218]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.42.27:975][218]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2023.08.25-14.42.27:975][218]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2023.08.25-14.42.27:976][218]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2023.08.25-14.42.27:976][218]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2023.08.25-14.42.27:976][218]LogInit: FAudioDevice initialized.
+[2023.08.25-14.42.27:976][218]LogAudio: Display: Audio Device (ID: 46) registered with world 'Main'.
+[2023.08.25-14.42.27:978][218]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.42.27:979][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.42.27
+[2023.08.25-14.42.27:979][218]LogWorld: Bringing up level for play took: 0.000889
+[2023.08.25-14.42.27:980][218]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.08.25-14.42.27:980][218]PIE: Server logged in
+[2023.08.25-14.42.27:981][218]PIE: Play in editor total start time 0.108 seconds.
+[2023.08.25-14.42.32:630][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.42.32:630][770]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.42.32:630][770]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.42.32:630][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.42.32:633][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.42.32:637][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.42.32:655][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.42.32:655][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.08.25-14.42.32:656][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.08.25-14.42.32:679][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.08.25-14.42.32:716][771]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.08.25-14.42.45:298][936]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.42.46:386][939]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_22.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_22.exp
+[2023.08.25-14.42.46:599][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.08.25-14.42.47:032][941]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.42.47:032][941]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.42.50:813][952]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.42.52:619][958]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_23.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_23.exp
+[2023.08.25-14.42.52:965][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.25-14.42.53:367][960]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.42.53:367][960]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-14.42.56:761][ 95]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-14.42.56:765][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-14.42.56:765][ 95]PIE: New page: PIE session: Main (25 Aug 2023, 20:42:56)
+[2023.08.25-14.42.56:765][ 95]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.42.56:767][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002781s)
+[2023.08.25-14.42.56:768][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002796s)
+[2023.08.25-14.42.56:768][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-14.42.56:768][ 95]LogAIModule: Creating AISystem for world Main
+[2023.08.25-14.42.56:768][ 95]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2023.08.25-14.42.56:826][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.25-14.42.56:832][ 95]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-14.42.56:832][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-14.42.56:832][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-14.42.56:833][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-14.42.56:833][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-14.42.56:833][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-14.42.56:834][ 95]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2023.08.25-14.42.56:866][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2023.08.25-14.42.56:867][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2023.08.25-14.42.56:868][ 95]LogInit: FAudioDevice initialized.
+[2023.08.25-14.42.56:868][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2023.08.25-14.42.56:868][ 95]LogAudio: Display: Audio Device (ID: 47) registered with world 'Main'.
+[2023.08.25-14.42.56:870][ 95]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-14.42.56:870][ 95]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-17.42.56
+[2023.08.25-14.42.56:870][ 95]LogWorld: Bringing up level for play took: 0.000907
+[2023.08.25-14.42.56:871][ 95]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.08.25-14.42.56:872][ 95]PIE: Server logged in
+[2023.08.25-14.42.56:872][ 95]PIE: Play in editor total start time 0.108 seconds.
+[2023.08.25-14.43.03:240][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.43.03:240][853]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-14.43.03:240][853]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-14.43.03:240][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.43.03:242][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-14.43.03:246][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-14.43.03:264][853]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.25-14.43.03:264][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.08.25-14.43.03:265][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.08.25-14.43.03:269][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-14.43.03:270][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.08.25-14.43.03:318][856]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.08.25-14.43.25:069][237]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-14.43.27:069][243]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_24.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_24.exp
+[2023.08.25-14.43.27:456][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.25-14.43.27:896][245]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-14.43.27:896][245]LogLiveCoding: Display: Live coding succeeded
