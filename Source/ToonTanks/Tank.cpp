@@ -6,6 +6,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/EngineTypes.h"
+#include "DrawDebugHelpers.h"
 
 
 
@@ -26,9 +28,31 @@ void ATank::BeginPlay()
 {
 	Super::BeginPlay();
 	PlayerControllerRef = Cast<APlayerController>(GetController());
+	
 
 }
 
+// Called every frame
+void ATank::Tick(float DeltaTime) {
+	Super::Tick(DeltaTime);
+
+	FHitResult HitResult;
+	if (PlayerControllerRef) {
+		PlayerControllerRef->GetHitResultUnderCursor(
+			ECollisionChannel::ECC_Visibility, 
+			false, 
+			HitResult);
+			DrawDebugSphere(
+				GetWorld(),
+				HitResult.ImpactPoint,
+				20.f,
+				8,
+				FColor::Red,
+				false,
+				-1.f);
+	}
+
+}
 
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
