@@ -10001,3 +10001,238 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.25-18.49.05:076][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 419 ms)
 [2023.08.25-18.49.05:082][715]AssetCheck: New page: Asset Save: Main
 [2023.08.25-18.49.05:082][715]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.25-18.51.37:553][269]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-18.51.39:670][276]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_15.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_15.exp
+[2023.08.25-18.51.40:041][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.08.25-18.51.40:449][278]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.25-18.51.40:449][278]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-18.51.42:646][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-18.51.42:650][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-18.51.42:650][289]PIE: New page: PIE session: Main (26 Aug 2023, 0:51:42)
+[2023.08.25-18.51.42:682][289]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-18.51.42:685][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002925s)
+[2023.08.25-18.51.42:685][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002943s)
+[2023.08.25-18.51.42:685][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-18.51.42:685][289]LogAIModule: Creating AISystem for world Main
+[2023.08.25-18.51.42:685][289]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2023.08.25-18.51.42:756][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.08.25-18.51.42:761][289]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-18.51.42:761][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-18.51.42:761][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-18.51.42:761][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-18.51.42:761][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-18.51.42:761][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-18.51.42:763][289]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-18.51.42:796][289]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-18.51.42:797][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-18.51.42:797][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-18.51.42:797][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-18.51.42:797][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.08.25-18.51.42:797][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.08.25-18.51.42:798][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.08.25-18.51.42:798][289]LogInit: FAudioDevice initialized.
+[2023.08.25-18.51.42:798][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.08.25-18.51.42:798][289]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2023.08.25-18.51.42:801][289]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-18.51.42:801][289]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-21.51.42
+[2023.08.25-18.51.42:802][289]LogWorld: Bringing up level for play took: 0.001005
+[2023.08.25-18.51.42:803][289]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.08.25-18.51.42:803][289]PIE: Server logged in
+[2023.08.25-18.51.42:804][289]PIE: Play in editor total start time 0.154 seconds.
+[2023.08.25-18.51.45:062][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-18.51.45:063][544]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-18.51.45:063][544]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-18.51.45:063][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-18.51.45:066][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-18.51.45:071][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-18.51.45:096][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-18.51.45:097][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.08.25-18.51.45:098][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.08.25-18.51.45:131][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.08.25-18.51.45:179][545]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.08.25-18.51.45:911][630]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.25-18.51.45:914][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.25-18.51.45:914][630]PIE: New page: PIE session: Main (26 Aug 2023, 0:51:45)
+[2023.08.25-18.51.45:942][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.25-18.51.45:945][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002790s)
+[2023.08.25-18.51.45:945][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002811s)
+[2023.08.25-18.51.45:945][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-18.51.45:945][630]LogAIModule: Creating AISystem for world Main
+[2023.08.25-18.51.45:945][630]LogPlayLevel: PIE: World Init took: (0.000421s)
+[2023.08.25-18.51.45:972][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.25-18.51.45:980][630]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.25-18.51.45:980][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.25-18.51.45:980][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.25-18.51.45:980][630]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.25-18.51.45:980][630]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.25-18.51.45:980][630]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.25-18.51.45:982][630]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.25-18.51.46:013][630]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.25-18.51.46:014][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.25-18.51.46:014][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.25-18.51.46:014][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.25-18.51.46:014][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.08.25-18.51.46:014][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.08.25-18.51.46:015][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.08.25-18.51.46:015][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.08.25-18.51.46:015][630]LogInit: FAudioDevice initialized.
+[2023.08.25-18.51.46:015][630]LogAudio: Display: Audio Device (ID: 23) registered with world 'Main'.
+[2023.08.25-18.51.46:017][630]LogLoad: Game class is 'GameModeBase'
+[2023.08.25-18.51.46:018][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.25-21.51.46
+[2023.08.25-18.51.46:018][630]LogWorld: Bringing up level for play took: 0.001024
+[2023.08.25-18.51.46:019][630]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.08.25-18.51.46:020][630]PIE: Server logged in
+[2023.08.25-18.51.46:020][630]PIE: Play in editor total start time 0.106 seconds.
+[2023.08.25-18.51.54:742][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-18.51.54:742][669]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.25-18.51.54:742][669]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.25-18.51.54:743][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-18.51.54:746][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.25-18.51.54:751][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.25-18.51.54:778][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.25-18.51.54:778][669]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.08.25-18.51.54:779][669]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.08.25-18.51.54:785][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.08.25-18.51.54:817][670]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.08.25-19.02.48:584][784]Running C:/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.25-19.02.48:689][784]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.25-19.02.48:889][784]Log file: C:\Users\Gaming\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.08.25-19.02.49:090][784]
+[2023.08.25-19.02.49:090][784]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.08.25-19.02.49:090][784]See the log file for detailed information
+[2023.08.25-19.02.49:090][784]
+[2023.08.25-19.02.49:090][784]Discovering modules, targets and source code for project...
+[2023.08.25-19.02.50:796][784]Binding IntelliSense data...
+[2023.08.25-19.02.52:303][784]Binding IntelliSense data... 100%
+[2023.08.25-19.02.52:303][784]Writing project files...
+[2023.08.25-19.02.55:314][784]Writing project files... 100%
+[2023.08.25-19.02.55:520][784]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-19.02.55:605][784]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.08.25-19.02.58:489][ 92]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_16.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_16.exp
+[2023.08.25-19.02.58:578][ 95]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.25-19.02.58:578][ 95]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.25-19.02.58:643][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.08.25-19.02.58:871][ 96]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.08.25-19.02.58:871][ 96]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.25-19.06.20:356][844]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-19.06.23:472][854]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_17.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_17.exp
+[2023.08.25-19.06.23:790][855]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.25-19.06.23:790][855]LogClass: UClass Projectile Reload.
+[2023.08.25-19.06.23:790][855]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.25-19.06.23:799][855]Re-instancing Projectile after reload.
+[2023.08.25-19.06.23:907][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.08.25-19.06.24:262][856]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.25-19.06.24:262][856]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.25-19.07.03:222][291]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2023.08.25-19.07.03:222][291]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.25-19.07.03:536][291]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2023.08.25-19.07.03:624][291]LogViewport: Scene viewport resized to 1010x588, mode Windowed.
+[2023.08.25-19.07.05:213][474]LogViewport: Scene viewport resized to 1008x606, mode Windowed.
+[2023.08.25-19.07.05:249][476]LogViewport: Scene viewport resized to 647x349, mode Windowed.
+[2023.08.25-19.07.05:280][477]LogViewport: Scene viewport resized to 425x190, mode Windowed.
+[2023.08.25-19.07.05:293][478]LogViewport: Scene viewport resized to 355x140, mode Windowed.
+[2023.08.25-19.07.05:601][515]LogViewport: Scene viewport resized to 772x976, mode Windowed.
+[2023.08.25-19.07.06:271][594]LogSlate: Window 'BP_Projectile' being destroyed
+[2023.08.25-19.07.08:165][821]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.25-19.07.08:167][821]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.25-19.07.10:509][102]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-19.07.10:533][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset" SILENT=true
+[2023.08.25-19.07.10:535][102]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Projectile
+[2023.08.25-19.07.10:535][102]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile125DA9D948CC749CA80F3B92AD77E545.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset'
+[2023.08.25-19.07.10:538][102]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 447 ms)
+[2023.08.25-19.07.10:547][102]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.25-19.07.10:547][102]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2023.08.25-19.07.15:225][656]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: ================================================
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: Total job queries 106, among them cache hits 29 (27.36%)
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: Tracking 77 distinct input hashes that result in 53 distinct outputs (68.83%)
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.08.25-19.07.15:273][660]LogShaderCompilers: Display: ================================================
+[2023.08.25-19.07.20:641][179]LogStaticMesh: Display: Building static mesh SM_Projectile...
+[2023.08.25-19.07.20:655][179]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/SM_Projectile.SM_Projectile
+[2023.08.25-19.07.21:652][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-19.07.21:696][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset" SILENT=true
+[2023.08.25-19.07.21:698][272]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Projectile
+[2023.08.25-19.07.21:698][272]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile40501321408AA2DC6B9FFB9F371E9D11.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset'
+[2023.08.25-19.07.21:702][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 497 ms)
+[2023.08.25-19.07.21:714][272]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.25-19.07.21:714][272]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2023.08.25-19.07.27:448][958]BlueprintLog: New page: Compile BP_Projectile
+[2023.08.25-19.07.27:592][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.08.25-19.07.28:572][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-19.07.28:598][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset" SILENT=true
+[2023.08.25-19.07.28:600][ 72]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Projectile
+[2023.08.25-19.07.28:600][ 72]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile7A54D85D4A136678A9576A9FBD3C0722.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset'
+[2023.08.25-19.07.28:604][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 529 ms)
+[2023.08.25-19.07.28:615][ 72]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.25-19.07.28:615][ 72]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2023.08.25-19.08.51:916][809]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-19.08.54:657][817]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_18.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_18.exp
+[2023.08.25-19.08.55:053][819]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.25-19.08.55:053][819]LogClass: UClass Projectile Reload.
+[2023.08.25-19.08.55:053][819]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.25-19.08.55:063][819]Re-instancing Projectile after reload.
+[2023.08.25-19.08.55:175][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.08.25-19.08.55:538][820]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.25-19.08.55:538][820]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.25-19.10.10:398][ 45]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.25-19.10.11:926][ 49]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_19.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_19.exp
+[2023.08.25-19.10.12:290][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.08.25-19.10.12:531][ 51]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.08.25-19.10.12:531][ 51]LogLiveCoding: Display: Live coding succeeded
+[2023.08.25-19.10.33:408][168]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.08.25-19.10.33:408][168]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.08.25-19.10.43:084][210]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.08.25-19.10.43:091][210]LogContentBrowser: Creating deferred item: NewFolder
+[2023.08.25-19.10.43:095][211]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.08.25-19.10.45:185][462]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2023.08.25-19.10.45:185][462]LogContentBrowser: End creating deferred item NewFolder
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile_C' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:549][856]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2023.08.25-19.10.48:551][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-19.10.48:583][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.08.25-19.10.48:585][856]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.08.25-19.10.48:585][856]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile36DFA44A40F271BF9647459D0F48B3F4.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.08.25-19.10.48:589][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 567 ms)
+[2023.08.25-19.10.48:707][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.08.25-19.10.48:743][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.08.25-19.10.48:774][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.08.25-19.10.48:789][856]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.25-19.10.48:789][856]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.08.25-19.10.50:917][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.25-19.10.50:938][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.25-19.10.50:976][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.08.25-19.10.50:993][108]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.25-19.10.50:994][108]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/MainB2595F074676648C22F668B1294EC325.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.25-19.10.51:003][108]LogFileHelpers: No new changes to save!
+[2023.08.25-19.10.51:003][108]LogFileHelpers: Saving map 'Main' took 0.065
+[2023.08.25-19.10.51:007][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 657 ms)
+[2023.08.25-19.10.51:014][108]AssetCheck: New page: Asset Save: Main
+[2023.08.25-19.10.51:014][108]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.25-19.11.03:702][547]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.090 and deleted 0 files with total size 0 MiB. Scanned 4894 files in 4868 folders with total size 705 MiB.
+[2023.08.25-19.12.03:678][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms

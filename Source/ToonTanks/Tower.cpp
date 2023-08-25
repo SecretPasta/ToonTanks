@@ -33,7 +33,6 @@ void ATower::BeginPlay()
 void ATower::CheckFireCondition() {
 	////Check to see if the tank is in range
 	if (InFireRange()) {
-		//if in range rotate turret to tank
 		Fire();
 	}
 }
