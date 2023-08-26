@@ -2438,3 +2438,1404 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.26-10.05.46:797][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
 [2023.08.26-10.05.47:178][646]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
 [2023.08.26-10.05.47:178][646]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-10.31.03:894][201]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.31.06:655][209]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_5.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_5.exp
+[2023.08.26-10.31.07:284][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.08.26-10.31.07:549][212]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged, 1 function remapped
+[2023.08.26-10.31.07:549][212]LogLiveCoding: Display: Live coding succeeded
+[2023.08.26-10.31.10:829][454]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-10.31.10:832][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-10.31.10:832][454]PIE: New page: PIE session: Main (26 Aug 2023, 16:31:10)
+[2023.08.26-10.31.10:868][454]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.31.10:871][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003452s)
+[2023.08.26-10.31.10:871][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003474s)
+[2023.08.26-10.31.10:871][454]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-10.31.10:871][454]LogAIModule: Creating AISystem for world Main
+[2023.08.26-10.31.10:871][454]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2023.08.26-10.31.10:947][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.08.26-10.31.10:948][454]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-10.31.10:948][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-10.31.10:948][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-10.31.10:948][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-10.31.10:948][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-10.31.10:948][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-10.31.10:950][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-10.31.10:983][454]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-10.31.10:983][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-10.31.10:983][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-10.31.10:983][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-10.31.10:983][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.08.26-10.31.10:983][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.08.26-10.31.10:985][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.08.26-10.31.10:985][454]LogInit: FAudioDevice initialized.
+[2023.08.26-10.31.10:985][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.08.26-10.31.10:985][454]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2023.08.26-10.31.10:986][454]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-10.31.10:987][454]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-13.31.10
+[2023.08.26-10.31.10:987][454]LogWorld: Bringing up level for play took: 0.000878
+[2023.08.26-10.31.10:988][454]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.08.26-10.31.10:989][454]PIE: Server logged in
+[2023.08.26-10.31.10:989][454]PIE: Play in editor total start time 0.158 seconds.
+[2023.08.26-10.31.13:291][727]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-10.31.15:141][949]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.31.15:174][953]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Base Mesh
+[2023.08.26-10.31.17:108][185]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_1,OtherComp: Projectile Mesh
+[2023.08.26-10.31.17:108][185]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_4,OtherComp: Projectile Mesh
+[2023.08.26-10.31.17:266][204]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-10.31.18:833][392]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-10.31.18:857][395]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-10.31.19:075][421]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.31.19:938][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.31.19:938][522]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.31.19:938][522]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-10.31.19:938][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.31.19:940][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-10.31.19:947][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.31.19:980][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.31.19:980][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.26-10.31.19:982][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.26-10.31.20:011][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.08.26-10.31.20:044][523]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.08.26-10.37.19:743][167]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.37.23:183][177]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_6.exp
+[2023.08.26-10.37.23:311][178]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.26-10.37.23:311][178]LogClass: UClass Projectile Reload.
+[2023.08.26-10.37.23:311][178]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-10.37.23:311][178]LogClass: Function OnHit is new or belongs to a modified class.
+[2023.08.26-10.37.23:321][178]Re-instancing Projectile after reload.
+[2023.08.26-10.37.23:427][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.08.26-10.37.23:780][179]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.26-10.37.23:780][179]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-10.37.24:619][246]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-10.37.24:622][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-10.37.24:622][246]PIE: New page: PIE session: Main (26 Aug 2023, 16:37:24)
+[2023.08.26-10.37.24:646][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.37.24:649][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003044s)
+[2023.08.26-10.37.24:649][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003069s)
+[2023.08.26-10.37.24:649][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-10.37.24:649][246]LogAIModule: Creating AISystem for world Main
+[2023.08.26-10.37.24:649][246]LogPlayLevel: PIE: World Init took: (0.000427s)
+[2023.08.26-10.37.24:719][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.08.26-10.37.24:720][246]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-10.37.24:720][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-10.37.24:720][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-10.37.24:720][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-10.37.24:720][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-10.37.24:720][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-10.37.24:722][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-10.37.24:754][246]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-10.37.24:754][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-10.37.24:754][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-10.37.24:754][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-10.37.24:754][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.26-10.37.24:755][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.26-10.37.24:756][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.26-10.37.24:756][246]LogInit: FAudioDevice initialized.
+[2023.08.26-10.37.24:756][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.26-10.37.24:756][246]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2023.08.26-10.37.24:758][246]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-10.37.24:759][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-13.37.24
+[2023.08.26-10.37.24:759][246]LogWorld: Bringing up level for play took: 0.000851
+[2023.08.26-10.37.24:760][246]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.08.26-10.37.24:761][246]PIE: Server logged in
+[2023.08.26-10.37.24:761][246]PIE: Play in editor total start time 0.139 seconds.
+[2023.08.26-10.37.26:110][405]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.26:835][492]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.26:885][498]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.27:035][516]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:435][564]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:443][565]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:452][566]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:460][567]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:468][568]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:477][569]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:485][570]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:494][571]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:502][572]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:510][573]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:518][574]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:527][575]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:535][576]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:543][577]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:552][578]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:560][579]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:568][580]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:577][581]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:585][582]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:593][583]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:602][584]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:610][585]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:618][586]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:627][587]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:635][588]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:643][589]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:652][590]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:660][591]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:668][592]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:676][593]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:685][594]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:693][595]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:701][596]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:710][597]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:719][598]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:727][599]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:736][600]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:744][601]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:752][602]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:760][603]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:769][604]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:777][605]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:785][606]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:794][607]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:802][608]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:810][609]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:818][610]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:826][611]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:835][612]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:843][613]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:852][614]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.27:860][615]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.28:827][731]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.28:835][732]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.28:860][735]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.28:985][750]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.30:827][971]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.30:835][972]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-10.37.31:068][  0]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:152][ 10]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:160][ 11]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:168][ 12]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:177][ 13]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:185][ 14]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:193][ 15]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:201][ 16]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:210][ 17]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:218][ 18]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:227][ 19]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:235][ 20]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:243][ 21]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:252][ 22]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:260][ 23]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:268][ 24]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:277][ 25]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:285][ 26]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:293][ 27]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:301][ 28]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:310][ 29]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:318][ 30]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:326][ 31]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:335][ 32]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:343][ 33]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:352][ 34]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:360][ 35]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:369][ 36]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:377][ 37]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:385][ 38]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:393][ 39]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:401][ 40]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:410][ 41]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:418][ 42]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:427][ 43]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:435][ 44]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:443][ 45]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:452][ 46]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:460][ 47]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:468][ 48]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:476][ 49]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:485][ 50]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:493][ 51]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:502][ 52]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:510][ 53]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:519][ 54]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:527][ 55]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:535][ 56]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:543][ 57]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:552][ 58]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:560][ 59]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-10.37.31:926][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.37.31:926][ 99]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.37.31:926][ 99]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-10.37.31:926][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.37.31:928][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-10.37.31:934][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.37.31:966][ 99]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.26-10.37.31:968][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.26-10.37.31:969][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.26-10.37.31:973][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.37.32:000][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.08.26-10.37.32:044][100]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.08.26-10.37.50:595][293]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.090 and deleted 0 files with total size 0 MiB. Scanned 4894 files in 4868 folders with total size 705 MiB.
+[2023.08.26-10.42.07:879][ 64]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.42.09:994][ 71]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_7.exp
+[2023.08.26-10.42.10:486][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.08.26-10.42.10:790][ 73]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged, 1 function remapped
+[2023.08.26-10.42.10:790][ 73]LogLiveCoding: Display: Live coding succeeded
+[2023.08.26-10.42.13:620][153]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-10.42.13:623][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-10.42.13:623][153]PIE: New page: PIE session: Main (26 Aug 2023, 16:42:13)
+[2023.08.26-10.42.13:654][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.42.13:657][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003036s)
+[2023.08.26-10.42.13:657][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003058s)
+[2023.08.26-10.42.13:657][153]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-10.42.13:657][153]LogAIModule: Creating AISystem for world Main
+[2023.08.26-10.42.13:658][153]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2023.08.26-10.42.13:731][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.08.26-10.42.13:732][153]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-10.42.13:732][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-10.42.13:732][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-10.42.13:732][153]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-10.42.13:732][153]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-10.42.13:732][153]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-10.42.13:734][153]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-10.42.13:767][153]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-10.42.13:767][153]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-10.42.13:767][153]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-10.42.13:767][153]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-10.42.13:767][153]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.08.26-10.42.13:767][153]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.08.26-10.42.13:769][153]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.08.26-10.42.13:769][153]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.08.26-10.42.13:769][153]LogInit: FAudioDevice initialized.
+[2023.08.26-10.42.13:769][153]LogAudio: Display: Audio Device (ID: 7) registered with world 'Main'.
+[2023.08.26-10.42.13:771][153]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-10.42.13:771][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-13.42.13
+[2023.08.26-10.42.13:772][153]LogWorld: Bringing up level for play took: 0.000902
+[2023.08.26-10.42.13:773][153]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.08.26-10.42.13:774][153]PIE: Server logged in
+[2023.08.26-10.42.13:774][153]PIE: Play in editor total start time 0.152 seconds.
+[2023.08.26-10.42.24:474][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.42.24:474][426]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.42.24:474][426]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-10.42.24:474][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.42.24:476][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-10.42.24:483][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.42.24:517][426]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.26-10.42.24:517][426]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.26-10.42.24:519][426]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.26-10.42.24:522][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.42.24:525][426]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.08.26-10.42.24:557][427]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.08.26-10.44.16:922][999]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.44.19:360][  6]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_8.exp
+[2023.08.26-10.44.19:728][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.08.26-10.44.20:126][  8]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.26-10.44.20:126][  8]LogLiveCoding: Display: Live coding succeeded
+[2023.08.26-10.44.21:671][130]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-10.44.21:674][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-10.44.21:675][130]PIE: New page: PIE session: Main (26 Aug 2023, 16:44:21)
+[2023.08.26-10.44.21:713][130]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.44.21:716][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002887s)
+[2023.08.26-10.44.21:716][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002906s)
+[2023.08.26-10.44.21:716][130]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-10.44.21:716][130]LogAIModule: Creating AISystem for world Main
+[2023.08.26-10.44.21:716][130]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2023.08.26-10.44.21:791][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.08.26-10.44.21:793][130]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-10.44.21:793][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-10.44.21:793][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-10.44.21:793][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-10.44.21:793][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-10.44.21:793][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-10.44.21:795][130]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-10.44.21:828][130]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-10.44.21:828][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-10.44.21:828][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-10.44.21:828][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-10.44.21:828][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.08.26-10.44.21:828][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.08.26-10.44.21:829][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.08.26-10.44.21:829][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.08.26-10.44.21:829][130]LogInit: FAudioDevice initialized.
+[2023.08.26-10.44.21:829][130]LogAudio: Display: Audio Device (ID: 8) registered with world 'Main'.
+[2023.08.26-10.44.21:831][130]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-10.44.21:832][130]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-13.44.21
+[2023.08.26-10.44.21:832][130]LogWorld: Bringing up level for play took: 0.000866
+[2023.08.26-10.44.21:833][130]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.08.26-10.44.21:833][130]PIE: Server logged in
+[2023.08.26-10.44.21:834][130]PIE: Play in editor total start time 0.16 seconds.
+[2023.08.26-10.44.27:832][847]LogTemp: Warning: Health: 50.000000
+[2023.08.26-10.44.28:457][922]LogTemp: Warning: Health: 0.000000
+[2023.08.26-10.44.28:465][923]LogTemp: Warning: Health: -50.000000
+[2023.08.26-10.44.28:474][924]LogTemp: Warning: Health: -100.000000
+[2023.08.26-10.44.28:482][925]LogTemp: Warning: Health: -150.000000
+[2023.08.26-10.44.28:490][926]LogTemp: Warning: Health: -200.000000
+[2023.08.26-10.44.28:499][927]LogTemp: Warning: Health: -250.000000
+[2023.08.26-10.44.28:507][928]LogTemp: Warning: Health: -300.000000
+[2023.08.26-10.44.28:516][929]LogTemp: Warning: Health: -350.000000
+[2023.08.26-10.44.28:524][930]LogTemp: Warning: Health: -400.000000
+[2023.08.26-10.44.28:532][931]LogTemp: Warning: Health: -450.000000
+[2023.08.26-10.44.28:540][932]LogTemp: Warning: Health: -500.000000
+[2023.08.26-10.44.28:549][933]LogTemp: Warning: Health: -550.000000
+[2023.08.26-10.44.28:557][934]LogTemp: Warning: Health: -600.000000
+[2023.08.26-10.44.28:566][935]LogTemp: Warning: Health: -650.000000
+[2023.08.26-10.44.28:574][936]LogTemp: Warning: Health: -700.000000
+[2023.08.26-10.44.28:583][937]LogTemp: Warning: Health: -750.000000
+[2023.08.26-10.44.28:591][938]LogTemp: Warning: Health: -800.000000
+[2023.08.26-10.44.28:599][939]LogTemp: Warning: Health: -850.000000
+[2023.08.26-10.44.28:607][940]LogTemp: Warning: Health: -900.000000
+[2023.08.26-10.44.28:616][941]LogTemp: Warning: Health: -950.000000
+[2023.08.26-10.44.28:624][942]LogTemp: Warning: Health: -1000.000000
+[2023.08.26-10.44.28:632][943]LogTemp: Warning: Health: -1050.000000
+[2023.08.26-10.44.28:641][944]LogTemp: Warning: Health: -1100.000000
+[2023.08.26-10.44.28:649][945]LogTemp: Warning: Health: -1150.000000
+[2023.08.26-10.44.28:657][946]LogTemp: Warning: Health: -1200.000000
+[2023.08.26-10.44.28:666][947]LogTemp: Warning: Health: -1250.000000
+[2023.08.26-10.44.28:674][948]LogTemp: Warning: Health: -1300.000000
+[2023.08.26-10.44.28:682][949]LogTemp: Warning: Health: -1350.000000
+[2023.08.26-10.44.28:691][950]LogTemp: Warning: Health: -1400.000000
+[2023.08.26-10.44.28:699][951]LogTemp: Warning: Health: -1450.000000
+[2023.08.26-10.44.28:707][952]LogTemp: Warning: Health: -1500.000000
+[2023.08.26-10.44.28:716][953]LogTemp: Warning: Health: -1550.000000
+[2023.08.26-10.44.28:724][954]LogTemp: Warning: Health: -1600.000000
+[2023.08.26-10.44.28:732][955]LogTemp: Warning: Health: -1650.000000
+[2023.08.26-10.44.28:741][956]LogTemp: Warning: Health: -1700.000000
+[2023.08.26-10.44.28:749][957]LogTemp: Warning: Health: -1750.000000
+[2023.08.26-10.44.28:757][958]LogTemp: Warning: Health: -1800.000000
+[2023.08.26-10.44.28:766][959]LogTemp: Warning: Health: -1850.000000
+[2023.08.26-10.44.28:774][960]LogTemp: Warning: Health: -1900.000000
+[2023.08.26-10.44.28:782][961]LogTemp: Warning: Health: -1950.000000
+[2023.08.26-10.44.28:790][962]LogTemp: Warning: Health: -2000.000000
+[2023.08.26-10.44.28:799][963]LogTemp: Warning: Health: -2050.000000
+[2023.08.26-10.44.29:699][ 71]LogTemp: Warning: Health: -2100.000000
+[2023.08.26-10.44.29:707][ 72]LogTemp: Warning: Health: -2150.000000
+[2023.08.26-10.44.29:715][ 73]LogTemp: Warning: Health: -2200.000000
+[2023.08.26-10.44.29:724][ 74]LogTemp: Warning: Health: -2250.000000
+[2023.08.26-10.44.29:732][ 75]LogTemp: Warning: Health: -2300.000000
+[2023.08.26-10.44.29:740][ 76]LogTemp: Warning: Health: -2350.000000
+[2023.08.26-10.44.29:749][ 77]LogTemp: Warning: Health: -2400.000000
+[2023.08.26-10.44.29:757][ 78]LogTemp: Warning: Health: -2450.000000
+[2023.08.26-10.44.29:765][ 79]LogTemp: Warning: Health: -2500.000000
+[2023.08.26-10.44.29:774][ 80]LogTemp: Warning: Health: -2550.000000
+[2023.08.26-10.44.29:782][ 81]LogTemp: Warning: Health: -2600.000000
+[2023.08.26-10.44.29:791][ 82]LogTemp: Warning: Health: -2650.000000
+[2023.08.26-10.44.29:799][ 83]LogTemp: Warning: Health: -2700.000000
+[2023.08.26-10.44.29:807][ 84]LogTemp: Warning: Health: -2750.000000
+[2023.08.26-10.44.29:815][ 85]LogTemp: Warning: Health: -2800.000000
+[2023.08.26-10.44.29:824][ 86]LogTemp: Warning: Health: -2850.000000
+[2023.08.26-10.44.29:832][ 87]LogTemp: Warning: Health: -2900.000000
+[2023.08.26-10.44.29:840][ 88]LogTemp: Warning: Health: -2950.000000
+[2023.08.26-10.44.29:849][ 89]LogTemp: Warning: Health: -3000.000000
+[2023.08.26-10.44.29:857][ 90]LogTemp: Warning: Health: -3050.000000
+[2023.08.26-10.44.29:866][ 91]LogTemp: Warning: Health: -3100.000000
+[2023.08.26-10.44.29:874][ 92]LogTemp: Warning: Health: -3150.000000
+[2023.08.26-10.44.29:882][ 93]LogTemp: Warning: Health: -3200.000000
+[2023.08.26-10.44.29:891][ 94]LogTemp: Warning: Health: -3250.000000
+[2023.08.26-10.44.29:899][ 95]LogTemp: Warning: Health: -3300.000000
+[2023.08.26-10.44.29:907][ 96]LogTemp: Warning: Health: -3350.000000
+[2023.08.26-10.44.29:916][ 97]LogTemp: Warning: Health: -3400.000000
+[2023.08.26-10.44.29:924][ 98]LogTemp: Warning: Health: -3450.000000
+[2023.08.26-10.44.29:932][ 99]LogTemp: Warning: Health: -3500.000000
+[2023.08.26-10.44.29:940][100]LogTemp: Warning: Health: -3550.000000
+[2023.08.26-10.44.29:949][101]LogTemp: Warning: Health: -3600.000000
+[2023.08.26-10.44.29:957][102]LogTemp: Warning: Health: -3650.000000
+[2023.08.26-10.44.29:965][103]LogTemp: Warning: Health: -3700.000000
+[2023.08.26-10.44.30:374][152]LogTemp: Warning: Health: -3750.000000
+[2023.08.26-10.44.30:382][153]LogTemp: Warning: Health: -3800.000000
+[2023.08.26-10.44.30:390][154]LogTemp: Warning: Health: -3850.000000
+[2023.08.26-10.44.30:399][155]LogTemp: Warning: Health: -3900.000000
+[2023.08.26-10.44.30:407][156]LogTemp: Warning: Health: -3950.000000
+[2023.08.26-10.44.30:415][157]LogTemp: Warning: Health: -4000.000000
+[2023.08.26-10.44.30:424][158]LogTemp: Warning: Health: -4050.000000
+[2023.08.26-10.44.30:432][159]LogTemp: Warning: Health: -4100.000000
+[2023.08.26-10.44.30:440][160]LogTemp: Warning: Health: -4150.000000
+[2023.08.26-10.44.30:449][161]LogTemp: Warning: Health: -4200.000000
+[2023.08.26-10.44.30:457][162]LogTemp: Warning: Health: -4250.000000
+[2023.08.26-10.44.30:465][163]LogTemp: Warning: Health: -4300.000000
+[2023.08.26-10.44.30:474][164]LogTemp: Warning: Health: -4350.000000
+[2023.08.26-10.44.30:482][165]LogTemp: Warning: Health: -4400.000000
+[2023.08.26-10.44.30:490][166]LogTemp: Warning: Health: -4450.000000
+[2023.08.26-10.44.30:499][167]LogTemp: Warning: Health: -4500.000000
+[2023.08.26-10.44.30:507][168]LogTemp: Warning: Health: -4550.000000
+[2023.08.26-10.44.30:515][169]LogTemp: Warning: Health: -4600.000000
+[2023.08.26-10.44.30:523][170]LogTemp: Warning: Health: -4650.000000
+[2023.08.26-10.44.30:532][171]LogTemp: Warning: Health: -4700.000000
+[2023.08.26-10.44.30:540][172]LogTemp: Warning: Health: -4750.000000
+[2023.08.26-10.44.30:549][173]LogTemp: Warning: Health: -4800.000000
+[2023.08.26-10.44.30:557][174]LogTemp: Warning: Health: -4850.000000
+[2023.08.26-10.44.30:565][175]LogTemp: Warning: Health: -4900.000000
+[2023.08.26-10.44.30:574][176]LogTemp: Warning: Health: -4950.000000
+[2023.08.26-10.44.30:582][177]LogTemp: Warning: Health: -5000.000000
+[2023.08.26-10.44.30:590][178]LogTemp: Warning: Health: -5050.000000
+[2023.08.26-10.44.30:599][179]LogTemp: Warning: Health: -5100.000000
+[2023.08.26-10.44.30:607][180]LogTemp: Warning: Health: -5150.000000
+[2023.08.26-10.44.30:615][181]LogTemp: Warning: Health: -5200.000000
+[2023.08.26-10.44.30:624][182]LogTemp: Warning: Health: -5250.000000
+[2023.08.26-10.44.30:632][183]LogTemp: Warning: Health: -5300.000000
+[2023.08.26-10.44.30:640][184]LogTemp: Warning: Health: -5350.000000
+[2023.08.26-10.44.30:649][185]LogTemp: Warning: Health: -5400.000000
+[2023.08.26-10.44.30:657][186]LogTemp: Warning: Health: -5450.000000
+[2023.08.26-10.44.30:665][187]LogTemp: Warning: Health: -5500.000000
+[2023.08.26-10.44.30:674][188]LogTemp: Warning: Health: -5550.000000
+[2023.08.26-10.44.30:682][189]LogTemp: Warning: Health: -5600.000000
+[2023.08.26-10.44.30:690][190]LogTemp: Warning: Health: -5650.000000
+[2023.08.26-10.44.30:698][191]LogTemp: Warning: Health: -5700.000000
+[2023.08.26-10.44.30:707][192]LogTemp: Warning: Health: -5750.000000
+[2023.08.26-10.44.30:716][193]LogTemp: Warning: Health: -5800.000000
+[2023.08.26-10.44.30:724][194]LogTemp: Warning: Health: -5850.000000
+[2023.08.26-10.44.30:732][195]LogTemp: Warning: Health: -5900.000000
+[2023.08.26-10.44.30:740][196]LogTemp: Warning: Health: -5950.000000
+[2023.08.26-10.44.30:749][197]LogTemp: Warning: Health: -6000.000000
+[2023.08.26-10.44.30:757][198]LogTemp: Warning: Health: -6050.000000
+[2023.08.26-10.44.30:765][199]LogTemp: Warning: Health: -6100.000000
+[2023.08.26-10.44.30:774][200]LogTemp: Warning: Health: -6150.000000
+[2023.08.26-10.44.30:782][201]LogTemp: Warning: Health: -6200.000000
+[2023.08.26-10.44.30:791][202]LogTemp: Warning: Health: -6250.000000
+[2023.08.26-10.44.30:799][203]LogTemp: Warning: Health: -6300.000000
+[2023.08.26-10.44.30:807][204]LogTemp: Warning: Health: -6350.000000
+[2023.08.26-10.44.30:815][205]LogTemp: Warning: Health: -6400.000000
+[2023.08.26-10.44.30:824][206]LogTemp: Warning: Health: -6450.000000
+[2023.08.26-10.44.30:832][207]LogTemp: Warning: Health: -6500.000000
+[2023.08.26-10.44.30:841][208]LogTemp: Warning: Health: -6550.000000
+[2023.08.26-10.44.30:849][209]LogTemp: Warning: Health: -6600.000000
+[2023.08.26-10.44.30:857][210]LogTemp: Warning: Health: -6650.000000
+[2023.08.26-10.44.30:866][211]LogTemp: Warning: Health: -6700.000000
+[2023.08.26-10.44.30:875][212]LogTemp: Warning: Health: -6750.000000
+[2023.08.26-10.44.30:884][213]LogTemp: Warning: Health: -6800.000000
+[2023.08.26-10.44.30:891][214]LogTemp: Warning: Health: -6850.000000
+[2023.08.26-10.44.30:899][215]LogTemp: Warning: Health: -6900.000000
+[2023.08.26-10.44.30:908][216]LogTemp: Warning: Health: -6950.000000
+[2023.08.26-10.44.30:916][217]LogTemp: Warning: Health: -7000.000000
+[2023.08.26-10.44.30:924][218]LogTemp: Warning: Health: -7050.000000
+[2023.08.26-10.44.30:933][219]LogTemp: Warning: Health: -7100.000000
+[2023.08.26-10.44.30:942][220]LogTemp: Warning: Health: -7150.000000
+[2023.08.26-10.44.30:950][221]LogTemp: Warning: Health: -7200.000000
+[2023.08.26-10.44.30:958][222]LogTemp: Warning: Health: -7250.000000
+[2023.08.26-10.44.30:966][223]LogTemp: Warning: Health: -7300.000000
+[2023.08.26-10.44.30:974][224]LogTemp: Warning: Health: -7350.000000
+[2023.08.26-10.44.30:982][225]LogTemp: Warning: Health: -7400.000000
+[2023.08.26-10.44.30:991][226]LogTemp: Warning: Health: -7450.000000
+[2023.08.26-10.44.31:000][227]LogTemp: Warning: Health: -7500.000000
+[2023.08.26-10.44.31:008][228]LogTemp: Warning: Health: -7550.000000
+[2023.08.26-10.44.31:016][229]LogTemp: Warning: Health: -7600.000000
+[2023.08.26-10.44.31:026][230]LogTemp: Warning: Health: -7650.000000
+[2023.08.26-10.44.31:033][231]LogTemp: Warning: Health: -7700.000000
+[2023.08.26-10.44.31:041][232]LogTemp: Warning: Health: -7750.000000
+[2023.08.26-10.44.31:049][233]LogTemp: Warning: Health: -7800.000000
+[2023.08.26-10.44.31:058][234]LogTemp: Warning: Health: -7850.000000
+[2023.08.26-10.44.31:066][235]LogTemp: Warning: Health: -7900.000000
+[2023.08.26-10.44.31:074][236]LogTemp: Warning: Health: -7950.000000
+[2023.08.26-10.44.31:083][237]LogTemp: Warning: Health: -8000.000000
+[2023.08.26-10.44.31:091][238]LogTemp: Warning: Health: -8050.000000
+[2023.08.26-10.44.31:100][239]LogTemp: Warning: Health: -8100.000000
+[2023.08.26-10.44.31:108][240]LogTemp: Warning: Health: -8150.000000
+[2023.08.26-10.44.31:116][241]LogTemp: Warning: Health: -8200.000000
+[2023.08.26-10.44.31:125][242]LogTemp: Warning: Health: -8250.000000
+[2023.08.26-10.44.31:133][243]LogTemp: Warning: Health: -8300.000000
+[2023.08.26-10.44.31:141][244]LogTemp: Warning: Health: -8350.000000
+[2023.08.26-10.44.31:150][245]LogTemp: Warning: Health: -8400.000000
+[2023.08.26-10.44.31:158][246]LogTemp: Warning: Health: -8450.000000
+[2023.08.26-10.44.31:166][247]LogTemp: Warning: Health: -8500.000000
+[2023.08.26-10.44.31:175][248]LogTemp: Warning: Health: -8550.000000
+[2023.08.26-10.44.31:183][249]LogTemp: Warning: Health: -8600.000000
+[2023.08.26-10.44.31:191][250]LogTemp: Warning: Health: -8650.000000
+[2023.08.26-10.44.31:199][251]LogTemp: Warning: Health: -8700.000000
+[2023.08.26-10.44.31:207][252]LogTemp: Warning: Health: -8750.000000
+[2023.08.26-10.44.31:215][253]LogTemp: Warning: Health: -8800.000000
+[2023.08.26-10.44.31:224][254]LogTemp: Warning: Health: -8850.000000
+[2023.08.26-10.44.31:232][255]LogTemp: Warning: Health: -8900.000000
+[2023.08.26-10.44.31:240][256]LogTemp: Warning: Health: -8950.000000
+[2023.08.26-10.44.31:249][257]LogTemp: Warning: Health: -9000.000000
+[2023.08.26-10.44.31:257][258]LogTemp: Warning: Health: -9050.000000
+[2023.08.26-10.44.31:265][259]LogTemp: Warning: Health: -9100.000000
+[2023.08.26-10.44.31:274][260]LogTemp: Warning: Health: -9150.000000
+[2023.08.26-10.44.31:282][261]LogTemp: Warning: Health: -9200.000000
+[2023.08.26-10.44.31:290][262]LogTemp: Warning: Health: -9250.000000
+[2023.08.26-10.44.31:299][263]LogTemp: Warning: Health: -9300.000000
+[2023.08.26-10.44.31:307][264]LogTemp: Warning: Health: -9350.000000
+[2023.08.26-10.44.31:315][265]LogTemp: Warning: Health: -9400.000000
+[2023.08.26-10.44.31:324][266]LogTemp: Warning: Health: -9450.000000
+[2023.08.26-10.44.31:332][267]LogTemp: Warning: Health: -9500.000000
+[2023.08.26-10.44.31:340][268]LogTemp: Warning: Health: -9550.000000
+[2023.08.26-10.44.31:348][269]LogTemp: Warning: Health: -9600.000000
+[2023.08.26-10.44.31:357][270]LogTemp: Warning: Health: -9650.000000
+[2023.08.26-10.44.31:365][271]LogTemp: Warning: Health: -9700.000000
+[2023.08.26-10.44.31:374][272]LogTemp: Warning: Health: -9750.000000
+[2023.08.26-10.44.31:382][273]LogTemp: Warning: Health: -9800.000000
+[2023.08.26-10.44.31:390][274]LogTemp: Warning: Health: -9850.000000
+[2023.08.26-10.44.31:398][275]LogTemp: Warning: Health: -9900.000000
+[2023.08.26-10.44.31:407][276]LogTemp: Warning: Health: -9950.000000
+[2023.08.26-10.44.31:415][277]LogTemp: Warning: Health: -10000.000000
+[2023.08.26-10.44.31:424][278]LogTemp: Warning: Health: -10050.000000
+[2023.08.26-10.44.31:432][279]LogTemp: Warning: Health: -10100.000000
+[2023.08.26-10.44.31:440][280]LogTemp: Warning: Health: -10150.000000
+[2023.08.26-10.44.31:449][281]LogTemp: Warning: Health: -10200.000000
+[2023.08.26-10.44.31:457][282]LogTemp: Warning: Health: -10250.000000
+[2023.08.26-10.44.31:465][283]LogTemp: Warning: Health: -10300.000000
+[2023.08.26-10.44.31:474][284]LogTemp: Warning: Health: -10350.000000
+[2023.08.26-10.44.31:482][285]LogTemp: Warning: Health: -10400.000000
+[2023.08.26-10.44.31:490][286]LogTemp: Warning: Health: -10450.000000
+[2023.08.26-10.44.31:498][287]LogTemp: Warning: Health: -10500.000000
+[2023.08.26-10.44.31:507][288]LogTemp: Warning: Health: -10550.000000
+[2023.08.26-10.44.31:515][289]LogTemp: Warning: Health: -10600.000000
+[2023.08.26-10.44.31:524][290]LogTemp: Warning: Health: -10650.000000
+[2023.08.26-10.44.31:533][291]LogTemp: Warning: Health: -10700.000000
+[2023.08.26-10.44.31:542][292]LogTemp: Warning: Health: -10750.000000
+[2023.08.26-10.44.31:550][293]LogTemp: Warning: Health: -10800.000000
+[2023.08.26-10.44.31:558][294]LogTemp: Warning: Health: -10850.000000
+[2023.08.26-10.44.31:566][295]LogTemp: Warning: Health: -10900.000000
+[2023.08.26-10.44.31:574][296]LogTemp: Warning: Health: -10950.000000
+[2023.08.26-10.44.31:582][297]LogTemp: Warning: Health: -11000.000000
+[2023.08.26-10.44.31:590][298]LogTemp: Warning: Health: -11050.000000
+[2023.08.26-10.44.31:599][299]LogTemp: Warning: Health: -11100.000000
+[2023.08.26-10.44.31:607][300]LogTemp: Warning: Health: -11150.000000
+[2023.08.26-10.44.31:615][301]LogTemp: Warning: Health: -11200.000000
+[2023.08.26-10.44.31:624][302]LogTemp: Warning: Health: -11250.000000
+[2023.08.26-10.44.31:632][303]LogTemp: Warning: Health: -11300.000000
+[2023.08.26-10.44.31:640][304]LogTemp: Warning: Health: -11350.000000
+[2023.08.26-10.44.31:649][305]LogTemp: Warning: Health: -11400.000000
+[2023.08.26-10.44.31:657][306]LogTemp: Warning: Health: -11450.000000
+[2023.08.26-10.44.31:665][307]LogTemp: Warning: Health: -11500.000000
+[2023.08.26-10.44.31:674][308]LogTemp: Warning: Health: -11550.000000
+[2023.08.26-10.44.31:683][309]LogTemp: Warning: Health: -11600.000000
+[2023.08.26-10.44.31:691][310]LogTemp: Warning: Health: -11650.000000
+[2023.08.26-10.44.31:699][311]LogTemp: Warning: Health: -11700.000000
+[2023.08.26-10.44.31:707][312]LogTemp: Warning: Health: -11750.000000
+[2023.08.26-10.44.31:715][313]LogTemp: Warning: Health: -11800.000000
+[2023.08.26-10.44.31:724][314]LogTemp: Warning: Health: -11850.000000
+[2023.08.26-10.44.31:732][315]LogTemp: Warning: Health: -11900.000000
+[2023.08.26-10.44.31:740][316]LogTemp: Warning: Health: -11950.000000
+[2023.08.26-10.44.31:749][317]LogTemp: Warning: Health: -12000.000000
+[2023.08.26-10.44.31:757][318]LogTemp: Warning: Health: -12050.000000
+[2023.08.26-10.44.31:765][319]LogTemp: Warning: Health: -12100.000000
+[2023.08.26-10.44.31:774][320]LogTemp: Warning: Health: -12150.000000
+[2023.08.26-10.44.31:782][321]LogTemp: Warning: Health: -12200.000000
+[2023.08.26-10.44.31:790][322]LogTemp: Warning: Health: -12250.000000
+[2023.08.26-10.44.31:798][323]LogTemp: Warning: Health: -12300.000000
+[2023.08.26-10.44.31:807][324]LogTemp: Warning: Health: -12350.000000
+[2023.08.26-10.44.31:815][325]LogTemp: Warning: Health: -12400.000000
+[2023.08.26-10.44.31:824][326]LogTemp: Warning: Health: -12450.000000
+[2023.08.26-10.44.31:832][327]LogTemp: Warning: Health: -12500.000000
+[2023.08.26-10.44.31:840][328]LogTemp: Warning: Health: -12550.000000
+[2023.08.26-10.44.31:848][329]LogTemp: Warning: Health: -12600.000000
+[2023.08.26-10.44.31:857][330]LogTemp: Warning: Health: -12650.000000
+[2023.08.26-10.44.31:865][331]LogTemp: Warning: Health: -12700.000000
+[2023.08.26-10.44.31:874][332]LogTemp: Warning: Health: -12750.000000
+[2023.08.26-10.44.31:882][333]LogTemp: Warning: Health: -12800.000000
+[2023.08.26-10.44.31:890][334]LogTemp: Warning: Health: -12850.000000
+[2023.08.26-10.44.31:899][335]LogTemp: Warning: Health: -12900.000000
+[2023.08.26-10.44.31:907][336]LogTemp: Warning: Health: -12950.000000
+[2023.08.26-10.44.31:915][337]LogTemp: Warning: Health: -13000.000000
+[2023.08.26-10.44.31:923][338]LogTemp: Warning: Health: -13050.000000
+[2023.08.26-10.44.31:932][339]LogTemp: Warning: Health: -13100.000000
+[2023.08.26-10.44.31:940][340]LogTemp: Warning: Health: -13150.000000
+[2023.08.26-10.44.31:949][341]LogTemp: Warning: Health: -13200.000000
+[2023.08.26-10.44.31:957][342]LogTemp: Warning: Health: -13250.000000
+[2023.08.26-10.44.31:965][343]LogTemp: Warning: Health: -13300.000000
+[2023.08.26-10.44.31:974][344]LogTemp: Warning: Health: -13350.000000
+[2023.08.26-10.44.31:982][345]LogTemp: Warning: Health: -13400.000000
+[2023.08.26-10.44.31:990][346]LogTemp: Warning: Health: -13450.000000
+[2023.08.26-10.44.31:999][347]LogTemp: Warning: Health: -13500.000000
+[2023.08.26-10.44.32:007][348]LogTemp: Warning: Health: -13550.000000
+[2023.08.26-10.44.32:015][349]LogTemp: Warning: Health: -13600.000000
+[2023.08.26-10.44.32:024][350]LogTemp: Warning: Health: -13650.000000
+[2023.08.26-10.44.32:032][351]LogTemp: Warning: Health: -13700.000000
+[2023.08.26-10.44.32:040][352]LogTemp: Warning: Health: -13750.000000
+[2023.08.26-10.44.32:049][353]LogTemp: Warning: Health: -13800.000000
+[2023.08.26-10.44.32:058][354]LogTemp: Warning: Health: -13850.000000
+[2023.08.26-10.44.32:066][355]LogTemp: Warning: Health: -13900.000000
+[2023.08.26-10.44.32:074][356]LogTemp: Warning: Health: -13950.000000
+[2023.08.26-10.44.32:082][357]LogTemp: Warning: Health: -14000.000000
+[2023.08.26-10.44.32:090][358]LogTemp: Warning: Health: -14050.000000
+[2023.08.26-10.44.32:099][359]LogTemp: Warning: Health: -14100.000000
+[2023.08.26-10.44.32:107][360]LogTemp: Warning: Health: -14150.000000
+[2023.08.26-10.44.32:116][361]LogTemp: Warning: Health: -14200.000000
+[2023.08.26-10.44.32:124][362]LogTemp: Warning: Health: -14250.000000
+[2023.08.26-10.44.32:132][363]LogTemp: Warning: Health: -14300.000000
+[2023.08.26-10.44.32:140][364]LogTemp: Warning: Health: -14350.000000
+[2023.08.26-10.44.32:149][365]LogTemp: Warning: Health: -14400.000000
+[2023.08.26-10.44.32:158][366]LogTemp: Warning: Health: -14450.000000
+[2023.08.26-10.44.32:166][367]LogTemp: Warning: Health: -14500.000000
+[2023.08.26-10.44.32:174][368]LogTemp: Warning: Health: -14550.000000
+[2023.08.26-10.44.32:183][369]LogTemp: Warning: Health: -14600.000000
+[2023.08.26-10.44.32:191][370]LogTemp: Warning: Health: -14650.000000
+[2023.08.26-10.44.32:199][371]LogTemp: Warning: Health: -14700.000000
+[2023.08.26-10.44.32:207][372]LogTemp: Warning: Health: -14750.000000
+[2023.08.26-10.44.32:216][373]LogTemp: Warning: Health: -14800.000000
+[2023.08.26-10.44.32:224][374]LogTemp: Warning: Health: -14850.000000
+[2023.08.26-10.44.32:232][375]LogTemp: Warning: Health: -14900.000000
+[2023.08.26-10.44.32:241][376]LogTemp: Warning: Health: -14950.000000
+[2023.08.26-10.44.32:249][377]LogTemp: Warning: Health: -15000.000000
+[2023.08.26-10.44.32:257][378]LogTemp: Warning: Health: -15050.000000
+[2023.08.26-10.44.32:265][379]LogTemp: Warning: Health: -15100.000000
+[2023.08.26-10.44.32:274][380]LogTemp: Warning: Health: -15150.000000
+[2023.08.26-10.44.32:282][381]LogTemp: Warning: Health: -15200.000000
+[2023.08.26-10.44.32:290][382]LogTemp: Warning: Health: -15250.000000
+[2023.08.26-10.44.32:299][383]LogTemp: Warning: Health: -15300.000000
+[2023.08.26-10.44.32:307][384]LogTemp: Warning: Health: -15350.000000
+[2023.08.26-10.44.32:316][385]LogTemp: Warning: Health: -15400.000000
+[2023.08.26-10.44.32:324][386]LogTemp: Warning: Health: -15450.000000
+[2023.08.26-10.44.32:332][387]LogTemp: Warning: Health: -15500.000000
+[2023.08.26-10.44.32:341][388]LogTemp: Warning: Health: -15550.000000
+[2023.08.26-10.44.32:349][389]LogTemp: Warning: Health: -15600.000000
+[2023.08.26-10.44.32:357][390]LogTemp: Warning: Health: -15650.000000
+[2023.08.26-10.44.32:366][391]LogTemp: Warning: Health: -15700.000000
+[2023.08.26-10.44.32:374][392]LogTemp: Warning: Health: -15750.000000
+[2023.08.26-10.44.32:382][393]LogTemp: Warning: Health: -15800.000000
+[2023.08.26-10.44.32:391][394]LogTemp: Warning: Health: -15850.000000
+[2023.08.26-10.44.32:399][395]LogTemp: Warning: Health: -15900.000000
+[2023.08.26-10.44.32:407][396]LogTemp: Warning: Health: -15950.000000
+[2023.08.26-10.44.32:416][397]LogTemp: Warning: Health: -16000.000000
+[2023.08.26-10.44.32:424][398]LogTemp: Warning: Health: -16050.000000
+[2023.08.26-10.44.32:432][399]LogTemp: Warning: Health: -16100.000000
+[2023.08.26-10.44.32:441][400]LogTemp: Warning: Health: -16150.000000
+[2023.08.26-10.44.32:449][401]LogTemp: Warning: Health: -16200.000000
+[2023.08.26-10.44.32:457][402]LogTemp: Warning: Health: -16250.000000
+[2023.08.26-10.44.32:466][403]LogTemp: Warning: Health: -16300.000000
+[2023.08.26-10.44.32:474][404]LogTemp: Warning: Health: -16350.000000
+[2023.08.26-10.44.32:482][405]LogTemp: Warning: Health: -16400.000000
+[2023.08.26-10.44.32:491][406]LogTemp: Warning: Health: -16450.000000
+[2023.08.26-10.44.32:499][407]LogTemp: Warning: Health: -16500.000000
+[2023.08.26-10.44.32:507][408]LogTemp: Warning: Health: -16550.000000
+[2023.08.26-10.44.32:515][409]LogTemp: Warning: Health: -16600.000000
+[2023.08.26-10.44.32:524][410]LogTemp: Warning: Health: -16650.000000
+[2023.08.26-10.44.32:532][411]LogTemp: Warning: Health: -16700.000000
+[2023.08.26-10.44.32:541][412]LogTemp: Warning: Health: -16750.000000
+[2023.08.26-10.44.32:549][413]LogTemp: Warning: Health: -16800.000000
+[2023.08.26-10.44.32:557][414]LogTemp: Warning: Health: -16850.000000
+[2023.08.26-10.44.32:566][415]LogTemp: Warning: Health: -16900.000000
+[2023.08.26-10.44.32:574][416]LogTemp: Warning: Health: -16950.000000
+[2023.08.26-10.44.32:583][417]LogTemp: Warning: Health: -17000.000000
+[2023.08.26-10.44.32:591][418]LogTemp: Warning: Health: -17050.000000
+[2023.08.26-10.44.32:600][419]LogTemp: Warning: Health: -17100.000000
+[2023.08.26-10.44.32:608][420]LogTemp: Warning: Health: -17150.000000
+[2023.08.26-10.44.32:617][421]LogTemp: Warning: Health: -17200.000000
+[2023.08.26-10.44.32:624][422]LogTemp: Warning: Health: -17250.000000
+[2023.08.26-10.44.32:633][423]LogTemp: Warning: Health: -17300.000000
+[2023.08.26-10.44.32:641][424]LogTemp: Warning: Health: -17350.000000
+[2023.08.26-10.44.32:649][425]LogTemp: Warning: Health: -17400.000000
+[2023.08.26-10.44.32:658][426]LogTemp: Warning: Health: -17450.000000
+[2023.08.26-10.44.32:666][427]LogTemp: Warning: Health: -17500.000000
+[2023.08.26-10.44.32:674][428]LogTemp: Warning: Health: -17550.000000
+[2023.08.26-10.44.32:683][429]LogTemp: Warning: Health: -17600.000000
+[2023.08.26-10.44.32:691][430]LogTemp: Warning: Health: -17650.000000
+[2023.08.26-10.44.32:699][431]LogTemp: Warning: Health: -17700.000000
+[2023.08.26-10.44.32:708][432]LogTemp: Warning: Health: -17750.000000
+[2023.08.26-10.44.32:716][433]LogTemp: Warning: Health: -17800.000000
+[2023.08.26-10.44.32:724][434]LogTemp: Warning: Health: -17850.000000
+[2023.08.26-10.44.32:733][435]LogTemp: Warning: Health: -17900.000000
+[2023.08.26-10.44.32:741][436]LogTemp: Warning: Health: -17950.000000
+[2023.08.26-10.44.32:749][437]LogTemp: Warning: Health: -18000.000000
+[2023.08.26-10.44.32:758][438]LogTemp: Warning: Health: -18050.000000
+[2023.08.26-10.44.32:766][439]LogTemp: Warning: Health: -18100.000000
+[2023.08.26-10.44.32:775][440]LogTemp: Warning: Health: -18150.000000
+[2023.08.26-10.44.32:783][441]LogTemp: Warning: Health: -18200.000000
+[2023.08.26-10.44.32:791][442]LogTemp: Warning: Health: -18250.000000
+[2023.08.26-10.44.32:800][443]LogTemp: Warning: Health: -18300.000000
+[2023.08.26-10.44.32:808][444]LogTemp: Warning: Health: -18350.000000
+[2023.08.26-10.44.32:816][445]LogTemp: Warning: Health: -18400.000000
+[2023.08.26-10.44.32:825][446]LogTemp: Warning: Health: -18450.000000
+[2023.08.26-10.44.32:832][447]LogTemp: Warning: Health: -18500.000000
+[2023.08.26-10.44.32:840][448]LogTemp: Warning: Health: -18550.000000
+[2023.08.26-10.44.32:849][449]LogTemp: Warning: Health: -18600.000000
+[2023.08.26-10.44.32:857][450]LogTemp: Warning: Health: -18650.000000
+[2023.08.26-10.44.32:865][451]LogTemp: Warning: Health: -18700.000000
+[2023.08.26-10.44.32:874][452]LogTemp: Warning: Health: -18750.000000
+[2023.08.26-10.44.32:882][453]LogTemp: Warning: Health: -18800.000000
+[2023.08.26-10.44.32:890][454]LogTemp: Warning: Health: -18850.000000
+[2023.08.26-10.44.32:899][455]LogTemp: Warning: Health: -18900.000000
+[2023.08.26-10.44.32:907][456]LogTemp: Warning: Health: -18950.000000
+[2023.08.26-10.44.32:916][457]LogTemp: Warning: Health: -19000.000000
+[2023.08.26-10.44.32:924][458]LogTemp: Warning: Health: -19050.000000
+[2023.08.26-10.44.32:932][459]LogTemp: Warning: Health: -19100.000000
+[2023.08.26-10.44.32:940][460]LogTemp: Warning: Health: -19150.000000
+[2023.08.26-10.44.32:949][461]LogTemp: Warning: Health: -19200.000000
+[2023.08.26-10.44.32:957][462]LogTemp: Warning: Health: -19250.000000
+[2023.08.26-10.44.32:965][463]LogTemp: Warning: Health: -19300.000000
+[2023.08.26-10.44.32:973][464]LogTemp: Warning: Health: -19350.000000
+[2023.08.26-10.44.32:982][465]LogTemp: Warning: Health: -19400.000000
+[2023.08.26-10.44.32:990][466]LogTemp: Warning: Health: -19450.000000
+[2023.08.26-10.44.32:999][467]LogTemp: Warning: Health: -19500.000000
+[2023.08.26-10.44.33:007][468]LogTemp: Warning: Health: -19550.000000
+[2023.08.26-10.44.33:015][469]LogTemp: Warning: Health: -19600.000000
+[2023.08.26-10.44.33:024][470]LogTemp: Warning: Health: -19650.000000
+[2023.08.26-10.44.33:032][471]LogTemp: Warning: Health: -19700.000000
+[2023.08.26-10.44.33:041][472]LogTemp: Warning: Health: -19750.000000
+[2023.08.26-10.44.33:049][473]LogTemp: Warning: Health: -19800.000000
+[2023.08.26-10.44.33:057][474]LogTemp: Warning: Health: -19850.000000
+[2023.08.26-10.44.33:065][475]LogTemp: Warning: Health: -19900.000000
+[2023.08.26-10.44.33:074][476]LogTemp: Warning: Health: -19950.000000
+[2023.08.26-10.44.33:082][477]LogTemp: Warning: Health: -20000.000000
+[2023.08.26-10.44.33:090][478]LogTemp: Warning: Health: -20050.000000
+[2023.08.26-10.44.33:099][479]LogTemp: Warning: Health: -20100.000000
+[2023.08.26-10.44.33:107][480]LogTemp: Warning: Health: -20150.000000
+[2023.08.26-10.44.33:115][481]LogTemp: Warning: Health: -20200.000000
+[2023.08.26-10.44.33:123][482]LogTemp: Warning: Health: -20250.000000
+[2023.08.26-10.44.33:132][483]LogTemp: Warning: Health: -20300.000000
+[2023.08.26-10.44.33:140][484]LogTemp: Warning: Health: -20350.000000
+[2023.08.26-10.44.33:149][485]LogTemp: Warning: Health: -20400.000000
+[2023.08.26-10.44.33:157][486]LogTemp: Warning: Health: -20450.000000
+[2023.08.26-10.44.33:165][487]LogTemp: Warning: Health: -20500.000000
+[2023.08.26-10.44.33:174][488]LogTemp: Warning: Health: -20550.000000
+[2023.08.26-10.44.33:182][489]LogTemp: Warning: Health: -20600.000000
+[2023.08.26-10.44.33:190][490]LogTemp: Warning: Health: -20650.000000
+[2023.08.26-10.44.33:199][491]LogTemp: Warning: Health: -20700.000000
+[2023.08.26-10.44.33:207][492]LogTemp: Warning: Health: -20750.000000
+[2023.08.26-10.44.33:216][493]LogTemp: Warning: Health: -20800.000000
+[2023.08.26-10.44.33:224][494]LogTemp: Warning: Health: -20850.000000
+[2023.08.26-10.44.33:232][495]LogTemp: Warning: Health: -20900.000000
+[2023.08.26-10.44.33:241][496]LogTemp: Warning: Health: -20950.000000
+[2023.08.26-10.44.33:249][497]LogTemp: Warning: Health: -21000.000000
+[2023.08.26-10.44.33:257][498]LogTemp: Warning: Health: -21050.000000
+[2023.08.26-10.44.33:265][499]LogTemp: Warning: Health: -21100.000000
+[2023.08.26-10.44.33:274][500]LogTemp: Warning: Health: -21150.000000
+[2023.08.26-10.44.33:282][501]LogTemp: Warning: Health: -21200.000000
+[2023.08.26-10.44.33:290][502]LogTemp: Warning: Health: -21250.000000
+[2023.08.26-10.44.33:299][503]LogTemp: Warning: Health: -21300.000000
+[2023.08.26-10.44.33:307][504]LogTemp: Warning: Health: -21350.000000
+[2023.08.26-10.44.33:315][505]LogTemp: Warning: Health: -21400.000000
+[2023.08.26-10.44.33:324][506]LogTemp: Warning: Health: -21450.000000
+[2023.08.26-10.44.33:332][507]LogTemp: Warning: Health: -21500.000000
+[2023.08.26-10.44.33:340][508]LogTemp: Warning: Health: -21550.000000
+[2023.08.26-10.44.33:349][509]LogTemp: Warning: Health: -21600.000000
+[2023.08.26-10.44.33:357][510]LogTemp: Warning: Health: -21650.000000
+[2023.08.26-10.44.33:366][511]LogTemp: Warning: Health: -21700.000000
+[2023.08.26-10.44.33:374][512]LogTemp: Warning: Health: -21750.000000
+[2023.08.26-10.44.33:382][513]LogTemp: Warning: Health: -21800.000000
+[2023.08.26-10.44.33:391][514]LogTemp: Warning: Health: -21850.000000
+[2023.08.26-10.44.33:399][515]LogTemp: Warning: Health: -21900.000000
+[2023.08.26-10.44.33:407][516]LogTemp: Warning: Health: -21950.000000
+[2023.08.26-10.44.33:415][517]LogTemp: Warning: Health: -22000.000000
+[2023.08.26-10.44.33:424][518]LogTemp: Warning: Health: -22050.000000
+[2023.08.26-10.44.33:432][519]LogTemp: Warning: Health: -22100.000000
+[2023.08.26-10.44.33:440][520]LogTemp: Warning: Health: -22150.000000
+[2023.08.26-10.44.33:449][521]LogTemp: Warning: Health: -22200.000000
+[2023.08.26-10.44.33:457][522]LogTemp: Warning: Health: -22250.000000
+[2023.08.26-10.44.33:465][523]LogTemp: Warning: Health: -22300.000000
+[2023.08.26-10.44.33:474][524]LogTemp: Warning: Health: -22350.000000
+[2023.08.26-10.44.33:482][525]LogTemp: Warning: Health: -22400.000000
+[2023.08.26-10.44.33:490][526]LogTemp: Warning: Health: -22450.000000
+[2023.08.26-10.44.33:499][527]LogTemp: Warning: Health: -22500.000000
+[2023.08.26-10.44.33:507][528]LogTemp: Warning: Health: -22550.000000
+[2023.08.26-10.44.33:515][529]LogTemp: Warning: Health: -22600.000000
+[2023.08.26-10.44.33:524][530]LogTemp: Warning: Health: -22650.000000
+[2023.08.26-10.44.33:532][531]LogTemp: Warning: Health: -22700.000000
+[2023.08.26-10.44.33:540][532]LogTemp: Warning: Health: -22750.000000
+[2023.08.26-10.44.33:548][533]LogTemp: Warning: Health: -22800.000000
+[2023.08.26-10.44.33:557][534]LogTemp: Warning: Health: -22850.000000
+[2023.08.26-10.44.33:565][535]LogTemp: Warning: Health: -22900.000000
+[2023.08.26-10.44.33:574][536]LogTemp: Warning: Health: -22950.000000
+[2023.08.26-10.44.33:582][537]LogTemp: Warning: Health: -23000.000000
+[2023.08.26-10.44.33:590][538]LogTemp: Warning: Health: -23050.000000
+[2023.08.26-10.44.33:599][539]LogTemp: Warning: Health: -23100.000000
+[2023.08.26-10.44.33:607][540]LogTemp: Warning: Health: -23150.000000
+[2023.08.26-10.44.33:616][541]LogTemp: Warning: Health: -23200.000000
+[2023.08.26-10.44.33:624][542]LogTemp: Warning: Health: -23250.000000
+[2023.08.26-10.44.33:632][543]LogTemp: Warning: Health: -23300.000000
+[2023.08.26-10.44.33:641][544]LogTemp: Warning: Health: -23350.000000
+[2023.08.26-10.44.33:649][545]LogTemp: Warning: Health: -23400.000000
+[2023.08.26-10.44.33:657][546]LogTemp: Warning: Health: -23450.000000
+[2023.08.26-10.44.33:665][547]LogTemp: Warning: Health: -23500.000000
+[2023.08.26-10.44.33:674][548]LogTemp: Warning: Health: -23550.000000
+[2023.08.26-10.44.33:682][549]LogTemp: Warning: Health: -23600.000000
+[2023.08.26-10.44.33:691][550]LogTemp: Warning: Health: -23650.000000
+[2023.08.26-10.44.33:699][551]LogTemp: Warning: Health: -23700.000000
+[2023.08.26-10.44.33:707][552]LogTemp: Warning: Health: -23750.000000
+[2023.08.26-10.44.33:715][553]LogTemp: Warning: Health: -23800.000000
+[2023.08.26-10.44.33:723][554]LogTemp: Warning: Health: -23850.000000
+[2023.08.26-10.44.33:732][555]LogTemp: Warning: Health: -23900.000000
+[2023.08.26-10.44.33:740][556]LogTemp: Warning: Health: -23950.000000
+[2023.08.26-10.44.33:749][557]LogTemp: Warning: Health: -24000.000000
+[2023.08.26-10.44.33:757][558]LogTemp: Warning: Health: -24050.000000
+[2023.08.26-10.44.33:765][559]LogTemp: Warning: Health: -24100.000000
+[2023.08.26-10.44.33:774][560]LogTemp: Warning: Health: -24150.000000
+[2023.08.26-10.44.33:782][561]LogTemp: Warning: Health: -24200.000000
+[2023.08.26-10.44.33:790][562]LogTemp: Warning: Health: -24250.000000
+[2023.08.26-10.44.33:799][563]LogTemp: Warning: Health: -24300.000000
+[2023.08.26-10.44.33:807][564]LogTemp: Warning: Health: -24350.000000
+[2023.08.26-10.44.33:815][565]LogTemp: Warning: Health: -24400.000000
+[2023.08.26-10.44.33:824][566]LogTemp: Warning: Health: -24450.000000
+[2023.08.26-10.44.33:832][567]LogTemp: Warning: Health: -24500.000000
+[2023.08.26-10.44.33:840][568]LogTemp: Warning: Health: -24550.000000
+[2023.08.26-10.44.33:849][569]LogTemp: Warning: Health: -24600.000000
+[2023.08.26-10.44.33:857][570]LogTemp: Warning: Health: -24650.000000
+[2023.08.26-10.44.33:865][571]LogTemp: Warning: Health: -24700.000000
+[2023.08.26-10.44.33:874][572]LogTemp: Warning: Health: -24750.000000
+[2023.08.26-10.44.33:882][573]LogTemp: Warning: Health: -24800.000000
+[2023.08.26-10.44.33:890][574]LogTemp: Warning: Health: -24850.000000
+[2023.08.26-10.44.33:899][575]LogTemp: Warning: Health: -24900.000000
+[2023.08.26-10.44.33:907][576]LogTemp: Warning: Health: -24950.000000
+[2023.08.26-10.44.33:915][577]LogTemp: Warning: Health: -25000.000000
+[2023.08.26-10.44.33:924][578]LogTemp: Warning: Health: -25050.000000
+[2023.08.26-10.44.33:932][579]LogTemp: Warning: Health: -25100.000000
+[2023.08.26-10.44.33:941][580]LogTemp: Warning: Health: -25150.000000
+[2023.08.26-10.44.33:949][581]LogTemp: Warning: Health: -25200.000000
+[2023.08.26-10.44.33:957][582]LogTemp: Warning: Health: -25250.000000
+[2023.08.26-10.44.33:966][583]LogTemp: Warning: Health: -25300.000000
+[2023.08.26-10.44.33:974][584]LogTemp: Warning: Health: -25350.000000
+[2023.08.26-10.44.33:982][585]LogTemp: Warning: Health: -25400.000000
+[2023.08.26-10.44.33:991][586]LogTemp: Warning: Health: -25450.000000
+[2023.08.26-10.44.33:999][587]LogTemp: Warning: Health: -25500.000000
+[2023.08.26-10.44.34:007][588]LogTemp: Warning: Health: -25550.000000
+[2023.08.26-10.44.34:015][589]LogTemp: Warning: Health: -25600.000000
+[2023.08.26-10.44.34:024][590]LogTemp: Warning: Health: -25650.000000
+[2023.08.26-10.44.34:032][591]LogTemp: Warning: Health: -25700.000000
+[2023.08.26-10.44.34:040][592]LogTemp: Warning: Health: -25750.000000
+[2023.08.26-10.44.34:049][593]LogTemp: Warning: Health: -25800.000000
+[2023.08.26-10.44.34:057][594]LogTemp: Warning: Health: -25850.000000
+[2023.08.26-10.44.34:066][595]LogTemp: Warning: Health: -25900.000000
+[2023.08.26-10.44.34:074][596]LogTemp: Warning: Health: -25950.000000
+[2023.08.26-10.44.34:082][597]LogTemp: Warning: Health: -26000.000000
+[2023.08.26-10.44.34:091][598]LogTemp: Warning: Health: -26050.000000
+[2023.08.26-10.44.34:099][599]LogTemp: Warning: Health: -26100.000000
+[2023.08.26-10.44.34:107][600]LogTemp: Warning: Health: -26150.000000
+[2023.08.26-10.44.34:115][601]LogTemp: Warning: Health: -26200.000000
+[2023.08.26-10.44.34:124][602]LogTemp: Warning: Health: -26250.000000
+[2023.08.26-10.44.34:132][603]LogTemp: Warning: Health: -26300.000000
+[2023.08.26-10.44.34:140][604]LogTemp: Warning: Health: -26350.000000
+[2023.08.26-10.44.34:149][605]LogTemp: Warning: Health: -26400.000000
+[2023.08.26-10.44.34:157][606]LogTemp: Warning: Health: -26450.000000
+[2023.08.26-10.44.34:165][607]LogTemp: Warning: Health: -26500.000000
+[2023.08.26-10.44.34:174][608]LogTemp: Warning: Health: -26550.000000
+[2023.08.26-10.44.34:182][609]LogTemp: Warning: Health: -26600.000000
+[2023.08.26-10.44.34:190][610]LogTemp: Warning: Health: -26650.000000
+[2023.08.26-10.44.34:199][611]LogTemp: Warning: Health: -26700.000000
+[2023.08.26-10.44.34:207][612]LogTemp: Warning: Health: -26750.000000
+[2023.08.26-10.44.34:215][613]LogTemp: Warning: Health: -26800.000000
+[2023.08.26-10.44.34:223][614]LogTemp: Warning: Health: -26850.000000
+[2023.08.26-10.44.34:232][615]LogTemp: Warning: Health: -26900.000000
+[2023.08.26-10.44.34:241][616]LogTemp: Warning: Health: -26950.000000
+[2023.08.26-10.44.34:249][617]LogTemp: Warning: Health: -27000.000000
+[2023.08.26-10.44.34:257][618]LogTemp: Warning: Health: -27050.000000
+[2023.08.26-10.44.34:265][619]LogTemp: Warning: Health: -27100.000000
+[2023.08.26-10.44.34:274][620]LogTemp: Warning: Health: -27150.000000
+[2023.08.26-10.44.34:282][621]LogTemp: Warning: Health: -27200.000000
+[2023.08.26-10.44.34:290][622]LogTemp: Warning: Health: -27250.000000
+[2023.08.26-10.44.34:299][623]LogTemp: Warning: Health: -27300.000000
+[2023.08.26-10.44.34:307][624]LogTemp: Warning: Health: -27350.000000
+[2023.08.26-10.44.34:315][625]LogTemp: Warning: Health: -27400.000000
+[2023.08.26-10.44.34:324][626]LogTemp: Warning: Health: -27450.000000
+[2023.08.26-10.44.34:332][627]LogTemp: Warning: Health: -27500.000000
+[2023.08.26-10.44.34:340][628]LogTemp: Warning: Health: -27550.000000
+[2023.08.26-10.44.34:349][629]LogTemp: Warning: Health: -27600.000000
+[2023.08.26-10.44.34:357][630]LogTemp: Warning: Health: -27650.000000
+[2023.08.26-10.44.34:365][631]LogTemp: Warning: Health: -27700.000000
+[2023.08.26-10.44.34:374][632]LogTemp: Warning: Health: -27750.000000
+[2023.08.26-10.44.34:382][633]LogTemp: Warning: Health: -27800.000000
+[2023.08.26-10.44.34:391][634]LogTemp: Warning: Health: -27850.000000
+[2023.08.26-10.44.34:399][635]LogTemp: Warning: Health: -27900.000000
+[2023.08.26-10.44.34:407][636]LogTemp: Warning: Health: -27950.000000
+[2023.08.26-10.44.34:415][637]LogTemp: Warning: Health: -28000.000000
+[2023.08.26-10.44.34:423][638]LogTemp: Warning: Health: -28050.000000
+[2023.08.26-10.44.34:432][639]LogTemp: Warning: Health: -28100.000000
+[2023.08.26-10.44.34:441][640]LogTemp: Warning: Health: -28150.000000
+[2023.08.26-10.44.34:449][641]LogTemp: Warning: Health: -28200.000000
+[2023.08.26-10.44.34:457][642]LogTemp: Warning: Health: -28250.000000
+[2023.08.26-10.44.34:466][643]LogTemp: Warning: Health: -28300.000000
+[2023.08.26-10.44.34:474][644]LogTemp: Warning: Health: -28350.000000
+[2023.08.26-10.44.34:482][645]LogTemp: Warning: Health: -28400.000000
+[2023.08.26-10.44.34:490][646]LogTemp: Warning: Health: -28450.000000
+[2023.08.26-10.44.34:499][647]LogTemp: Warning: Health: -28500.000000
+[2023.08.26-10.44.34:507][648]LogTemp: Warning: Health: -28550.000000
+[2023.08.26-10.44.34:516][649]LogTemp: Warning: Health: -28600.000000
+[2023.08.26-10.44.34:524][650]LogTemp: Warning: Health: -28650.000000
+[2023.08.26-10.44.34:532][651]LogTemp: Warning: Health: -28700.000000
+[2023.08.26-10.44.34:541][652]LogTemp: Warning: Health: -28750.000000
+[2023.08.26-10.44.34:549][653]LogTemp: Warning: Health: -28800.000000
+[2023.08.26-10.44.34:557][654]LogTemp: Warning: Health: -28850.000000
+[2023.08.26-10.44.34:566][655]LogTemp: Warning: Health: -28900.000000
+[2023.08.26-10.44.34:574][656]LogTemp: Warning: Health: -28950.000000
+[2023.08.26-10.44.34:582][657]LogTemp: Warning: Health: -29000.000000
+[2023.08.26-10.44.34:591][658]LogTemp: Warning: Health: -29050.000000
+[2023.08.26-10.44.34:598][659]LogTemp: Warning: Health: -29100.000000
+[2023.08.26-10.44.34:607][660]LogTemp: Warning: Health: -29150.000000
+[2023.08.26-10.44.34:615][661]LogTemp: Warning: Health: -29200.000000
+[2023.08.26-10.44.34:624][662]LogTemp: Warning: Health: -29250.000000
+[2023.08.26-10.44.34:632][663]LogTemp: Warning: Health: -29300.000000
+[2023.08.26-10.44.34:640][664]LogTemp: Warning: Health: -29350.000000
+[2023.08.26-10.44.34:649][665]LogTemp: Warning: Health: -29400.000000
+[2023.08.26-10.44.34:657][666]LogTemp: Warning: Health: -29450.000000
+[2023.08.26-10.44.34:665][667]LogTemp: Warning: Health: -29500.000000
+[2023.08.26-10.44.34:674][668]LogTemp: Warning: Health: -29550.000000
+[2023.08.26-10.44.34:682][669]LogTemp: Warning: Health: -29600.000000
+[2023.08.26-10.44.34:690][670]LogTemp: Warning: Health: -29650.000000
+[2023.08.26-10.44.34:698][671]LogTemp: Warning: Health: -29700.000000
+[2023.08.26-10.44.34:707][672]LogTemp: Warning: Health: -29750.000000
+[2023.08.26-10.44.34:716][673]LogTemp: Warning: Health: -29800.000000
+[2023.08.26-10.44.34:724][674]LogTemp: Warning: Health: -29850.000000
+[2023.08.26-10.44.34:732][675]LogTemp: Warning: Health: -29900.000000
+[2023.08.26-10.44.34:741][676]LogTemp: Warning: Health: -29950.000000
+[2023.08.26-10.44.34:749][677]LogTemp: Warning: Health: -30000.000000
+[2023.08.26-10.44.34:757][678]LogTemp: Warning: Health: -30050.000000
+[2023.08.26-10.44.34:765][679]LogTemp: Warning: Health: -30100.000000
+[2023.08.26-10.44.34:774][680]LogTemp: Warning: Health: -30150.000000
+[2023.08.26-10.44.34:782][681]LogTemp: Warning: Health: -30200.000000
+[2023.08.26-10.44.34:790][682]LogTemp: Warning: Health: -30250.000000
+[2023.08.26-10.44.34:799][683]LogTemp: Warning: Health: -30300.000000
+[2023.08.26-10.44.34:807][684]LogTemp: Warning: Health: -30350.000000
+[2023.08.26-10.44.34:815][685]LogTemp: Warning: Health: -30400.000000
+[2023.08.26-10.44.34:824][686]LogTemp: Warning: Health: -30450.000000
+[2023.08.26-10.44.34:832][687]LogTemp: Warning: Health: -30500.000000
+[2023.08.26-10.44.34:840][688]LogTemp: Warning: Health: -30550.000000
+[2023.08.26-10.44.34:991][706]LogTemp: Warning: Health: -30600.000000
+[2023.08.26-10.44.34:999][707]LogTemp: Warning: Health: -30650.000000
+[2023.08.26-10.44.35:007][708]LogTemp: Warning: Health: -30700.000000
+[2023.08.26-10.44.35:015][709]LogTemp: Warning: Health: -30750.000000
+[2023.08.26-10.44.35:024][710]LogTemp: Warning: Health: -30800.000000
+[2023.08.26-10.44.35:032][711]LogTemp: Warning: Health: -30850.000000
+[2023.08.26-10.44.35:040][712]LogTemp: Warning: Health: -30900.000000
+[2023.08.26-10.44.35:049][713]LogTemp: Warning: Health: -30950.000000
+[2023.08.26-10.44.35:057][714]LogTemp: Warning: Health: -31000.000000
+[2023.08.26-10.44.35:065][715]LogTemp: Warning: Health: -31050.000000
+[2023.08.26-10.44.35:074][716]LogTemp: Warning: Health: -31100.000000
+[2023.08.26-10.44.35:082][717]LogTemp: Warning: Health: -31150.000000
+[2023.08.26-10.44.35:090][718]LogTemp: Warning: Health: -31200.000000
+[2023.08.26-10.44.35:099][719]LogTemp: Warning: Health: -31250.000000
+[2023.08.26-10.44.35:107][720]LogTemp: Warning: Health: -31300.000000
+[2023.08.26-10.44.35:115][721]LogTemp: Warning: Health: -31350.000000
+[2023.08.26-10.44.35:123][722]LogTemp: Warning: Health: -31400.000000
+[2023.08.26-10.44.35:132][723]LogTemp: Warning: Health: -31450.000000
+[2023.08.26-10.44.35:140][724]LogTemp: Warning: Health: -31500.000000
+[2023.08.26-10.44.35:148][725]LogTemp: Warning: Health: -31550.000000
+[2023.08.26-10.44.35:157][726]LogTemp: Warning: Health: -31600.000000
+[2023.08.26-10.44.35:165][727]LogTemp: Warning: Health: -31650.000000
+[2023.08.26-10.44.35:174][728]LogTemp: Warning: Health: -31700.000000
+[2023.08.26-10.44.35:182][729]LogTemp: Warning: Health: -31750.000000
+[2023.08.26-10.44.36:607][900]LogTemp: Warning: Health: -31800.000000
+[2023.08.26-10.44.36:615][901]LogTemp: Warning: Health: -31850.000000
+[2023.08.26-10.44.36:624][902]LogTemp: Warning: Health: -31900.000000
+[2023.08.26-10.44.36:632][903]LogTemp: Warning: Health: -31950.000000
+[2023.08.26-10.44.36:640][904]LogTemp: Warning: Health: -32000.000000
+[2023.08.26-10.44.36:649][905]LogTemp: Warning: Health: -32050.000000
+[2023.08.26-10.44.36:657][906]LogTemp: Warning: Health: -32100.000000
+[2023.08.26-10.44.36:665][907]LogTemp: Warning: Health: -32150.000000
+[2023.08.26-10.44.36:674][908]LogTemp: Warning: Health: -32200.000000
+[2023.08.26-10.44.36:682][909]LogTemp: Warning: Health: -32250.000000
+[2023.08.26-10.44.36:690][910]LogTemp: Warning: Health: -32300.000000
+[2023.08.26-10.44.36:699][911]LogTemp: Warning: Health: -32350.000000
+[2023.08.26-10.44.36:707][912]LogTemp: Warning: Health: -32400.000000
+[2023.08.26-10.44.36:715][913]LogTemp: Warning: Health: -32450.000000
+[2023.08.26-10.44.36:724][914]LogTemp: Warning: Health: -32500.000000
+[2023.08.26-10.44.36:732][915]LogTemp: Warning: Health: -32550.000000
+[2023.08.26-10.44.36:740][916]LogTemp: Warning: Health: -32600.000000
+[2023.08.26-10.44.36:749][917]LogTemp: Warning: Health: -32650.000000
+[2023.08.26-10.44.36:757][918]LogTemp: Warning: Health: -32700.000000
+[2023.08.26-10.44.36:765][919]LogTemp: Warning: Health: -32750.000000
+[2023.08.26-10.44.36:774][920]LogTemp: Warning: Health: -32800.000000
+[2023.08.26-10.44.36:782][921]LogTemp: Warning: Health: -32850.000000
+[2023.08.26-10.44.36:790][922]LogTemp: Warning: Health: -32900.000000
+[2023.08.26-10.44.36:799][923]LogTemp: Warning: Health: -32950.000000
+[2023.08.26-10.44.36:807][924]LogTemp: Warning: Health: -33000.000000
+[2023.08.26-10.44.36:815][925]LogTemp: Warning: Health: -33050.000000
+[2023.08.26-10.44.36:824][926]LogTemp: Warning: Health: -33100.000000
+[2023.08.26-10.44.36:832][927]LogTemp: Warning: Health: -33150.000000
+[2023.08.26-10.44.36:840][928]LogTemp: Warning: Health: -33200.000000
+[2023.08.26-10.44.36:849][929]LogTemp: Warning: Health: -33250.000000
+[2023.08.26-10.44.36:857][930]LogTemp: Warning: Health: -33300.000000
+[2023.08.26-10.44.36:865][931]LogTemp: Warning: Health: -33350.000000
+[2023.08.26-10.44.36:873][932]LogTemp: Warning: Health: -33400.000000
+[2023.08.26-10.44.36:882][933]LogTemp: Warning: Health: -33450.000000
+[2023.08.26-10.44.36:890][934]LogTemp: Warning: Health: -33500.000000
+[2023.08.26-10.44.36:898][935]LogTemp: Warning: Health: -33550.000000
+[2023.08.26-10.44.36:907][936]LogTemp: Warning: Health: -33600.000000
+[2023.08.26-10.44.36:916][937]LogTemp: Warning: Health: -33650.000000
+[2023.08.26-10.44.36:924][938]LogTemp: Warning: Health: -33700.000000
+[2023.08.26-10.44.36:932][939]LogTemp: Warning: Health: -33750.000000
+[2023.08.26-10.44.36:941][940]LogTemp: Warning: Health: -33800.000000
+[2023.08.26-10.44.36:949][941]LogTemp: Warning: Health: -33850.000000
+[2023.08.26-10.44.36:957][942]LogTemp: Warning: Health: -33900.000000
+[2023.08.26-10.44.36:965][943]LogTemp: Warning: Health: -33950.000000
+[2023.08.26-10.44.36:974][944]LogTemp: Warning: Health: -34000.000000
+[2023.08.26-10.44.36:982][945]LogTemp: Warning: Health: -34050.000000
+[2023.08.26-10.44.36:990][946]LogTemp: Warning: Health: -34100.000000
+[2023.08.26-10.44.36:999][947]LogTemp: Warning: Health: -34150.000000
+[2023.08.26-10.44.37:590][ 18]LogTemp: Warning: Health: -34200.000000
+[2023.08.26-10.44.37:598][ 19]LogTemp: Warning: Health: -34250.000000
+[2023.08.26-10.44.37:607][ 20]LogTemp: Warning: Health: -34300.000000
+[2023.08.26-10.44.37:615][ 21]LogTemp: Warning: Health: -34350.000000
+[2023.08.26-10.44.37:624][ 22]LogTemp: Warning: Health: -34400.000000
+[2023.08.26-10.44.37:632][ 23]LogTemp: Warning: Health: -34450.000000
+[2023.08.26-10.44.37:640][ 24]LogTemp: Warning: Health: -34500.000000
+[2023.08.26-10.44.37:649][ 25]LogTemp: Warning: Health: -34550.000000
+[2023.08.26-10.44.37:657][ 26]LogTemp: Warning: Health: -34600.000000
+[2023.08.26-10.44.37:665][ 27]LogTemp: Warning: Health: -34650.000000
+[2023.08.26-10.44.37:674][ 28]LogTemp: Warning: Health: -34700.000000
+[2023.08.26-10.44.37:682][ 29]LogTemp: Warning: Health: -34750.000000
+[2023.08.26-10.44.37:690][ 30]LogTemp: Warning: Health: -34800.000000
+[2023.08.26-10.44.37:699][ 31]LogTemp: Warning: Health: -34850.000000
+[2023.08.26-10.44.37:707][ 32]LogTemp: Warning: Health: -34900.000000
+[2023.08.26-10.44.37:715][ 33]LogTemp: Warning: Health: -34950.000000
+[2023.08.26-10.44.37:723][ 34]LogTemp: Warning: Health: -35000.000000
+[2023.08.26-10.44.37:732][ 35]LogTemp: Warning: Health: -35050.000000
+[2023.08.26-10.44.37:740][ 36]LogTemp: Warning: Health: -35100.000000
+[2023.08.26-10.44.37:749][ 37]LogTemp: Warning: Health: -35150.000000
+[2023.08.26-10.44.37:757][ 38]LogTemp: Warning: Health: -35200.000000
+[2023.08.26-10.44.37:765][ 39]LogTemp: Warning: Health: -35250.000000
+[2023.08.26-10.44.37:773][ 40]LogTemp: Warning: Health: -35300.000000
+[2023.08.26-10.44.37:782][ 41]LogTemp: Warning: Health: -35350.000000
+[2023.08.26-10.44.37:791][ 42]LogTemp: Warning: Health: -35400.000000
+[2023.08.26-10.44.37:799][ 43]LogTemp: Warning: Health: -35450.000000
+[2023.08.26-10.44.37:807][ 44]LogTemp: Warning: Health: -35500.000000
+[2023.08.26-10.44.37:807][ 44]LogTemp: Warning: Health: -35550.000000
+[2023.08.26-10.44.38:298][103]LogTemp: Warning: Health: -35600.000000
+[2023.08.26-10.44.38:307][104]LogTemp: Warning: Health: -35650.000000
+[2023.08.26-10.44.38:315][105]LogTemp: Warning: Health: -35700.000000
+[2023.08.26-10.44.38:324][106]LogTemp: Warning: Health: -35750.000000
+[2023.08.26-10.44.38:332][107]LogTemp: Warning: Health: -35800.000000
+[2023.08.26-10.44.38:340][108]LogTemp: Warning: Health: -35850.000000
+[2023.08.26-10.44.38:349][109]LogTemp: Warning: Health: -35900.000000
+[2023.08.26-10.44.38:357][110]LogTemp: Warning: Health: -35950.000000
+[2023.08.26-10.44.38:365][111]LogTemp: Warning: Health: -36000.000000
+[2023.08.26-10.44.38:374][112]LogTemp: Warning: Health: -36050.000000
+[2023.08.26-10.44.38:382][113]LogTemp: Warning: Health: -36100.000000
+[2023.08.26-10.44.38:390][114]LogTemp: Warning: Health: -36150.000000
+[2023.08.26-10.44.38:399][115]LogTemp: Warning: Health: -36200.000000
+[2023.08.26-10.44.38:407][116]LogTemp: Warning: Health: -36250.000000
+[2023.08.26-10.44.38:415][117]LogTemp: Warning: Health: -36300.000000
+[2023.08.26-10.44.38:424][118]LogTemp: Warning: Health: -36350.000000
+[2023.08.26-10.44.38:432][119]LogTemp: Warning: Health: -36400.000000
+[2023.08.26-10.44.38:440][120]LogTemp: Warning: Health: -36450.000000
+[2023.08.26-10.44.38:449][121]LogTemp: Warning: Health: -36500.000000
+[2023.08.26-10.44.38:457][122]LogTemp: Warning: Health: -36550.000000
+[2023.08.26-10.44.38:465][123]LogTemp: Warning: Health: -36600.000000
+[2023.08.26-10.44.38:474][124]LogTemp: Warning: Health: -36650.000000
+[2023.08.26-10.44.38:482][125]LogTemp: Warning: Health: -36700.000000
+[2023.08.26-10.44.38:490][126]LogTemp: Warning: Health: -36750.000000
+[2023.08.26-10.44.38:498][127]LogTemp: Warning: Health: -36800.000000
+[2023.08.26-10.44.39:082][197]LogTemp: Warning: Health: -36850.000000
+[2023.08.26-10.44.39:090][198]LogTemp: Warning: Health: -36900.000000
+[2023.08.26-10.44.39:099][199]LogTemp: Warning: Health: -36950.000000
+[2023.08.26-10.44.39:107][200]LogTemp: Warning: Health: -37000.000000
+[2023.08.26-10.44.39:115][201]LogTemp: Warning: Health: -37050.000000
+[2023.08.26-10.44.39:124][202]LogTemp: Warning: Health: -37100.000000
+[2023.08.26-10.44.39:132][203]LogTemp: Warning: Health: -37150.000000
+[2023.08.26-10.44.39:141][204]LogTemp: Warning: Health: -37200.000000
+[2023.08.26-10.44.39:149][205]LogTemp: Warning: Health: -37250.000000
+[2023.08.26-10.44.39:157][206]LogTemp: Warning: Health: -37300.000000
+[2023.08.26-10.44.39:165][207]LogTemp: Warning: Health: -37350.000000
+[2023.08.26-10.44.39:173][208]LogTemp: Warning: Health: -37400.000000
+[2023.08.26-10.44.39:182][209]LogTemp: Warning: Health: -37450.000000
+[2023.08.26-10.44.39:190][210]LogTemp: Warning: Health: -37500.000000
+[2023.08.26-10.44.39:199][211]LogTemp: Warning: Health: -37550.000000
+[2023.08.26-10.44.39:207][212]LogTemp: Warning: Health: -37600.000000
+[2023.08.26-10.44.39:215][213]LogTemp: Warning: Health: -37650.000000
+[2023.08.26-10.44.39:632][263]LogTemp: Warning: Health: -37700.000000
+[2023.08.26-10.44.39:640][264]LogTemp: Warning: Health: -37750.000000
+[2023.08.26-10.44.39:649][265]LogTemp: Warning: Health: -37800.000000
+[2023.08.26-10.44.39:657][266]LogTemp: Warning: Health: -37850.000000
+[2023.08.26-10.44.39:665][267]LogTemp: Warning: Health: -37900.000000
+[2023.08.26-10.44.39:673][268]LogTemp: Warning: Health: -37950.000000
+[2023.08.26-10.44.39:682][269]LogTemp: Warning: Health: -38000.000000
+[2023.08.26-10.44.39:690][270]LogTemp: Warning: Health: -38050.000000
+[2023.08.26-10.44.39:699][271]LogTemp: Warning: Health: -38100.000000
+[2023.08.26-10.44.39:707][272]LogTemp: Warning: Health: -38150.000000
+[2023.08.26-10.44.39:715][273]LogTemp: Warning: Health: -38200.000000
+[2023.08.26-10.44.39:724][274]LogTemp: Warning: Health: -38250.000000
+[2023.08.26-10.44.39:732][275]LogTemp: Warning: Health: -38300.000000
+[2023.08.26-10.44.39:740][276]LogTemp: Warning: Health: -38350.000000
+[2023.08.26-10.44.39:749][277]LogTemp: Warning: Health: -38400.000000
+[2023.08.26-10.44.39:757][278]LogTemp: Warning: Health: -38450.000000
+[2023.08.26-10.44.39:765][279]LogTemp: Warning: Health: -38500.000000
+[2023.08.26-10.44.39:774][280]LogTemp: Warning: Health: -38550.000000
+[2023.08.26-10.44.39:782][281]LogTemp: Warning: Health: -38600.000000
+[2023.08.26-10.44.39:790][282]LogTemp: Warning: Health: -38650.000000
+[2023.08.26-10.44.39:799][283]LogTemp: Warning: Health: -38700.000000
+[2023.08.26-10.44.39:807][284]LogTemp: Warning: Health: -38750.000000
+[2023.08.26-10.44.40:274][340]LogTemp: Warning: Health: -38800.000000
+[2023.08.26-10.44.40:282][341]LogTemp: Warning: Health: -38850.000000
+[2023.08.26-10.44.40:290][342]LogTemp: Warning: Health: -38900.000000
+[2023.08.26-10.44.40:299][343]LogTemp: Warning: Health: -38950.000000
+[2023.08.26-10.44.40:307][344]LogTemp: Warning: Health: -39000.000000
+[2023.08.26-10.44.40:315][345]LogTemp: Warning: Health: -39050.000000
+[2023.08.26-10.44.40:324][346]LogTemp: Warning: Health: -39100.000000
+[2023.08.26-10.44.40:332][347]LogTemp: Warning: Health: -39150.000000
+[2023.08.26-10.44.40:340][348]LogTemp: Warning: Health: -39200.000000
+[2023.08.26-10.44.40:349][349]LogTemp: Warning: Health: -39250.000000
+[2023.08.26-10.44.40:357][350]LogTemp: Warning: Health: -39300.000000
+[2023.08.26-10.44.40:365][351]LogTemp: Warning: Health: -39350.000000
+[2023.08.26-10.44.40:374][352]LogTemp: Warning: Health: -39400.000000
+[2023.08.26-10.44.40:382][353]LogTemp: Warning: Health: -39450.000000
+[2023.08.26-10.44.40:390][354]LogTemp: Warning: Health: -39500.000000
+[2023.08.26-10.44.40:399][355]LogTemp: Warning: Health: -39550.000000
+[2023.08.26-10.44.40:407][356]LogTemp: Warning: Health: -39600.000000
+[2023.08.26-10.44.40:415][357]LogTemp: Warning: Health: -39650.000000
+[2023.08.26-10.44.40:424][358]LogTemp: Warning: Health: -39700.000000
+[2023.08.26-10.44.40:432][359]LogTemp: Warning: Health: -39750.000000
+[2023.08.26-10.44.40:440][360]LogTemp: Warning: Health: -39800.000000
+[2023.08.26-10.44.40:449][361]LogTemp: Warning: Health: -39850.000000
+[2023.08.26-10.44.40:457][362]LogTemp: Warning: Health: -39900.000000
+[2023.08.26-10.44.40:465][363]LogTemp: Warning: Health: -39950.000000
+[2023.08.26-10.44.40:474][364]LogTemp: Warning: Health: -40000.000000
+[2023.08.26-10.44.40:482][365]LogTemp: Warning: Health: -40050.000000
+[2023.08.26-10.44.40:490][366]LogTemp: Warning: Health: -40100.000000
+[2023.08.26-10.44.40:499][367]LogTemp: Warning: Health: -40150.000000
+[2023.08.26-10.44.40:507][368]LogTemp: Warning: Health: -40200.000000
+[2023.08.26-10.44.40:515][369]LogTemp: Warning: Health: -40250.000000
+[2023.08.26-10.44.40:524][370]LogTemp: Warning: Health: -40300.000000
+[2023.08.26-10.44.40:532][371]LogTemp: Warning: Health: -40350.000000
+[2023.08.26-10.44.40:540][372]LogTemp: Warning: Health: -40400.000000
+[2023.08.26-10.44.40:549][373]LogTemp: Warning: Health: -40450.000000
+[2023.08.26-10.44.40:557][374]LogTemp: Warning: Health: -40500.000000
+[2023.08.26-10.44.40:565][375]LogTemp: Warning: Health: -40550.000000
+[2023.08.26-10.44.40:574][376]LogTemp: Warning: Health: -40600.000000
+[2023.08.26-10.44.40:582][377]LogTemp: Warning: Health: -40650.000000
+[2023.08.26-10.44.40:590][378]LogTemp: Warning: Health: -40700.000000
+[2023.08.26-10.44.40:599][379]LogTemp: Warning: Health: -40750.000000
+[2023.08.26-10.44.40:607][380]LogTemp: Warning: Health: -40800.000000
+[2023.08.26-10.44.40:615][381]LogTemp: Warning: Health: -40850.000000
+[2023.08.26-10.44.40:624][382]LogTemp: Warning: Health: -40900.000000
+[2023.08.26-10.44.40:632][383]LogTemp: Warning: Health: -40950.000000
+[2023.08.26-10.44.40:640][384]LogTemp: Warning: Health: -41000.000000
+[2023.08.26-10.44.40:649][385]LogTemp: Warning: Health: -41050.000000
+[2023.08.26-10.44.40:657][386]LogTemp: Warning: Health: -41100.000000
+[2023.08.26-10.44.40:665][387]LogTemp: Warning: Health: -41150.000000
+[2023.08.26-10.44.40:674][388]LogTemp: Warning: Health: -41200.000000
+[2023.08.26-10.44.40:682][389]LogTemp: Warning: Health: -41250.000000
+[2023.08.26-10.44.40:690][390]LogTemp: Warning: Health: -41300.000000
+[2023.08.26-10.44.40:699][391]LogTemp: Warning: Health: -41350.000000
+[2023.08.26-10.44.41:290][462]LogTemp: Warning: Health: -41400.000000
+[2023.08.26-10.44.41:299][463]LogTemp: Warning: Health: -41450.000000
+[2023.08.26-10.44.41:307][464]LogTemp: Warning: Health: -41500.000000
+[2023.08.26-10.44.41:315][465]LogTemp: Warning: Health: -41550.000000
+[2023.08.26-10.44.41:324][466]LogTemp: Warning: Health: -41600.000000
+[2023.08.26-10.44.41:332][467]LogTemp: Warning: Health: -41650.000000
+[2023.08.26-10.44.41:340][468]LogTemp: Warning: Health: -41700.000000
+[2023.08.26-10.44.41:349][469]LogTemp: Warning: Health: -41750.000000
+[2023.08.26-10.44.41:357][470]LogTemp: Warning: Health: -41800.000000
+[2023.08.26-10.44.41:365][471]LogTemp: Warning: Health: -41850.000000
+[2023.08.26-10.44.41:374][472]LogTemp: Warning: Health: -41900.000000
+[2023.08.26-10.44.41:382][473]LogTemp: Warning: Health: -41950.000000
+[2023.08.26-10.44.41:390][474]LogTemp: Warning: Health: -42000.000000
+[2023.08.26-10.44.41:399][475]LogTemp: Warning: Health: -42050.000000
+[2023.08.26-10.44.41:407][476]LogTemp: Warning: Health: -42100.000000
+[2023.08.26-10.44.41:415][477]LogTemp: Warning: Health: -42150.000000
+[2023.08.26-10.44.41:424][478]LogTemp: Warning: Health: -42200.000000
+[2023.08.26-10.44.41:432][479]LogTemp: Warning: Health: -42250.000000
+[2023.08.26-10.44.41:440][480]LogTemp: Warning: Health: -42300.000000
+[2023.08.26-10.44.41:449][481]LogTemp: Warning: Health: -42350.000000
+[2023.08.26-10.44.41:457][482]LogTemp: Warning: Health: -42400.000000
+[2023.08.26-10.44.41:465][483]LogTemp: Warning: Health: -42450.000000
+[2023.08.26-10.44.41:473][484]LogTemp: Warning: Health: -42500.000000
+[2023.08.26-10.44.41:482][485]LogTemp: Warning: Health: -42550.000000
+[2023.08.26-10.44.41:490][486]LogTemp: Warning: Health: -42600.000000
+[2023.08.26-10.44.42:090][558]LogTemp: Warning: Health: -42650.000000
+[2023.08.26-10.44.42:099][559]LogTemp: Warning: Health: -42700.000000
+[2023.08.26-10.44.42:107][560]LogTemp: Warning: Health: -42750.000000
+[2023.08.26-10.44.42:115][561]LogTemp: Warning: Health: -42800.000000
+[2023.08.26-10.44.42:124][562]LogTemp: Warning: Health: -42850.000000
+[2023.08.26-10.44.42:132][563]LogTemp: Warning: Health: -42900.000000
+[2023.08.26-10.44.42:140][564]LogTemp: Warning: Health: -42950.000000
+[2023.08.26-10.44.42:149][565]LogTemp: Warning: Health: -43000.000000
+[2023.08.26-10.44.42:157][566]LogTemp: Warning: Health: -43050.000000
+[2023.08.26-10.44.42:165][567]LogTemp: Warning: Health: -43100.000000
+[2023.08.26-10.44.42:174][568]LogTemp: Warning: Health: -43150.000000
+[2023.08.26-10.44.42:182][569]LogTemp: Warning: Health: -43200.000000
+[2023.08.26-10.44.42:190][570]LogTemp: Warning: Health: -43250.000000
+[2023.08.26-10.44.42:199][571]LogTemp: Warning: Health: -43300.000000
+[2023.08.26-10.44.42:207][572]LogTemp: Warning: Health: -43350.000000
+[2023.08.26-10.44.42:215][573]LogTemp: Warning: Health: -43400.000000
+[2023.08.26-10.44.42:224][574]LogTemp: Warning: Health: -43450.000000
+[2023.08.26-10.44.42:232][575]LogTemp: Warning: Health: -43500.000000
+[2023.08.26-10.44.42:240][576]LogTemp: Warning: Health: -43550.000000
+[2023.08.26-10.44.45:765][999]LogTemp: Warning: Health: -43600.000000
+[2023.08.26-10.44.47:882][253]LogTemp: Warning: Health: -43650.000000
+[2023.08.26-10.44.47:907][256]LogTemp: Warning: Health: -43700.000000
+[2023.08.26-10.44.48:741][356]LogTemp: Warning: Health: -43750.000000
+[2023.08.26-10.44.48:749][357]LogTemp: Warning: Health: -43800.000000
+[2023.08.26-10.44.48:757][358]LogTemp: Warning: Health: -43850.000000
+[2023.08.26-10.44.48:765][359]LogTemp: Warning: Health: -43900.000000
+[2023.08.26-10.44.48:774][360]LogTemp: Warning: Health: -43950.000000
+[2023.08.26-10.44.48:782][361]LogTemp: Warning: Health: -44000.000000
+[2023.08.26-10.44.48:791][362]LogTemp: Warning: Health: -44050.000000
+[2023.08.26-10.44.48:799][363]LogTemp: Warning: Health: -44100.000000
+[2023.08.26-10.44.48:808][364]LogTemp: Warning: Health: -44150.000000
+[2023.08.26-10.44.48:816][365]LogTemp: Warning: Health: -44200.000000
+[2023.08.26-10.44.48:824][366]LogTemp: Warning: Health: -44250.000000
+[2023.08.26-10.44.48:833][367]LogTemp: Warning: Health: -44300.000000
+[2023.08.26-10.44.48:841][368]LogTemp: Warning: Health: -44350.000000
+[2023.08.26-10.44.48:849][369]LogTemp: Warning: Health: -44400.000000
+[2023.08.26-10.44.48:857][370]LogTemp: Warning: Health: -44450.000000
+[2023.08.26-10.44.48:865][371]LogTemp: Warning: Health: -44500.000000
+[2023.08.26-10.44.48:874][372]LogTemp: Warning: Health: -44550.000000
+[2023.08.26-10.44.48:882][373]LogTemp: Warning: Health: -44600.000000
+[2023.08.26-10.44.48:890][374]LogTemp: Warning: Health: -44650.000000
+[2023.08.26-10.44.48:899][375]LogTemp: Warning: Health: -44700.000000
+[2023.08.26-10.44.48:907][376]LogTemp: Warning: Health: -44750.000000
+[2023.08.26-10.44.48:915][377]LogTemp: Warning: Health: -44800.000000
+[2023.08.26-10.44.48:925][378]LogTemp: Warning: Health: -44850.000000
+[2023.08.26-10.44.48:932][379]LogTemp: Warning: Health: -44900.000000
+[2023.08.26-10.44.48:941][380]LogTemp: Warning: Health: -44950.000000
+[2023.08.26-10.44.48:949][381]LogTemp: Warning: Health: -45000.000000
+[2023.08.26-10.44.48:957][382]LogTemp: Warning: Health: -45050.000000
+[2023.08.26-10.44.48:966][383]LogTemp: Warning: Health: -45100.000000
+[2023.08.26-10.44.48:974][384]LogTemp: Warning: Health: -45150.000000
+[2023.08.26-10.44.48:982][385]LogTemp: Warning: Health: -45200.000000
+[2023.08.26-10.44.48:990][386]LogTemp: Warning: Health: -45250.000000
+[2023.08.26-10.44.48:999][387]LogTemp: Warning: Health: -45300.000000
+[2023.08.26-10.44.49:007][388]LogTemp: Warning: Health: -45350.000000
+[2023.08.26-10.44.49:015][389]LogTemp: Warning: Health: -45400.000000
+[2023.08.26-10.44.49:024][390]LogTemp: Warning: Health: -45450.000000
+[2023.08.26-10.44.49:032][391]LogTemp: Warning: Health: -45500.000000
+[2023.08.26-10.44.49:040][392]LogTemp: Warning: Health: -45550.000000
+[2023.08.26-10.44.49:049][393]LogTemp: Warning: Health: -45600.000000
+[2023.08.26-10.44.49:057][394]LogTemp: Warning: Health: -45650.000000
+[2023.08.26-10.44.49:066][395]LogTemp: Warning: Health: -45700.000000
+[2023.08.26-10.44.49:074][396]LogTemp: Warning: Health: -45750.000000
+[2023.08.26-10.44.49:082][397]LogTemp: Warning: Health: -45800.000000
+[2023.08.26-10.44.49:091][398]LogTemp: Warning: Health: -45850.000000
+[2023.08.26-10.44.49:099][399]LogTemp: Warning: Health: -45900.000000
+[2023.08.26-10.44.49:107][400]LogTemp: Warning: Health: -45950.000000
+[2023.08.26-10.44.49:116][401]LogTemp: Warning: Health: -46000.000000
+[2023.08.26-10.44.49:124][402]LogTemp: Warning: Health: -46050.000000
+[2023.08.26-10.44.49:132][403]LogTemp: Warning: Health: -46100.000000
+[2023.08.26-10.44.49:140][404]LogTemp: Warning: Health: -46150.000000
+[2023.08.26-10.44.49:150][405]LogTemp: Warning: Health: -46200.000000
+[2023.08.26-10.44.49:157][406]LogTemp: Warning: Health: -46250.000000
+[2023.08.26-10.44.49:166][407]LogTemp: Warning: Health: -46300.000000
+[2023.08.26-10.44.49:174][408]LogTemp: Warning: Health: -46350.000000
+[2023.08.26-10.44.49:182][409]LogTemp: Warning: Health: -46400.000000
+[2023.08.26-10.44.49:190][410]LogTemp: Warning: Health: -46450.000000
+[2023.08.26-10.44.49:199][411]LogTemp: Warning: Health: -46500.000000
+[2023.08.26-10.44.49:207][412]LogTemp: Warning: Health: -46550.000000
+[2023.08.26-10.44.49:216][413]LogTemp: Warning: Health: -46600.000000
+[2023.08.26-10.44.49:224][414]LogTemp: Warning: Health: -46650.000000
+[2023.08.26-10.44.49:232][415]LogTemp: Warning: Health: -46700.000000
+[2023.08.26-10.44.49:241][416]LogTemp: Warning: Health: -46750.000000
+[2023.08.26-10.44.49:249][417]LogTemp: Warning: Health: -46800.000000
+[2023.08.26-10.44.49:257][418]LogTemp: Warning: Health: -46850.000000
+[2023.08.26-10.44.49:266][419]LogTemp: Warning: Health: -46900.000000
+[2023.08.26-10.44.49:274][420]LogTemp: Warning: Health: -46950.000000
+[2023.08.26-10.44.49:282][421]LogTemp: Warning: Health: -47000.000000
+[2023.08.26-10.44.49:291][422]LogTemp: Warning: Health: -47050.000000
+[2023.08.26-10.44.49:299][423]LogTemp: Warning: Health: -47100.000000
+[2023.08.26-10.44.49:307][424]LogTemp: Warning: Health: -47150.000000
+[2023.08.26-10.44.49:316][425]LogTemp: Warning: Health: -47200.000000
+[2023.08.26-10.44.49:324][426]LogTemp: Warning: Health: -47250.000000
+[2023.08.26-10.44.49:332][427]LogTemp: Warning: Health: -47300.000000
+[2023.08.26-10.44.49:340][428]LogTemp: Warning: Health: -47350.000000
+[2023.08.26-10.44.49:349][429]LogTemp: Warning: Health: -47400.000000
+[2023.08.26-10.44.49:357][430]LogTemp: Warning: Health: -47450.000000
+[2023.08.26-10.44.49:366][431]LogTemp: Warning: Health: -47500.000000
+[2023.08.26-10.44.49:374][432]LogTemp: Warning: Health: -47550.000000
+[2023.08.26-10.44.49:383][433]LogTemp: Warning: Health: -47600.000000
+[2023.08.26-10.44.49:391][434]LogTemp: Warning: Health: -47650.000000
+[2023.08.26-10.44.49:399][435]LogTemp: Warning: Health: -47700.000000
+[2023.08.26-10.44.49:407][436]LogTemp: Warning: Health: -47750.000000
+[2023.08.26-10.44.49:416][437]LogTemp: Warning: Health: -47800.000000
+[2023.08.26-10.44.49:424][438]LogTemp: Warning: Health: -47850.000000
+[2023.08.26-10.44.49:432][439]LogTemp: Warning: Health: -47900.000000
+[2023.08.26-10.44.49:441][440]LogTemp: Warning: Health: -47950.000000
+[2023.08.26-10.44.49:449][441]LogTemp: Warning: Health: -48000.000000
+[2023.08.26-10.44.49:457][442]LogTemp: Warning: Health: -48050.000000
+[2023.08.26-10.44.49:466][443]LogTemp: Warning: Health: -48100.000000
+[2023.08.26-10.44.49:474][444]LogTemp: Warning: Health: -48150.000000
+[2023.08.26-10.44.49:483][445]LogTemp: Warning: Health: -48200.000000
+[2023.08.26-10.44.49:491][446]LogTemp: Warning: Health: -48250.000000
+[2023.08.26-10.44.50:073][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.44.50:073][512]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.44.50:073][512]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-10.44.50:073][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.44.50:076][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-10.44.50:083][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.44.50:118][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.26-10.44.50:118][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.26-10.44.50:119][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.26-10.44.50:123][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.44.50:154][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.08.26-10.44.50:187][513]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.08.26-10.45.26:377][ 47]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.45.28:395][ 53]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.exp
+[2023.08.26-10.45.28:657][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.08.26-10.45.29:059][ 55]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.08.26-10.45.29:059][ 55]LogLiveCoding: Display: Live coding succeeded
+[2023.08.26-10.45.37:522][197]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-10.45.37:526][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-10.45.37:526][197]PIE: New page: PIE session: Main (26 Aug 2023, 16:45:37)
+[2023.08.26-10.45.37:553][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.45.37:555][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002825s)
+[2023.08.26-10.45.37:555][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002845s)
+[2023.08.26-10.45.37:555][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-10.45.37:556][197]LogAIModule: Creating AISystem for world Main
+[2023.08.26-10.45.37:556][197]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2023.08.26-10.45.37:627][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.08.26-10.45.37:630][197]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-10.45.37:630][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-10.45.37:630][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-10.45.37:630][197]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-10.45.37:630][197]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-10.45.37:630][197]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-10.45.37:632][197]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-10.45.37:664][197]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-10.45.37:664][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-10.45.37:664][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-10.45.37:664][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-10.45.37:665][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.08.26-10.45.37:665][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.08.26-10.45.37:666][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.08.26-10.45.37:666][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.08.26-10.45.37:666][197]LogInit: FAudioDevice initialized.
+[2023.08.26-10.45.37:666][197]LogAudio: Display: Audio Device (ID: 9) registered with world 'Main'.
+[2023.08.26-10.45.37:668][197]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-10.45.37:668][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-13.45.37
+[2023.08.26-10.45.37:668][197]LogWorld: Bringing up level for play took: 0.000885
+[2023.08.26-10.45.37:669][197]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.08.26-10.45.37:670][197]PIE: Server logged in
+[2023.08.26-10.45.37:670][197]PIE: Play in editor total start time 0.145 seconds.
+[2023.08.26-10.45.39:753][444]LogTemp: Warning: Health: 50.000000
+[2023.08.26-10.45.41:694][677]LogTemp: Warning: Health: 0.000000
+[2023.08.26-10.45.44:478][ 11]LogTemp: Warning: Health: 50.000000
+[2023.08.26-10.45.45:928][185]LogTemp: Warning: Health: -50.000000
+[2023.08.26-10.45.47:753][404]LogTemp: Warning: Health: -100.000000
+[2023.08.26-10.45.47:812][411]LogTemp: Warning: Health: -150.000000
+[2023.08.26-10.45.48:744][523]LogTemp: Warning: Health: 0.000000
+[2023.08.26-10.45.49:286][588]LogTemp: Warning: Health: -50.000000
+[2023.08.26-10.45.49:753][644]LogTemp: Warning: Health: -200.000000
+[2023.08.26-10.45.49:794][649]LogTemp: Warning: Health: -100.000000
+[2023.08.26-10.45.49:811][651]LogTemp: Warning: Health: -250.000000
+[2023.08.26-10.45.50:219][700]LogTemp: Warning: Health: -150.000000
+[2023.08.26-10.45.50:419][724]LogTemp: Warning: Health: -200.000000
+[2023.08.26-10.45.50:603][746]LogTemp: Warning: Health: -250.000000
+[2023.08.26-10.45.50:794][769]LogTemp: Warning: Health: -300.000000
+[2023.08.26-10.45.50:994][793]LogTemp: Warning: Health: -350.000000
+[2023.08.26-10.45.51:153][812]LogTemp: Warning: Health: -400.000000
+[2023.08.26-10.45.51:352][836]LogTemp: Warning: Health: -450.000000
+[2023.08.26-10.45.51:519][856]LogTemp: Warning: Health: -500.000000
+[2023.08.26-10.45.51:702][878]LogTemp: Warning: Health: -550.000000
+[2023.08.26-10.45.53:736][122]LogTemp: Warning: Health: -300.000000
+[2023.08.26-10.45.53:769][126]LogTemp: Warning: Health: -350.000000
+[2023.08.26-10.45.55:694][357]LogTemp: Warning: Health: -400.000000
+[2023.08.26-10.45.56:411][443]LogTemp: Warning: Health: 50.000000
+[2023.08.26-10.45.57:053][520]LogTemp: Warning: Health: 0.000000
+[2023.08.26-10.45.57:519][576]LogTemp: Warning: Health: -50.000000
+[2023.08.26-10.45.57:569][582]LogTemp: Warning: Health: -450.000000
+[2023.08.26-10.46.02:483][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.46.02:483][166]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-10.46.02:483][166]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-10.46.02:483][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.46.02:485][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-10.46.02:492][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-10.46.02:526][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.26-10.46.02:526][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.26-10.46.02:528][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.26-10.46.02:531][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-10.46.02:561][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.08.26-10.46.02:593][167]LogPlayLevel: Display: Destroying online subsystem :Context_20
