@@ -12,7 +12,6 @@ void ATower::Tick(float DeltaTime) {
 	////Check to see if the tank is in range
 	if (InFireRange()) {
 		//if in range rotate turret to tank
-		UE_LOG(LogTemp, Warning, TEXT("Ticking!!!"));
 		RotateTurret(Tank->GetActorLocation());
 		
 	}
