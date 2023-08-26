@@ -9,8 +9,9 @@
 				"D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset",
-				"D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset",
-				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset"
+				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset"
 			]
 		}
 	]
