@@ -1163,3 +1163,215 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.26-13.30.37:374][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2023.08.26-13.30.37:403][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2023.08.26-13.31.39:611][463]LogDerivedDataCache: C:/Users/Gaming/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.115 and deleted 0 files with total size 0 MiB. Scanned 4894 files in 4868 folders with total size 705 MiB.
+[2023.08.26-13.40.30:392][173]LogViewport: Scene viewport resized to 1034x416, mode Windowed.
+[2023.08.26-13.40.30:768][173]LogViewport: Scene viewport resized to 1388x902, mode Windowed.
+[2023.08.26-13.40.40:617][562]LogViewport: Scene viewport resized to 1389x902, mode Windowed.
+[2023.08.26-13.40.40:647][562]LogViewport: Scene viewport resized to 1406x902, mode Windowed.
+[2023.08.26-13.40.40:678][562]LogViewport: Scene viewport resized to 1449x902, mode Windowed.
+[2023.08.26-13.40.40:708][562]LogViewport: Scene viewport resized to 1522x902, mode Windowed.
+[2023.08.26-13.40.40:739][562]LogViewport: Scene viewport resized to 1595x902, mode Windowed.
+[2023.08.26-13.40.40:769][562]LogViewport: Scene viewport resized to 1663x902, mode Windowed.
+[2023.08.26-13.40.40:800][562]LogViewport: Scene viewport resized to 1723x902, mode Windowed.
+[2023.08.26-13.40.40:830][562]LogViewport: Scene viewport resized to 1770x902, mode Windowed.
+[2023.08.26-13.40.40:860][562]LogViewport: Scene viewport resized to 1800x902, mode Windowed.
+[2023.08.26-13.40.40:890][562]LogViewport: Scene viewport resized to 1832x902, mode Windowed.
+[2023.08.26-13.40.40:920][562]LogViewport: Scene viewport resized to 1857x902, mode Windowed.
+[2023.08.26-13.40.40:951][562]LogViewport: Scene viewport resized to 1872x902, mode Windowed.
+[2023.08.26-13.40.40:981][562]LogViewport: Scene viewport resized to 1885x902, mode Windowed.
+[2023.08.26-13.40.41:011][562]LogViewport: Scene viewport resized to 1906x902, mode Windowed.
+[2023.08.26-13.40.41:041][562]LogViewport: Scene viewport resized to 1926x902, mode Windowed.
+[2023.08.26-13.40.41:072][562]LogViewport: Scene viewport resized to 1943x902, mode Windowed.
+[2023.08.26-13.40.41:102][562]LogViewport: Scene viewport resized to 1963x902, mode Windowed.
+[2023.08.26-13.40.41:132][562]LogViewport: Scene viewport resized to 1993x902, mode Windowed.
+[2023.08.26-13.40.41:163][562]LogViewport: Scene viewport resized to 2023x902, mode Windowed.
+[2023.08.26-13.40.41:193][562]LogViewport: Scene viewport resized to 2040x902, mode Windowed.
+[2023.08.26-13.40.41:223][562]LogViewport: Scene viewport resized to 2045x902, mode Windowed.
+[2023.08.26-13.40.41:253][562]LogViewport: Scene viewport resized to 2048x902, mode Windowed.
+[2023.08.26-13.40.41:284][562]LogViewport: Scene viewport resized to 2052x902, mode Windowed.
+[2023.08.26-13.40.41:314][562]LogViewport: Scene viewport resized to 2056x902, mode Windowed.
+[2023.08.26-13.40.41:356][562]LogViewport: Scene viewport resized to 2057x902, mode Windowed.
+[2023.08.26-13.40.41:387][562]LogViewport: Scene viewport resized to 2064x902, mode Windowed.
+[2023.08.26-13.40.41:417][562]LogViewport: Scene viewport resized to 2074x902, mode Windowed.
+[2023.08.26-13.40.41:447][562]LogViewport: Scene viewport resized to 2078x902, mode Windowed.
+[2023.08.26-13.40.41:478][562]LogViewport: Scene viewport resized to 2080x902, mode Windowed.
+[2023.08.26-13.40.41:550][562]LogViewport: Scene viewport resized to 2082x902, mode Windowed.
+[2023.08.26-13.40.41:581][562]LogViewport: Scene viewport resized to 2085x902, mode Windowed.
+[2023.08.26-13.40.41:902][562]LogViewport: Scene viewport resized to 2086x902, mode Windowed.
+[2023.08.26-13.40.41:933][562]LogViewport: Scene viewport resized to 2088x902, mode Windowed.
+[2023.08.26-13.40.41:956][562]LogViewport: Scene viewport resized to 2089x902, mode Windowed.
+[2023.08.26-13.40.48:669][ 19]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-13.40.48:673][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-13.40.48:673][ 19]PIE: New page: PIE session: Main (26 Aug 2023, 19:40:48)
+[2023.08.26-13.40.48:693][ 19]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-13.40.48:696][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002936s)
+[2023.08.26-13.40.48:696][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002958s)
+[2023.08.26-13.40.48:696][ 19]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-13.40.48:697][ 19]LogAIModule: Creating AISystem for world Main
+[2023.08.26-13.40.48:697][ 19]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2023.08.26-13.40.48:715][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.08.26-13.40.48:716][ 19]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-13.40.48:716][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-13.40.48:716][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-13.40.48:716][ 19]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-13.40.48:716][ 19]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-13.40.48:716][ 19]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-13.40.48:718][ 19]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-13.40.48:751][ 19]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-13.40.48:751][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-13.40.48:751][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-13.40.48:751][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-13.40.48:752][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.26-13.40.48:752][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.26-13.40.48:753][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.26-13.40.48:753][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.26-13.40.48:753][ 19]LogInit: FAudioDevice initialized.
+[2023.08.26-13.40.48:753][ 19]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2023.08.26-13.40.48:755][ 19]LogLoad: Game class is 'BP_ToonTanksGameMode_C'
+[2023.08.26-13.40.48:755][ 19]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-16.40.48
+[2023.08.26-13.40.48:756][ 19]LogWorld: Bringing up level for play took: 0.000844
+[2023.08.26-13.40.48:757][ 19]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.08.26-13.40.48:758][ 19]PIE: Server logged in
+[2023.08.26-13.40.48:758][ 19]PIE: Play in editor total start time 0.085 seconds.
+[2023.08.26-13.40.54:583][715]LogTemp: Warning: Health: 50.000000
+[2023.08.26-13.40.55:866][869]LogTemp: Warning: Health: 0.000000
+[2023.08.26-13.40.56:899][993]LogTemp: Warning: Health: 50.000000
+[2023.08.26-13.40.58:524][188]LogTemp: Warning: Health: 50.000000
+[2023.08.26-13.40.59:016][247]LogTemp: Warning: Health: 0.000000
+[2023.08.26-13.41.00:758][456]LogTemp: Warning: Health: 0.000000
+[2023.08.26-13.41.02:758][696]LogTemp: Warning: Health: -50.000000
+[2023.08.26-13.41.04:194][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-13.41.04:194][865]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-13.41.04:194][865]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-13.41.04:194][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-13.41.04:196][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-13.41.04:199][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-13.41.04:214][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-13.41.04:214][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.26-13.41.04:215][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.26-13.41.04:220][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.08.26-13.41.04:268][869]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.08.26-13.41.06:793][  8]LogViewport: Scene viewport resized to 1034x416, mode Windowed.
+[2023.08.26-13.41.06:994][  8]LogViewport: Scene viewport resized to 1388x902, mode Windowed.
+[2023.08.26-13.43.40:136][213]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.43.40:136][213]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.43.40:136][213]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.44.08:966][878]Running C:/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.26-13.44.09:070][878]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.26-13.44.09:271][878]Log file: C:\Users\Gaming\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.08.26-13.44.09:471][878]
+[2023.08.26-13.44.09:471][878]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.08.26-13.44.09:471][878]See the log file for detailed information
+[2023.08.26-13.44.09:471][878]
+[2023.08.26-13.44.09:471][878]Discovering modules, targets and source code for project...
+[2023.08.26-13.44.11:177][878]Binding IntelliSense data...
+[2023.08.26-13.44.12:685][878]Binding IntelliSense data... 100%
+[2023.08.26-13.44.12:685][878]Writing project files...
+[2023.08.26-13.44.15:496][878]Writing project files... 100%
+[2023.08.26-13.44.15:805][878]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-13.44.15:909][878]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.08.26-13.44.18:996][213]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.exp
+[2023.08.26-13.44.19:085][217]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.26-13.44.19:085][217]LogClass: Could not find existing class ToonTanksPlayerController in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-13.44.19:128][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.08.26-13.44.19:350][218]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.08.26-13.44.19:350][218]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-13.44.52:756][624]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.08.26-13.44.52:756][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-13.44.53:065][624]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2023.08.26-13.44.53:096][624]LogViewport: Scene viewport resized to 1010x588, mode Windowed.
+[2023.08.26-13.44.54:817][826]LogViewport: Scene viewport resized to 1008x606, mode Windowed.
+[2023.08.26-13.44.54:853][828]LogViewport: Scene viewport resized to 737x413, mode Windowed.
+[2023.08.26-13.44.54:878][829]LogViewport: Scene viewport resized to 488x235, mode Windowed.
+[2023.08.26-13.44.54:890][830]LogViewport: Scene viewport resized to 354x140, mode Windowed.
+[2023.08.26-13.44.55:656][922]LogViewport: Scene viewport resized to 772x976, mode Windowed.
+[2023.08.26-13.44.56:417][ 12]LogSlate: Window 'BP_ToonTanksPlayerController' being destroyed
+[2023.08.26-13.45.05:440][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-13.45.05:458][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode/BP_ToonTanksPlayerController" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksPlayerController.uasset" SILENT=true
+[2023.08.26-13.45.05:460][899]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode/BP_ToonTanksPlayerController
+[2023.08.26-13.45.05:460][899]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksPlayerControllerF034802E4B17901C4ED6C381C7FD1E1C.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksPlayerController.uasset'
+[2023.08.26-13.45.05:464][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 23 ms (total: 73 ms)
+[2023.08.26-13.45.05:469][899]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.08.26-13.45.05:469][899]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.08.26-13.45.19:492][499]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.08.26-13.45.19:492][499]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-13.45.21:194][666]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-13.45.21:194][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-13.45.21:217][666]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.08.26-13.45.21:217][666]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-13.45.28:173][464]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.45.28:174][464]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.45.28:174][464]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-13.45.56:833][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.08.26-13.45.56:833][ 80]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.045
+[2023.08.26-13.45.56:834][ 80]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameMode/BP_ToonTanksGameMode] ([2] browsable assets)...
+[2023.08.26-13.45.56:834][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameMode/BP_ToonTanksGameMode]
+[2023.08.26-13.45.56:835][ 80]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/GameMode/BP_ToonTanksGameMode_Auto1
+[2023.08.26-13.45.56:835][ 80]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksGameMode_Auto176FBAE4F44CE8CCA14DDA78FDC75413F.tmp' to 'D:/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/GameMode/BP_ToonTanksGameMode_Auto1.uasset'
+[2023.08.26-13.45.56:836][ 80]LogFileHelpers: Auto-saving content packages took 0.002
+[2023.08.26-13.46.17:056][214]BlueprintLog: New page: Compile BP_ToonTanksGameMode
+[2023.08.26-13.46.17:095][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.26-13.46.18:451][374]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-13.46.18:451][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-13.46.37:254][449]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.08.26-13.46.37:260][449]LogContentBrowser: Creating deferred item: NewFolder
+[2023.08.26-13.46.37:263][450]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.08.26-13.46.41:986][ 17]LogContentBrowser: Attempting asset rename: NewFolder -> PlayerController
+[2023.08.26-13.46.41:986][ 17]LogContentBrowser: End creating deferred item NewFolder
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.SKEL_BP_ToonTanksPlayerController_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.SKEL_BP_ToonTanksPlayerController_C' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:653][166]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/GameMode/BP_ToonTanksPlayerController.PackageMetaData'
+[2023.08.26-13.46.51:654][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-13.46.51:679][166]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2023.08.26-13.46.51:679][166]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksPlayerController05E86D3D46340C1C76E94BB5FC0F0F10.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2023.08.26-13.46.51:682][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 101 ms)
+[2023.08.26-13.46.51:717][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.08.26-13.46.51:740][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.26-13.46.51:759][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.08.26-13.46.51:770][166]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.08.26-13.46.51:770][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.08.26-13.46.54:829][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-13.46.54:850][532]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2023.08.26-13.46.54:850][532]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksPlayerController56010520424AFB694495D8AEE012A22E.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2023.08.26-13.46.54:854][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 126 ms)
+[2023.08.26-13.46.54:861][532]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.08.26-13.46.54:861][532]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.08.26-13.47.42:969][953]LogViewport: Scene viewport resized to 772x977, mode Windowed.
+[2023.08.26-13.47.50:395][833]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.08.26-13.47.50:395][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-13.47.59:465][886]BlueprintLog: New page: Compile BP_ToonTanksGameMode
+[2023.08.26-13.47.59:502][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.26-13.48.02:291][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-13.48.02:312][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode/BP_ToonTanksGameMode" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset" SILENT=true
+[2023.08.26-13.48.02:314][217]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode/BP_ToonTanksGameMode
+[2023.08.26-13.48.02:314][217]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksGameMode97F3D82E454D678D9B7FF59191468B23.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset'
+[2023.08.26-13.48.02:318][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 26 ms (total: 153 ms)
+[2023.08.26-13.48.02:326][217]AssetCheck: New page: Asset Save: BP_ToonTanksGameMode
+[2023.08.26-13.48.02:326][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.08.26-13.48.03:256][329]LogViewport: Scene viewport resized to 1388x903, mode Windowed.
+[2023.08.26-13.55.37:617][135]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-13.55.41:168][146]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.exp
+[2023.08.26-13.55.41:498][147]LogClass: UClass ToonTanksGameMode Reload.
+[2023.08.26-13.55.41:498][147]LogClass: Could not find existing class ToonTanksGameMode in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-13.55.41:508][147]Re-instancing ToonTanksGameMode after reload.
+[2023.08.26-13.55.41:667][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.26-13.55.41:978][148]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2023.08.26-13.55.41:978][148]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-13.56.06:224][421]BlueprintLog: New page: Compile BP_ToonTanksPlayerController
+[2023.08.26-13.56.06:282][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.08.26-13.56.06:703][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-13.56.06:724][471]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2023.08.26-13.56.06:724][471]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ToonTanksPlayerController2404849040398952C5DE36A083CB2F45.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2023.08.26-13.56.06:727][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 24 ms (total: 178 ms)
+[2023.08.26-13.56.06:739][471]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.08.26-13.56.06:739][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.08.26-13.56.30:747][876]LogSlate: Window 'Content Browser' being destroyed
+[2023.08.26-13.56.30:749][876]LogSlate: Window 'Content Browser' being destroyed
