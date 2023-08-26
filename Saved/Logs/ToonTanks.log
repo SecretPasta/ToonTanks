@@ -1891,3 +1891,550 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.26-09.44.07:155][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms
 [2023.08.26-09.44.07:160][219]AssetCheck: New page: Asset Save: Main
 [2023.08.26-09.44.07:160][219]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.26-09.46.26:242][790]LogViewport: Scene viewport resized to 1034x416, mode Windowed.
+[2023.08.26-09.46.26:472][790]LogViewport: Scene viewport resized to 1388x902, mode Windowed.
+[2023.08.26-09.46.29:914][117]LogViewport: Scene viewport resized to 1389x902, mode Windowed.
+[2023.08.26-09.46.29:945][117]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.08.26-09.46.29:976][117]LogViewport: Scene viewport resized to 1446x902, mode Windowed.
+[2023.08.26-09.46.30:005][117]LogViewport: Scene viewport resized to 1520x902, mode Windowed.
+[2023.08.26-09.46.30:036][117]LogViewport: Scene viewport resized to 1597x902, mode Windowed.
+[2023.08.26-09.46.30:066][117]LogViewport: Scene viewport resized to 1679x902, mode Windowed.
+[2023.08.26-09.46.30:096][117]LogViewport: Scene viewport resized to 1768x902, mode Windowed.
+[2023.08.26-09.46.30:132][117]LogViewport: Scene viewport resized to 1846x902, mode Windowed.
+[2023.08.26-09.46.30:163][117]LogViewport: Scene viewport resized to 1930x902, mode Windowed.
+[2023.08.26-09.46.30:193][117]LogViewport: Scene viewport resized to 1969x902, mode Windowed.
+[2023.08.26-09.46.30:230][117]LogViewport: Scene viewport resized to 1972x902, mode Windowed.
+[2023.08.26-09.46.30:405][117]LogViewport: Scene viewport resized to 1971x902, mode Windowed.
+[2023.08.26-09.46.30:430][117]LogViewport: Scene viewport resized to 1957x902, mode Windowed.
+[2023.08.26-09.46.30:460][117]LogViewport: Scene viewport resized to 1926x902, mode Windowed.
+[2023.08.26-09.46.30:490][117]LogViewport: Scene viewport resized to 1903x902, mode Windowed.
+[2023.08.26-09.46.30:515][117]LogViewport: Scene viewport resized to 1876x902, mode Windowed.
+[2023.08.26-09.46.30:545][117]LogViewport: Scene viewport resized to 1836x902, mode Windowed.
+[2023.08.26-09.46.30:569][117]LogViewport: Scene viewport resized to 1775x902, mode Windowed.
+[2023.08.26-09.46.30:592][117]LogViewport: Scene viewport resized to 1733x902, mode Windowed.
+[2023.08.26-09.46.30:617][117]LogViewport: Scene viewport resized to 1702x902, mode Windowed.
+[2023.08.26-09.46.30:641][117]LogViewport: Scene viewport resized to 1673x902, mode Windowed.
+[2023.08.26-09.46.30:666][117]LogViewport: Scene viewport resized to 1668x902, mode Windowed.
+[2023.08.26-09.46.30:781][117]LogViewport: Scene viewport resized to 1673x902, mode Windowed.
+[2023.08.26-09.46.30:805][117]LogViewport: Scene viewport resized to 1681x902, mode Windowed.
+[2023.08.26-09.46.30:836][117]LogViewport: Scene viewport resized to 1693x902, mode Windowed.
+[2023.08.26-09.46.30:859][117]LogViewport: Scene viewport resized to 1705x902, mode Windowed.
+[2023.08.26-09.46.30:884][117]LogViewport: Scene viewport resized to 1710x902, mode Windowed.
+[2023.08.26-09.46.30:914][117]LogViewport: Scene viewport resized to 1721x902, mode Windowed.
+[2023.08.26-09.46.30:939][117]LogViewport: Scene viewport resized to 1747x902, mode Windowed.
+[2023.08.26-09.46.30:963][117]LogViewport: Scene viewport resized to 1765x902, mode Windowed.
+[2023.08.26-09.46.30:987][117]LogViewport: Scene viewport resized to 1767x902, mode Windowed.
+[2023.08.26-09.46.31:084][117]LogViewport: Scene viewport resized to 1766x902, mode Windowed.
+[2023.08.26-09.46.31:109][117]LogViewport: Scene viewport resized to 1752x902, mode Windowed.
+[2023.08.26-09.46.31:139][117]LogViewport: Scene viewport resized to 1717x902, mode Windowed.
+[2023.08.26-09.46.31:163][117]LogViewport: Scene viewport resized to 1678x902, mode Windowed.
+[2023.08.26-09.46.31:187][117]LogViewport: Scene viewport resized to 1665x902, mode Windowed.
+[2023.08.26-09.46.31:211][117]LogViewport: Scene viewport resized to 1664x902, mode Windowed.
+[2023.08.26-09.46.39:188][263]LogViewport: Scene viewport resized to 1665x902, mode Windowed.
+[2023.08.26-09.46.39:218][263]LogViewport: Scene viewport resized to 1677x902, mode Windowed.
+[2023.08.26-09.46.39:241][263]LogViewport: Scene viewport resized to 1699x902, mode Windowed.
+[2023.08.26-09.46.39:266][263]LogViewport: Scene viewport resized to 1725x902, mode Windowed.
+[2023.08.26-09.46.39:291][263]LogViewport: Scene viewport resized to 1758x902, mode Windowed.
+[2023.08.26-09.46.39:315][263]LogViewport: Scene viewport resized to 1799x902, mode Windowed.
+[2023.08.26-09.46.39:339][263]LogViewport: Scene viewport resized to 1826x902, mode Windowed.
+[2023.08.26-09.46.39:369][263]LogViewport: Scene viewport resized to 1860x902, mode Windowed.
+[2023.08.26-09.46.39:393][263]LogViewport: Scene viewport resized to 1894x902, mode Windowed.
+[2023.08.26-09.46.39:418][263]LogViewport: Scene viewport resized to 1916x902, mode Windowed.
+[2023.08.26-09.46.39:442][263]LogViewport: Scene viewport resized to 1942x902, mode Windowed.
+[2023.08.26-09.46.39:466][263]LogViewport: Scene viewport resized to 1970x902, mode Windowed.
+[2023.08.26-09.46.39:490][263]LogViewport: Scene viewport resized to 1995x902, mode Windowed.
+[2023.08.26-09.46.39:521][263]LogViewport: Scene viewport resized to 2011x902, mode Windowed.
+[2023.08.26-09.46.39:551][263]LogViewport: Scene viewport resized to 2018x902, mode Windowed.
+[2023.08.26-09.46.39:581][263]LogViewport: Scene viewport resized to 2027x902, mode Windowed.
+[2023.08.26-09.46.39:612][263]LogViewport: Scene viewport resized to 2031x902, mode Windowed.
+[2023.08.26-09.46.39:642][263]LogViewport: Scene viewport resized to 2034x902, mode Windowed.
+[2023.08.26-09.46.39:672][263]LogViewport: Scene viewport resized to 2040x902, mode Windowed.
+[2023.08.26-09.46.39:703][263]LogViewport: Scene viewport resized to 2046x902, mode Windowed.
+[2023.08.26-09.46.39:733][263]LogViewport: Scene viewport resized to 2049x902, mode Windowed.
+[2023.08.26-09.46.39:763][263]LogViewport: Scene viewport resized to 2054x902, mode Windowed.
+[2023.08.26-09.46.39:793][263]LogViewport: Scene viewport resized to 2062x902, mode Windowed.
+[2023.08.26-09.46.39:824][263]LogViewport: Scene viewport resized to 2068x902, mode Windowed.
+[2023.08.26-09.46.39:854][263]LogViewport: Scene viewport resized to 2071x902, mode Windowed.
+[2023.08.26-09.46.39:878][263]LogViewport: Scene viewport resized to 2074x902, mode Windowed.
+[2023.08.26-09.46.39:908][263]LogViewport: Scene viewport resized to 2076x902, mode Windowed.
+[2023.08.26-09.46.39:933][263]LogViewport: Scene viewport resized to 2078x902, mode Windowed.
+[2023.08.26-09.46.39:957][263]LogViewport: Scene viewport resized to 2080x902, mode Windowed.
+[2023.08.26-09.46.39:981][263]LogViewport: Scene viewport resized to 2083x902, mode Windowed.
+[2023.08.26-09.46.40:012][263]LogViewport: Scene viewport resized to 2084x902, mode Windowed.
+[2023.08.26-09.46.43:673][585]LogViewport: Scene viewport resized to 2084x904, mode Windowed.
+[2023.08.26-09.46.43:684][586]LogViewport: Scene viewport resized to 2084x906, mode Windowed.
+[2023.08.26-09.46.43:693][587]LogViewport: Scene viewport resized to 2084x910, mode Windowed.
+[2023.08.26-09.46.43:707][588]LogViewport: Scene viewport resized to 2084x913, mode Windowed.
+[2023.08.26-09.46.43:724][589]LogViewport: Scene viewport resized to 2084x917, mode Windowed.
+[2023.08.26-09.46.43:739][590]LogViewport: Scene viewport resized to 2084x918, mode Windowed.
+[2023.08.26-09.46.43:753][591]LogViewport: Scene viewport resized to 2084x922, mode Windowed.
+[2023.08.26-09.46.43:762][592]LogViewport: Scene viewport resized to 2084x924, mode Windowed.
+[2023.08.26-09.46.43:777][593]LogViewport: Scene viewport resized to 2084x926, mode Windowed.
+[2023.08.26-09.46.43:786][594]LogViewport: Scene viewport resized to 2084x929, mode Windowed.
+[2023.08.26-09.46.43:801][595]LogViewport: Scene viewport resized to 2084x931, mode Windowed.
+[2023.08.26-09.46.43:815][596]LogViewport: Scene viewport resized to 2084x933, mode Windowed.
+[2023.08.26-09.46.43:824][597]LogViewport: Scene viewport resized to 2084x935, mode Windowed.
+[2023.08.26-09.46.43:839][598]LogViewport: Scene viewport resized to 2084x938, mode Windowed.
+[2023.08.26-09.46.43:848][599]LogViewport: Scene viewport resized to 2084x939, mode Windowed.
+[2023.08.26-09.46.43:863][600]LogViewport: Scene viewport resized to 2084x940, mode Windowed.
+[2023.08.26-09.46.43:871][601]LogViewport: Scene viewport resized to 2084x943, mode Windowed.
+[2023.08.26-09.46.43:880][602]LogViewport: Scene viewport resized to 2084x944, mode Windowed.
+[2023.08.26-09.46.43:895][603]LogViewport: Scene viewport resized to 2084x946, mode Windowed.
+[2023.08.26-09.46.43:904][604]LogViewport: Scene viewport resized to 2084x949, mode Windowed.
+[2023.08.26-09.46.43:919][605]LogViewport: Scene viewport resized to 2084x950, mode Windowed.
+[2023.08.26-09.46.43:933][606]LogViewport: Scene viewport resized to 2084x951, mode Windowed.
+[2023.08.26-09.46.43:942][607]LogViewport: Scene viewport resized to 2084x953, mode Windowed.
+[2023.08.26-09.46.43:951][608]LogViewport: Scene viewport resized to 2084x955, mode Windowed.
+[2023.08.26-09.46.43:966][609]LogViewport: Scene viewport resized to 2084x958, mode Windowed.
+[2023.08.26-09.46.43:975][610]LogViewport: Scene viewport resized to 2084x960, mode Windowed.
+[2023.08.26-09.46.43:990][611]LogViewport: Scene viewport resized to 2084x964, mode Windowed.
+[2023.08.26-09.46.43:999][612]LogViewport: Scene viewport resized to 2084x966, mode Windowed.
+[2023.08.26-09.46.44:014][613]LogViewport: Scene viewport resized to 2084x969, mode Windowed.
+[2023.08.26-09.46.44:030][614]LogViewport: Scene viewport resized to 2084x973, mode Windowed.
+[2023.08.26-09.46.44:044][615]LogViewport: Scene viewport resized to 2084x975, mode Windowed.
+[2023.08.26-09.46.44:059][616]LogViewport: Scene viewport resized to 2084x979, mode Windowed.
+[2023.08.26-09.46.44:067][617]LogViewport: Scene viewport resized to 2084x984, mode Windowed.
+[2023.08.26-09.46.44:082][618]LogViewport: Scene viewport resized to 2084x989, mode Windowed.
+[2023.08.26-09.46.44:096][619]LogViewport: Scene viewport resized to 2084x994, mode Windowed.
+[2023.08.26-09.46.44:111][620]LogViewport: Scene viewport resized to 2084x998, mode Windowed.
+[2023.08.26-09.46.44:126][621]LogViewport: Scene viewport resized to 2084x1004, mode Windowed.
+[2023.08.26-09.46.44:149][622]LogViewport: Scene viewport resized to 2084x1011, mode Windowed.
+[2023.08.26-09.46.44:163][623]LogViewport: Scene viewport resized to 2084x1012, mode Windowed.
+[2023.08.26-09.46.44:179][624]LogViewport: Scene viewport resized to 2084x1014, mode Windowed.
+[2023.08.26-09.46.44:421][653]LogViewport: Scene viewport resized to 2084x1015, mode Windowed.
+[2023.08.26-09.46.44:430][654]LogViewport: Scene viewport resized to 2084x1019, mode Windowed.
+[2023.08.26-09.46.44:438][655]LogViewport: Scene viewport resized to 2084x1021, mode Windowed.
+[2023.08.26-09.46.44:453][656]LogViewport: Scene viewport resized to 2084x1027, mode Windowed.
+[2023.08.26-09.46.44:468][657]LogViewport: Scene viewport resized to 2084x1032, mode Windowed.
+[2023.08.26-09.46.44:488][658]LogViewport: Scene viewport resized to 2084x1039, mode Windowed.
+[2023.08.26-09.46.44:504][659]LogViewport: Scene viewport resized to 2084x1040, mode Windowed.
+[2023.08.26-09.46.50:661][163]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.26-09.46.50:667][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.26-09.46.50:667][163]PIE: New page: PIE session: Main (26 Aug 2023, 15:46:50)
+[2023.08.26-09.46.50:667][163]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.26-09.46.50:670][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003016s)
+[2023.08.26-09.46.50:670][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003035s)
+[2023.08.26-09.46.50:670][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-09.46.50:670][163]LogAIModule: Creating AISystem for world Main
+[2023.08.26-09.46.50:670][163]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2023.08.26-09.46.50:701][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.26-09.46.50:702][163]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.26-09.46.50:702][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.26-09.46.50:702][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.26-09.46.50:703][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.26-09.46.50:703][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.26-09.46.50:703][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.26-09.46.50:704][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.26-09.46.50:738][163]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.26-09.46.50:738][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.26-09.46.50:738][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.26-09.46.50:738][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.26-09.46.50:739][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.26-09.46.50:739][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.26-09.46.50:740][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.26-09.46.50:740][163]LogInit: FAudioDevice initialized.
+[2023.08.26-09.46.50:740][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.26-09.46.50:740][163]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2023.08.26-09.46.50:742][163]LogLoad: Game class is 'GameModeBase'
+[2023.08.26-09.46.50:743][163]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.26-12.46.50
+[2023.08.26-09.46.50:743][163]LogWorld: Bringing up level for play took: 0.001000
+[2023.08.26-09.46.50:744][163]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.08.26-09.46.50:745][163]PIE: Server logged in
+[2023.08.26-09.46.50:746][163]PIE: Play in editor total start time 0.079 seconds.
+[2023.08.26-09.46.52:225][338]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.46.53:241][460]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.46.54:991][670]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.46.59:100][163]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.02:675][592]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.02:708][596]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.02:875][616]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.03:850][733]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:858][734]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:867][735]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:875][736]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:883][737]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:892][738]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:900][739]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:908][740]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:916][741]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:925][742]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:933][743]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:941][744]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:950][745]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:958][746]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:966][747]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:975][748]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.03:983][749]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:158][770]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:166][771]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:175][772]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:183][773]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:191][774]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:200][775]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:208][776]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:216][777]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:225][778]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:233][779]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:241][780]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:250][781]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:258][782]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:266][783]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:275][784]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:283][785]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:291][786]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:299][787]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:308][788]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:317][789]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:325][790]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:333][791]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.04:667][831]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_5,OtherComp: Projectile Mesh
+[2023.08.26-09.47.04:667][831]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_7,OtherComp: Projectile Mesh
+[2023.08.26-09.47.04:908][860]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.06:150][  9]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.06:333][ 31]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.06:667][ 71]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.06:668][ 71]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.06:867][ 95]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.06:884][ 97]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:134][127]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:142][128]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:150][129]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:150][129]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.07:158][130]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:167][131]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:175][132]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:183][133]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:192][134]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:200][135]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:209][136]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:217][137]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:225][138]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:234][139]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:242][140]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:250][141]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:258][142]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:267][143]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:275][144]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:283][145]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:292][146]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:292][146]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_11,OtherComp: Projectile Mesh
+[2023.08.26-09.47.07:292][146]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_16,OtherComp: Projectile Mesh
+[2023.08.26-09.47.07:300][147]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:308][148]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:317][149]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:325][150]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:333][151]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:341][152]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:350][153]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:358][154]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:367][155]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:542][176]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:550][177]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:558][178]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:567][179]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:575][180]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:583][181]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:591][182]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:600][183]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:608][184]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:617][185]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:625][186]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:633][187]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:641][188]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:650][189]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:659][190]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:667][191]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:675][192]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:683][193]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:692][194]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:700][195]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:708][196]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:717][197]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:725][198]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:733][199]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:742][200]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:750][201]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:758][202]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:767][203]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:775][204]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:784][205]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:792][206]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:800][207]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:808][208]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:817][209]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:825][210]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:834][211]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:842][212]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:850][213]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:858][214]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:867][215]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:875][216]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:883][217]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:891][218]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:900][219]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:908][220]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:916][221]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:925][222]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:933][223]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:941][224]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:950][225]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:958][226]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:966][227]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.07:975][228]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.08:667][311]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.08:667][311]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.08:950][345]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Base Mesh
+[2023.08.26-09.47.09:467][407]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.09:992][470]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_9,OtherComp: Projectile Mesh
+[2023.08.26-09.47.09:992][470]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_21,OtherComp: Projectile Mesh
+[2023.08.26-09.47.10:666][551]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.11:951][705]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.12:667][791]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.13:100][843]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.18:176][452]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.18:192][454]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:200][455]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:208][456]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:217][457]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:225][458]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:233][459]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:241][460]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:250][461]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:258][462]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:266][463]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:275][464]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:283][465]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:291][466]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:300][467]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:309][468]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:317][469]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:325][470]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:334][471]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:342][472]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:350][473]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:358][474]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:367][475]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:375][476]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:383][477]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:392][478]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:400][479]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:409][480]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:417][481]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:425][482]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:434][483]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:442][484]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:450][485]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:458][486]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:467][487]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:475][488]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:484][489]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:492][490]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:500][491]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:509][492]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:517][493]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:525][494]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:534][495]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:542][496]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:550][497]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:558][498]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:567][499]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:575][500]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:584][501]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:592][502]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:601][503]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:609][504]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:617][505]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:625][506]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:634][507]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:642][508]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:650][509]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:658][510]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:667][511]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:667][511]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube6_4,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.18:667][511]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Cube5,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.18:675][512]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:834][531]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:842][532]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:850][533]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:858][534]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:867][535]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:875][536]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:883][537]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:883][537]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.18:892][538]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:900][539]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:908][540]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:917][541]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:925][542]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:933][543]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:941][544]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:950][545]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:958][546]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:967][547]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:975][548]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:983][549]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.18:991][550]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:000][551]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:008][552]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:017][553]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:025][554]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:033][555]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:042][556]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:050][557]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:059][558]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:067][559]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:075][560]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:084][561]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:092][562]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:100][563]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:109][564]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:117][565]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:125][566]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:134][567]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:142][568]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:150][569]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:158][570]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:167][571]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:175][572]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:183][573]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:192][574]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:192][574]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_29,OtherComp: Projectile Mesh
+[2023.08.26-09.47.19:192][574]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_30,OtherComp: Projectile Mesh
+[2023.08.26-09.47.19:200][575]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:208][576]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:217][577]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:225][578]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:233][579]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.19:242][580]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:201][695]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Turret Mesh
+[2023.08.26-09.47.20:217][697]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:225][698]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:233][699]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:234][699]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.20:242][700]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:250][701]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:259][702]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:267][703]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:275][704]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:284][705]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:292][706]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:300][707]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:309][708]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_PawnTank_C_1,OtherComp: Capsule Collider
+[2023.08.26-09.47.20:884][777]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_26,OtherComp: Projectile Mesh
+[2023.08.26-09.47.20:884][777]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: BP_Projectile_C_33,OtherComp: Projectile Mesh
+[2023.08.26-09.47.21:659][870]LogTemp: Warning: OnHit:HitComp: Projectile Mesh,OtherActor: Floor_0,OtherComp: StaticMeshComponent0
+[2023.08.26-09.47.21:904][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-09.47.21:904][896]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.26-09.47.21:904][896]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-09.47.21:904][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-09.47.21:906][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.26-09.47.21:912][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-09.47.21:939][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.26-09.47.21:939][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.26-09.47.21:940][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.26-09.47.21:944][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.26-09.47.21:947][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.08.26-09.47.21:987][898]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.08.26-09.49.16:154][584]LogViewport: Scene viewport resized to 1034x480, mode Windowed.
+[2023.08.26-09.49.16:360][584]LogViewport: Scene viewport resized to 1388x1040, mode Windowed.
+[2023.08.26-09.50.58:162][ 58]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.08.26-09.51.00:902][378]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-09.51.00:902][378]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-09.51.00:902][378]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.26-09.51.36:376][ 23]Running C:/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.26-09.51.36:481][ 23]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/Unreal Projects/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2023.08.26-09.51.36:682][ 23]Log file: C:\Users\Gaming\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.08.26-09.51.37:083][ 23]
+[2023.08.26-09.51.37:083][ 23]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.08.26-09.51.37:083][ 23]See the log file for detailed information
+[2023.08.26-09.51.37:083][ 23]
+[2023.08.26-09.51.37:183][ 23]Discovering modules, targets and source code for project...
+[2023.08.26-09.51.39:291][ 23]Binding IntelliSense data...
+[2023.08.26-09.51.45:009][ 23]Binding IntelliSense data... 100%
+[2023.08.26-09.51.45:009][ 23]Writing project files...
+[2023.08.26-09.51.48:422][ 23]Writing project files... 100%
+[2023.08.26-09.51.48:731][ 23]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-09.51.48:745][ 23]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.48:745][ 23]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.08.26-09.51.48:749][ 23]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.48:767][ 24]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.49:100][ 25]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.49:433][ 26]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.49:767][ 27]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.50:102][ 28]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.08.26-09.51.51:813][ 31]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_2.exp
+[2023.08.26-09.51.52:205][ 33]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.26-09.51.52:205][ 33]LogClass: Could not find existing class HealthComponent in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-09.51.52:270][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.08.26-09.51.52:702][ 34]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.08.26-09.51.52:702][ 34]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-09.54.13:842][458]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-09.54.16:871][467]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_3.exp
+[2023.08.26-09.54.17:214][468]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.26-09.54.17:214][468]LogClass: UClass HealthComponent Reload.
+[2023.08.26-09.54.17:214][468]LogClass: Could not find existing class HealthComponent in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-09.54.17:222][468]Re-instancing HealthComponent after reload.
+[2023.08.26-09.54.17:322][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.08.26-09.54.17:679][469]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.26-09.54.17:679][469]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.26-09.55.15:297][ 41]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.26-09.55.15:386][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.08.26-09.55.19:292][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-09.55.19:346][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2023.08.26-09.55.19:349][497]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2023.08.26-09.55.19:349][497]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTank2C28654B400BDD11760E95AA9C498E3B.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2023.08.26-09.55.19:355][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 139 ms)
+[2023.08.26-09.55.19:363][497]AssetCheck: New page: Asset Save: BP_PawnTank
+[2023.08.26-09.55.19:363][497]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2023.08.26-09.55.21:398][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-09.55.21:420][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.26-09.55.21:451][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.08.26-09.55.21:469][736]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.26-09.55.21:469][736]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/MainCFC37FDC4B7CC1F5EECC14AABD4CA637.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.26-09.55.21:478][736]LogFileHelpers: No new changes to save!
+[2023.08.26-09.55.21:478][736]LogFileHelpers: Saving map 'Main' took 0.058
+[2023.08.26-09.55.21:481][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 222 ms)
+[2023.08.26-09.55.21:487][736]AssetCheck: New page: Asset Save: Main
+[2023.08.26-09.55.21:487][736]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.26-09.55.32:495][933]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.26-09.55.32:495][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-09.55.34:641][143]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.08.26-09.55.34:641][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.26-09.55.34:668][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.26-09.55.34:668][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.26-09.55.52:162][105]BlueprintLog: New page: Compile BP_PawnTurret
+[2023.08.26-09.55.52:201][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.08.26-09.55.53:093][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-09.55.53:129][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2023.08.26-09.55.53:131][210]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2023.08.26-09.55.53:142][210]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTurret5147DE6E4BD46DC2338C18A09F69591E.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2023.08.26-09.55.53:145][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 274 ms)
+[2023.08.26-09.55.53:152][210]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2023.08.26-09.55.53:152][210]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.26-09.55.54:385][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-09.55.54:409][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.26-09.55.54:442][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.08.26-09.55.54:453][355]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.08.26-09.55.54:453][355]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/Main21CF5A1A4F4EE6D6ADAA18B6A39878A6.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2023.08.26-09.55.54:463][355]LogFileHelpers: No new changes to save!
+[2023.08.26-09.55.54:463][355]LogFileHelpers: Saving map 'Main' took 0.054
+[2023.08.26-09.55.54:466][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 355 ms)
+[2023.08.26-09.55.54:472][355]AssetCheck: New page: Asset Save: Main
+[2023.08.26-09.55.54:472][355]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2023.08.26-09.55.57:556][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.08.26-10.05.43:574][635]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.26-10.05.46:613][644]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_4.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_4.exp
+[2023.08.26-10.05.46:699][645]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.26-10.05.46:699][645]LogClass: UClass HealthComponent Reload.
+[2023.08.26-10.05.46:699][645]LogClass: Could not find existing class HealthComponent in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.26-10.05.46:700][645]LogClass: Function DamageTaken is new or belongs to a modified class.
+[2023.08.26-10.05.46:709][645]Re-instancing HealthComponent after reload.
+[2023.08.26-10.05.46:797][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.08.26-10.05.47:178][646]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.26-10.05.47:178][646]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
