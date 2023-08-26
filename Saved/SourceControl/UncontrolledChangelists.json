@@ -13,6 +13,7 @@
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksPlayerController.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_StartGameWidget.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset"
 			]
 		}
