@@ -26,7 +26,7 @@ ATank::ATank() {
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
-	PlayerControllerRef = Cast<APlayerController>(GetController());
+	TankPlayerContoller = Cast<APlayerController>(GetController());
 	
 
 }
@@ -36,16 +36,23 @@ void ATank::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 
 	FHitResult HitResult;
-	if (PlayerControllerRef) {
-		PlayerControllerRef->GetHitResultUnderCursor(
+	if (TankPlayerContoller) {
+		TankPlayerContoller->GetHitResultUnderCursor(
 			ECollisionChannel::ECC_Visibility, 
 			false, 
 			HitResult);
-		RotateTurret(HitResult.ImpactPoint);
-		
+		RotateTurret(HitResult.ImpactPoint);		
 	}
+}
+
+void ATank::HandleDestruction() {
+	Super::HandleDestruction();
+	UE_LOG(LogTemp, Warning, TEXT("Tank Died"));
+	SetActorHiddenInGame(true); //Hiding the tank to keep view of the map
+	SetActorTickEnabled(false);	//disabling tank ticking
 
 }
+
 
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {

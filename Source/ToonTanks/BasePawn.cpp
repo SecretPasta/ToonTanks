@@ -26,6 +26,10 @@ ABasePawn::ABasePawn()
 	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
 }
 
+void ABasePawn::HandleDestruction() {
+	// TODO: Visual/Sound Effects
+}
+
 void ABasePawn::RotateTurret(FVector LootAtTarget) {
 	FVector ToTarget = LootAtTarget - TurretMesh->GetComponentLocation();
 	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
