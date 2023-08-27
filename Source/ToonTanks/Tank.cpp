@@ -50,7 +50,7 @@ void ATank::HandleDestruction() {
 	UE_LOG(LogTemp, Warning, TEXT("Tank Died"));
 	SetActorHiddenInGame(true); //Hiding the tank to keep view of the map
 	SetActorTickEnabled(false);	//disabling tank ticking
-
+	bAlive = false;
 }
 
 

@@ -37,7 +37,11 @@ void ATower::BeginPlay()
 
 void ATower::CheckFireCondition() {
 	////Check to see if the tank is in range
-	if (InFireRange()) {
+	if (Tank == nullptr) {
+		return;
+	}
+		
+	if (InFireRange() && Tank->bAlive) {
 		Fire();
 	}
 }

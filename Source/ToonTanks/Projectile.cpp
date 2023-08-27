@@ -52,14 +52,14 @@ void AProjectile::OnHit(
 	FVector NormalImpulse,
 	const FHitResult& Hit){
 //	UE_LOG(LogTemp, Warning, TEXT("OnHit:HitComp: %s,OtherActor: %s,OtherComp: %s"),*HitComponent->GetName(), *OtherActor->GetName(),*OtherComp->GetName());
-	auto MyOwner = GetOwner();
+	AActor* MyOwner = GetOwner();
 	if (MyOwner == nullptr) {
 		Destroy();
 		return;
 	}
 		
-	auto MyOwnerInstigator = MyOwner->GetInstigatorController();
-	auto DamageTypeClass = UDamageType::StaticClass();
+	AController* MyOwnerInstigator = MyOwner->GetInstigatorController();
+	UClass* DamageTypeClass = UDamageType::StaticClass();
 
 	if (OtherActor && OtherActor != this && OtherActor != Owner) {
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwnerInstigator, this, DamageTypeClass);
