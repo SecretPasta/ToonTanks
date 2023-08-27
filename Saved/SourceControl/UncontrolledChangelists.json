@@ -15,6 +15,7 @@
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_StartGameWidget.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_EndGameWidget.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksPlayerController.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset"
 			]

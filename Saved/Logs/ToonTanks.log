@@ -2200,3 +2200,282 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.27-18.01.28:652][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 22 ms (total: 1.03 sec)
 [2023.08.27-18.01.28:662][861]AssetCheck: New page: Asset Save: BP_HitCameraShake
 [2023.08.27-18.01.28:662][861]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_HitCameraShake.BP_HitCameraShake
+[2023.08.27-18.02.10:180][322]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShake/BP_HitCameraShake.BP_HitCameraShake
+[2023.08.27-18.02.10:180][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-18.02.13:878][714]LogSlate: Window 'BP_HitCameraShake' being destroyed
+[2023.08.27-18.02.46:422][274]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.02.46:422][274]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.02.46:422][274]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.03.00:202][921]BlueprintLog: New page: Compile BP_HitCameraShake
+[2023.08.27-18.03.00:270][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.08.27-18.03.04:910][474]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.03.04:911][474]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.03.04:911][474]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.04.06:362][130]BlueprintLog: New page: Compile BP_HitCameraShake
+[2023.08.27-18.04.06:418][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.08.27-18.05.55:299][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.05.55:322][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_HitCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset" SILENT=true
+[2023.08.27-18.05.55:323][189]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_HitCameraShake
+[2023.08.27-18.05.55:323][189]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_HitCameraShakeB8EE8DEF422F8D5750F73B9638CBF034.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset'
+[2023.08.27-18.05.55:327][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 1.05 sec)
+[2023.08.27-18.05.55:341][189]AssetCheck: New page: Asset Save: BP_HitCameraShake
+[2023.08.27-18.05.55:341][189]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_HitCameraShake.BP_HitCameraShake
+[2023.08.27-18.05.56:320][307]BlueprintLog: New page: Compile BP_HitCameraShake
+[2023.08.27-18.05.56:375][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.08.27-18.06.08:019][643]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.06.08:019][643]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.06.08:019][643]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.06.18:534][643]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.08.27-18.06.18:538][643]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.08.27-18.06.18:542][643]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.08.27-18.06.18:547][644]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.08.27-18.06.19:724][695]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.08.27-18.06.19:728][695]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.08.27-18.06.28:921][762]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_DeathCameraShake
+[2023.08.27-18.06.28:948][762]LogMetaData: Removing '/Game/Blueprints/CameraShake/BP_DeathCameraShake.SKEL_BP_DeathCameraShake_C' ref from Metadata '/Game/Blueprints/CameraShake/NewBlueprint.PackageMetaData'
+[2023.08.27-18.06.28:948][762]LogMetaData: Removing '/Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake_C' ref from Metadata '/Game/Blueprints/CameraShake/NewBlueprint.PackageMetaData'
+[2023.08.27-18.06.28:950][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.06.28:976][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.06.28:976][762]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.06.28:976][762]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShake44CCD8024241EDBED529979A109C339C.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.06.28:980][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 1.08 sec)
+[2023.08.27-18.06.29:045][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.08.27-18.06.29:090][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.27-18.06.29:132][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.08.27-18.06.29:139][762]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.06.29:139][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.06.31:691][ 67]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.06.31:691][ 67]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-18.06.35:924][539]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.06.35:925][539]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.06.35:925][539]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.07.01:094][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.01:117][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.01:118][246]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.01:118][246]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShake3E9E645D49517B2246513F8777FF1EAB.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.01:121][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 27 ms (total: 1.11 sec)
+[2023.08.27-18.07.01:134][246]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.01:134][246]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.07.14:796][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.14:821][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.14:822][886]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.14:822][886]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShakeD9DEA60B442738475CFB7E99574650A4.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.14:826][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 1.14 sec)
+[2023.08.27-18.07.14:840][886]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.14:840][886]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.07.17:637][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.17:657][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.17:658][222]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.17:658][222]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShakeB59A3A4E4C2FF4EF8187AFB42FFAFE39.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.17:661][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 23 ms (total: 1.16 sec)
+[2023.08.27-18.07.17:675][222]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.17:675][222]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.07.30:554][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.30:580][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.30:581][768]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.30:581][768]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShakeFF21FF704D5DB77A2B5DFA8B2F6A1AD1.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.30:584][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 1.19 sec)
+[2023.08.27-18.07.30:598][768]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.30:598][768]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.07.33:243][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.33:265][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.33:265][ 86]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.33:266][ 86]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShake449CCB9B49DB41081254EA9A2050D4D0.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.33:269][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 1.22 sec)
+[2023.08.27-18.07.33:282][ 86]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.33:282][ 86]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.07.33:935][165]BlueprintLog: New page: Compile BP_DeathCameraShake
+[2023.08.27-18.07.33:993][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.08.27-18.07.34:564][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.07.34:586][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraShake/BP_DeathCameraShake" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset" SILENT=true
+[2023.08.27-18.07.34:587][233]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2023.08.27-18.07.34:587][233]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_DeathCameraShakeA26D42524A1C091FAF31299C2AAB4556.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2023.08.27-18.07.34:590][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 25 ms (total: 1.25 sec)
+[2023.08.27-18.07.34:603][233]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2023.08.27-18.07.34:603][233]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2023.08.27-18.15.21:197][262]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.27-18.15.24:839][273]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_9.exp
+[2023.08.27-18.15.24:953][274]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.27-18.15.24:953][274]LogClass: UClass Projectile Reload.
+[2023.08.27-18.15.24:953][274]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.27-18.15.24:953][274]LogClass: Function OnHit is new or belongs to a modified class.
+[2023.08.27-18.15.24:966][274]Re-instancing Projectile after reload.
+[2023.08.27-18.15.25:107][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.08.27-18.15.25:418][275]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2023.08.27-18.15.25:418][275]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.27-18.15.36:107][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.15.36:140][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.08.27-18.15.36:142][152]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.08.27-18.15.36:142][152]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile607C110A49669CA7BA9934A1B6FD17BD.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.08.27-18.15.36:146][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 1.28 sec)
+[2023.08.27-18.15.36:160][152]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.27-18.15.36:160][152]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.08.27-18.15.41:165][741]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.15.41:165][741]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.15.41:165][741]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.15.46:580][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.15.46:611][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.08.27-18.15.46:613][387]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.08.27-18.15.46:613][387]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_ProjectileA7C4EC7A432158D43210E6A63F63925C.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.08.27-18.15.46:616][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 1.32 sec)
+[2023.08.27-18.15.46:631][387]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.27-18.15.46:631][387]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.08.27-18.15.47:448][484]BlueprintLog: New page: Compile BP_Projectile
+[2023.08.27-18.15.47:555][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.08.27-18.15.47:734][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.15.47:760][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/BP_Projectile" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset" SILENT=true
+[2023.08.27-18.15.47:762][504]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2023.08.27-18.15.47:762][504]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_Projectile48E918F34FC51EF00BFD1E8F511B570B.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2023.08.27-18.15.47:765][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 1.35 sec)
+[2023.08.27-18.15.47:780][504]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.08.27-18.15.47:780][504]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2023.08.27-18.15.49:859][754]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-18.15.49:864][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.27-18.15.49:864][754]PIE: New page: PIE session: Main (28 Aug 2023, 0:15:49)
+[2023.08.27-18.15.49:888][754]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.27-18.15.49:891][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002781s)
+[2023.08.27-18.15.49:891][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002799s)
+[2023.08.27-18.15.49:891][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-18.15.49:891][754]LogAIModule: Creating AISystem for world Main
+[2023.08.27-18.15.49:892][754]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2023.08.27-18.15.49:955][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.08.27-18.15.49:958][754]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-18.15.49:958][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.27-18.15.49:958][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-18.15.49:959][754]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-18.15.49:959][754]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-18.15.49:959][754]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-18.15.49:960][754]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-18.15.49:993][754]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.27-18.15.49:993][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-18.15.49:993][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-18.15.49:993][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-18.15.49:994][754]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.08.27-18.15.49:994][754]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.08.27-18.15.49:995][754]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.08.27-18.15.49:995][754]LogInit: FAudioDevice initialized.
+[2023.08.27-18.15.49:995][754]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.08.27-18.15.49:995][754]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main'.
+[2023.08.27-18.15.49:997][754]LogLoad: Game class is 'BP_ToonTanksGameMode_C'
+[2023.08.27-18.15.49:998][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.27-21.15.49
+[2023.08.27-18.15.49:998][754]LogWorld: Bringing up level for play took: 0.000882
+[2023.08.27-18.15.49:999][754]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.08.27-18.15.50:001][754]PIE: Server logged in
+[2023.08.27-18.15.50:001][754]PIE: Play in editor total start time 0.138 seconds.
+[2023.08.27-18.16.00:094][962]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.16.00:619][ 25]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.16.01:468][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-18.16.01:468][123]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.27-18.16.01:468][123]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-18.16.01:468][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-18.16.01:470][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-18.16.01:480][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-18.16.01:536][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-18.16.01:536][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.08.27-18.16.01:537][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.08.27-18.16.01:545][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.08.27-18.16.01:576][124]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.08.27-18.18.30:905][251]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.08.27-18.18.34:832][263]LogLiveCoding: Display:    Creating library D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.lib and object D:\Unreal Projects\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_10.exp
+[2023.08.27-18.18.35:139][264]LogClass: UPackage /Script/ToonTanks Reload.
+[2023.08.27-18.18.35:139][264]LogClass: UClass BasePawn Reload.
+[2023.08.27-18.18.35:139][264]LogClass: UClass Tank Reload.
+[2023.08.27-18.18.35:139][264]LogClass: UClass Tower Reload.
+[2023.08.27-18.18.35:139][264]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.27-18.18.35:144][264]LogClass: Could not find existing class Tank in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.27-18.18.35:144][264]LogClass: Could not find existing class Tower in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.08.27-18.18.35:159][264]Re-instancing BasePawn after reload.
+[2023.08.27-18.18.35:192][264]Re-instancing Tank after reload.
+[2023.08.27-18.18.35:303][264]Re-instancing Tower after reload.
+[2023.08.27-18.18.35:623][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.08.27-18.18.35:878][265]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes changed, 1 class unchanged, 1 function remapped
+[2023.08.27-18.18.35:878][265]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.08.27-18.18.42:337][979]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.18.42:337][979]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.18.42:337][979]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.18.54:312][397]BlueprintLog: New page: Compile BP_PawnTank
+[2023.08.27-18.18.54:474][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.08.27-18.19.00:502][ 94]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.19.00:502][ 94]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.19.00:502][ 94]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.08.27-18.19.03:810][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.19.03:840][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2023.08.27-18.19.03:842][487]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2023.08.27-18.19.03:842][487]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTurretF2D9BC1849EB2E318C58C5B87C7403F9.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2023.08.27-18.19.03:845][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 1.39 sec)
+[2023.08.27-18.19.03:861][487]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2023.08.27-18.19.03:861][487]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.27-18.19.05:377][667]BlueprintLog: New page: Compile BP_PawnTurret
+[2023.08.27-18.19.05:509][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.08.27-18.19.05:892][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-18.19.05:913][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
+[2023.08.27-18.19.05:916][710]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2023.08.27-18.19.05:916][710]LogSavePackage: Moving 'D:/Unreal Projects/ToonTanks/Saved/BP_PawnTurretE3EBC81E49F695ACA6C89A922095B669.tmp' to 'D:/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2023.08.27-18.19.05:919][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 27 ms (total: 1.41 sec)
+[2023.08.27-18.19.05:935][710]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2023.08.27-18.19.05:935][710]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2023.08.27-18.19.09:918][ 71]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-18.19.09:922][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.27-18.19.09:922][ 71]PIE: New page: PIE session: Main (28 Aug 2023, 0:19:09)
+[2023.08.27-18.19.09:947][ 71]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.08.27-18.19.09:950][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002906s)
+[2023.08.27-18.19.09:950][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002923s)
+[2023.08.27-18.19.09:950][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-18.19.09:950][ 71]LogAIModule: Creating AISystem for world Main
+[2023.08.27-18.19.09:950][ 71]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2023.08.27-18.19.10:006][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.08.27-18.19.10:015][ 71]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-18.19.10:015][ 71]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.27-18.19.10:015][ 71]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-18.19.10:015][ 71]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-18.19.10:015][ 71]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-18.19.10:015][ 71]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-18.19.10:017][ 71]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-18.19.10:050][ 71]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Arctis 7 Game)
+[2023.08.27-18.19.10:050][ 71]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-18.19.10:050][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-18.19.10:050][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-18.19.10:051][ 71]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.08.27-18.19.10:051][ 71]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.08.27-18.19.10:052][ 71]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.08.27-18.19.10:052][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.08.27-18.19.10:052][ 71]LogInit: FAudioDevice initialized.
+[2023.08.27-18.19.10:052][ 71]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main'.
+[2023.08.27-18.19.10:054][ 71]LogLoad: Game class is 'BP_ToonTanksGameMode_C'
+[2023.08.27-18.19.10:055][ 71]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.08.27-21.19.10
+[2023.08.27-18.19.10:055][ 71]LogWorld: Bringing up level for play took: 0.000837
+[2023.08.27-18.19.10:056][ 71]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.08.27-18.19.10:057][ 71]PIE: Server logged in
+[2023.08.27-18.19.10:058][ 71]PIE: Play in editor total start time 0.137 seconds.
+[2023.08.27-18.19.21:100][393]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.19.21:417][431]LogTemp: Warning: Health: 0.000000
+[2023.08.27-18.19.23:912][724]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.19.24:195][758]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.19.24:337][775]LogTemp: Warning: Health: 0.000000
+[2023.08.27-18.19.27:153][113]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.19.27:462][150]LogTemp: Warning: Health: 0.000000
+[2023.08.27-18.19.30:562][522]LogTemp: Warning: Health: 50.000000
+[2023.08.27-18.19.31:137][591]LogTemp: Warning: Health: 0.000000
+[2023.08.27-18.19.35:547][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-18.19.35:547][117]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.08.27-18.19.35:547][117]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-18.19.35:547][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-18.19.35:549][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-18.19.35:558][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-18.19.35:611][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-18.19.35:612][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.08.27-18.19.35:613][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.08.27-18.19.35:620][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.08.27-18.19.35:649][118]LogPlayLevel: Display: Destroying online subsystem :Context_30
