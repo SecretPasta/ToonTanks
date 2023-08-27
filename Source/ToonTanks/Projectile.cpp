@@ -45,14 +45,19 @@ void AProjectile::OnHit(
 	const FHitResult& Hit){
 //	UE_LOG(LogTemp, Warning, TEXT("OnHit:HitComp: %s,OtherActor: %s,OtherComp: %s"),*HitComponent->GetName(), *OtherActor->GetName(),*OtherComp->GetName());
 	auto MyOwner = GetOwner();
-	if (MyOwner == nullptr)
+	if (MyOwner == nullptr) {
+		Destroy();
 		return;
+	}
+		
 	auto MyOwnerInstigator = MyOwner->GetInstigatorController();
 	auto DamageTypeClass = UDamageType::StaticClass();
 
 	if (OtherActor && OtherActor != this && OtherActor != Owner) {
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwnerInstigator, this, DamageTypeClass);
-		Destroy();
+		if(HitParticles)
+			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticles, GetActorLocation()); //Spawn explosion
 	}
+	Destroy();
 }
 
