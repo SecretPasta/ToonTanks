@@ -42,4 +42,7 @@ private:
 
 	int32 GetTargetTowerCount();
 
+	UPROPERTY(EditAnywhere, Category = "Level")
+	class USoundBase* AmbientMusic;
+
 };
