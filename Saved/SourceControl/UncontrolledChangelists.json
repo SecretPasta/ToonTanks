@@ -16,6 +16,11 @@
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_EndGameWidget.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Assets/Audio/6__Home_Bound.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Assets/Audio/Free_Green_Screen_Explosion_Effect__Sound_Effect__Short_Version_.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Assets/Audio/Hit_Marker_sound_effect.uasset",
+				"D:/Unreal Projects/ToonTanks/Content/Assets/Audio/Tank_Fire.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/GameMode/BP_ToonTanksPlayerController.uasset",
 				"D:/Unreal Projects/ToonTanks/Content/Blueprints/BP_Projectile.uasset"
 			]
